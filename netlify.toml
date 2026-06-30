@@ -1,0 +1,23 @@
+# ==============================================================================
+# schoolboard.net Documentation
+# Netlify Configuration
+# ==============================================================================
+
+[build]
+  command = "mkdocs build"
+  publish = "site"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+
+[[plugins]]
+  package = "netlify-plugin-cache"
+
+# ------------------------------------------------------------------------------
+# Redirects
+# ------------------------------------------------------------------------------
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
