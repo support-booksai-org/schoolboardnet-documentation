@@ -2,13 +2,8 @@
 
 ## 1.0.0-draft
 
-Initial documentation repository created.
-
-Added:
-
-- Repository structure
-- Documentation standards
-- Terminology guide
-- Chapter template
-- Knowledge Base article template
-- Administrator Training Guide welcome chapter
+- Established Docs-as-Code repository structure.
+- Added Documentation Standards Manual framework.
+- Added reusable content source structure.
+- Added first Administrator Training Guide source article.
+- Added Knowledge Base and BooksAI collection placeholders.

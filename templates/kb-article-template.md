@@ -1,61 +1,33 @@
-# Knowledge Base Article Title
+---
+title: Knowledge Base article title
+kb_id: KB-XXX-000
+source_id: sb-xxx-000
+status: Draft
+product: schoolboard.net
+audience:
+  - Administrator
+tags: []
+---
 
-**Status:** Draft  
-**Version:** 1.0.0-draft  
-**Applies To:** schoolboard.net  
-**Related Manual:** [Manual and chapter]  
+# Knowledge Base article title
+
+## Applies to
+
+schoolboard.net administrators.
 
 ## Overview
 
-Briefly explain the task or concept.
-
-## When to Use This Article
-
-Use this article when you need to:
-
-- [Use case]
-- [Use case]
-- [Use case]
-
-## Before You Begin
-
-Confirm that:
-
-- [Prerequisite]
-- [Prerequisite]
+Short explanation.
 
 ## Steps
 
-1. [Step]
-2. [Step]
-3. [Step]
-
-## Best Practices
-
-- [Best practice]
-- [Best practice]
-
-## Accessibility Notes
-
-- [Accessibility note]
-
-## AI Tip
-
-[AI guidance, when applicable.]
+1. Step one.
+2. Step two.
 
 ## Troubleshooting
 
-| Issue | Resolution |
-|---|---|
-| [Issue] | [Resolution] |
+Common issues and resolutions.
 
-## Related Articles
+## Related articles
 
-- [Related article]
-- [Related article]
-
-## Revision History
-
-| Date | Version | Description |
-|---|---|---|
-| 2026-06-29 | 1.0.0-draft | Initial draft |
+- Related article

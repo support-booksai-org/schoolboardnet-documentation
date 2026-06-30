@@ -1,59 +1,23 @@
-# schoolboard.net Documentation Suite
+# schoolboard.net Documentation Source Repository
 
-**Publisher:** schoolboardnet, LLC  
-**Product:** schoolboard.net  
-**Documentation Version:** 1.0.0-draft  
-**Primary Source Format:** Markdown  
-**Accessibility Target:** WCAG 2.1 AA  
+Official documentation source repository for the schoolboard.net platform.
 
-## Purpose
+Author and publisher: **schoolboardnet, LLC**
 
-The schoolboard.net Documentation Suite is the official source for customer-facing and internal documentation for the schoolboard.net platform. The documentation is designed to support administrators, board clerks, implementation staff, developers, support staff, and content authors.
+This repository uses a Docs-as-Code model. Markdown files in `content/` are the single source of truth. Manuals, Knowledge Base articles, BooksAI source articles, release notes, and training materials are assembled from that source.
 
-The suite is intended to become a core product asset by teaching districts how to operate schoolboard.net and how to produce accessible, standards-compliant board materials efficiently and consistently.
+## Repository model
 
-## Documentation Volumes
+- `content/` contains reusable source articles.
+- `collections/` defines the manuals and generated outputs.
+- `00-documentation-standards/` governs documentation rules.
+- `templates/` provides reusable authoring templates.
+- `assets/` stores logos, screenshots, diagrams, covers, and exported PDF assets.
+- `docs/` tracks project status, roadmap, decisions, and master tables of contents.
+- `publishing/` describes future PDF, HTML, Knowledge Base, and BooksAI export workflows.
 
-| Volume | Title | Primary Audience |
-|---|---|---|
-| 0 | Documentation Style Guide | Internal authors, reviewers, developers |
-| 1 | Deployment & Quality Assurance Manual | Implementation, IT, QA |
-| 2 | Technical Administrator & Developer Reference | Developers, support, future programmers |
-| 3 | Administrator Training Guide | District administrators, board clerks, administrative assistants, IT |
-| 4 | Design Standards & Content Authoring Guide | Content authors, designers, developers |
+## Current status
 
-## Companion Deliverables
+Version: see `VERSION.md`.
 
-Each approved chapter may also be converted into:
-
-- Knowledge Base article
-- BooksAI training corpus article
-- Quick reference card
-- FAQ article
-- Video script
-- Release notes reference
-- Troubleshooting article
-
-## Repository Rules
-
-1. Markdown files are the source of truth.
-2. Screenshots should be taken from `demo10.schoolboard.net` unless otherwise specified.
-3. Documentation should use consistent terminology from `00-style-guide/terminology.md`.
-4. Each chapter should follow `templates/chapter-template.md`.
-5. Knowledge Base articles should follow `templates/kb-article-template.md`.
-6. Public-facing content should be written in clear, accessible language.
-7. All final HTML and PDF outputs should meet WCAG 2.1 AA standards.
-
-## Status Definitions
-
-| Status | Meaning |
-|---|---|
-| Draft | Initial working content |
-| Review | Ready for product/technical review |
-| Approved | Approved for publication |
-| Published | Released in PDF, HTML, or Knowledge Base format |
-| Archived | Retained for history but no longer current |
-
-## Maintainer Notes
-
-This repository is intended to be version-controlled alongside the schoolboard.net application. Documentation updates should be included as part of normal release planning.
+The initial milestone is the Documentation Standards Manual and first Administrator Training Guide source articles.
