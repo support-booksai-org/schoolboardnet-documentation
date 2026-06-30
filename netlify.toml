@@ -4,20 +4,37 @@
 # ==============================================================================
 
 [build]
-  command = "mkdocs build"
+  # Default public build. For internal-docs Netlify project, set environment
+  # variable MKDOCS_CONFIG=mkdocs-internal.yml in Netlify.
+  command = "pip install -r requirements.txt && mkdocs build -f ${MKDOCS_CONFIG:-mkdocs.yml}"
   publish = "site"
 
 [build.environment]
   PYTHON_VERSION = "3.12"
-
-[[plugins]]
-  package = "netlify-plugin-cache"
+  PIP_DISABLE_PIP_VERSION_CHECK = "1"
 
 # ------------------------------------------------------------------------------
-# Redirects
+# Security headers
+# ------------------------------------------------------------------------------
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# ------------------------------------------------------------------------------
+# Basic redirects
 # ------------------------------------------------------------------------------
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  from = "/home"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301

@@ -1,14 +1,13 @@
-site_name: schoolboard.net Documentation
-site_description: Official documentation for the schoolboard.net platform.
+site_name: schoolboard.net Internal Documentation
+site_description: Internal support, deployment, and engineering documentation for schoolboard.net.
 site_author: schoolboard.net
-site_url: https://docs.schoolboard.net/
+site_url: https://internal-docs.schoolboard.net/
 repo_name: support-booksai-org/schoolboardnet-documentation
 
-# MkDocs requires documentation source to live in a child folder.
 docs_dir: docs
 site_dir: site
 
-copyright: Copyright &copy; schoolboard.net. All rights reserved.
+copyright: Internal use only. Copyright &copy; schoolboard.net. All rights reserved.
 
 theme:
   name: material
@@ -64,6 +63,8 @@ nav:
   - Accessibility: accessibility/index.md
   - Content Authoring: authoring/index.md
   - Knowledge Base: knowledge-base/index.md
+  - Internal Documentation:
+      - Internal Home: internal/index.md
 
 markdown_extensions:
   - admonition
