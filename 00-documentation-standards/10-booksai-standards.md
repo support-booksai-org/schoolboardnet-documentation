@@ -1,0 +1,3 @@
+# BooksAI Standards
+
+Draft.

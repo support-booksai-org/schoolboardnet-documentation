@@ -1,0 +1,3 @@
+# Callout Standards
+
+Draft.

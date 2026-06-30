@@ -1,3 +1,3 @@
-# Volume 0 — Documentation Standards Manual
+# Documentation Standards Manual
 
-This volume governs the schoolboard.net documentation system. It defines writing, repository, accessibility, screenshot, Knowledge Base, BooksAI, release, and review standards.
+This manual defines the standards used to author, review, publish, and maintain schoolboard.net documentation.
