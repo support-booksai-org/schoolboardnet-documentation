@@ -3,10 +3,26 @@ title: Documentation Release Roadmap
 version: 0.2.1
 status: Active
 author: schoolboardnet, LLC
+description: Documentation page for Documentation Release Roadmap.
+audience:
+- District Administrator
+- Group Administrator
+- Board Clerk
+- Administrative Assistant
+applies_to: schoolboard.net
+review_cycle: Annual
+last_reviewed: '2026-07-03'
+fullWidth: false
+tocVisible: true
+tableWrap: true
 ---
 
 # Documentation Release Roadmap
 
+
+## Quick Summary
+
+Add a short plain-language summary here.
 | Version | Title | Status |
 |---------|-------|--------|
 | v0.2.1 | Welcome to schoolboard.net | Complete |
@@ -21,3 +37,13 @@ author: schoolboardnet, LLC
 ## Daily Milestone Standard
 
 Each milestone should include a clear title, version number, release notes, and Git-ready files.
+
+## Related Topics
+
+- Add related pages here.
+
+## Revision History
+
+| Date | Change | Author |
+| --- | --- | --- |
+| 2026-07-03 | Standardized page structure. | schoolboard.net, LLC |

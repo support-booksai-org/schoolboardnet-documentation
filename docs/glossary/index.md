@@ -2,11 +2,16 @@
 title: Glossary
 description: Official glossary for the schoolboard.net Documentation Suite.
 audience:
-  - All Users
+- All Users
 applies_to: schoolboard.net
 version: 0.2.1
 status: Draft
 author: schoolboardnet, LLC
+review_cycle: Annual
+last_reviewed: '2026-07-03'
+fullWidth: false
+tocVisible: true
+tableWrap: true
 ---
 
 # Glossary
@@ -82,3 +87,7 @@ Extra formatting that can come from Microsoft Word when text is pasted into a we
 | Version | Date | Author | Description |
 |---------|------|--------|-------------|
 | 0.2.1 | 2026-07-03 | schoolboardnet, LLC | Initial glossary. |
+
+## Related Topics
+
+- Add related pages here.

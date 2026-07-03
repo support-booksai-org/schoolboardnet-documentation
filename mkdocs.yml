@@ -44,5 +44,5 @@ markdown_extensions:
   - pymdownx.superfences
 
 extra_css:
-  - stylesheets/schoolboardnet.extra_css
+  - stylesheets/schoolboardnet.css
   

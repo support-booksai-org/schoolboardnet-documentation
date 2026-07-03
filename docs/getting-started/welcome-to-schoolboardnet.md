@@ -1,16 +1,25 @@
 ---
 title: Welcome to schoolboard.net
-description: A plain-language introduction to schoolboard.net and the documentation suite.
+description: A plain-language introduction to schoolboard.net and the documentation
+  suite.
 audience:
-  - District Administrator
-  - Group Administrator
-  - Board Clerk
-  - Administrative Assistant
+- District Administrator
+- Group Administrator
+- Board Clerk
+- Administrative Assistant
 applies_to: schoolboard.net
 version: 0.2.1
 status: Draft
 author: schoolboardnet, LLC
+review_cycle: Annual
+last_reviewed: '2026-07-03'
+fullWidth: false
+tocVisible: true
+tableWrap: true
 ---
+
+<!-- fullWidth: false tocVisible: false tableWrap: true -->
+<!-- fullWidth: false tocVisible: false tableWrap: true -->
 
 # Welcome to schoolboard.net
 
@@ -82,13 +91,21 @@ Accessible documents help everyone.
 
 They help people who use screen readers. They also help people using phones, tablets, older computers, or slow internet connections.
 
-## Screenshot Placeholder
+## The schoolboard.net Home Page
 
-**Figure GS-001**
+The schoolboard.net home page is the public entry point to your district's board meeting information.
 
-**Screenshot Needed:** schoolboard.net public or administrator landing page from `demo10.schoolboard.net`.
+Visitors can:
 
-**Alt Text Draft:** The schoolboard.net home or dashboard page showing access to board meeting documentation and administration tools.
+- Search for agendas, meetings, and policies.
+- View upcoming and past meetings.
+- Access the Accessibility Statement.
+- Navigate to committee pages and policy manuals.
+- Sign up for notifications (if enabled).
+
+![The schoolboard.net home page displaying navigation, search, and upcoming and past meetings.](../assets/screenshots/getting-started/SB-GS-001-schoolboardnet-home-page-v01.png)
+
+*Figure GS-001. The schoolboard.net home page displayed using the standard documentation capture profile.*
 
 ## Related Topics
 
@@ -100,6 +117,6 @@ They help people who use screen readers. They also help people using phones, tab
 
 ## Revision History
 
-| Version | Date | Author | Description |
-|---------|------|--------|-------------|
-| 0.2.1 | 2026-07-03 | schoolboardnet, LLC | Initial draft. |
+| Version | Date       | Author              | Description    |
+| ------- | ---------- | ------------------- | -------------- |
+| 0.2.1   | 2026-07-03 | schoolboardnet, LLC | Initial draft. |

@@ -2,14 +2,19 @@
 title: Core Concepts
 description: Explains the basic ideas used throughout schoolboard.net.
 audience:
-  - District Administrator
-  - Group Administrator
-  - Board Clerk
-  - Administrative Assistant
+- District Administrator
+- Group Administrator
+- Board Clerk
+- Administrative Assistant
 applies_to: schoolboard.net
 version: 0.2.1
 status: Draft
 author: schoolboardnet, LLC
+review_cycle: Annual
+last_reviewed: '2026-07-03'
+fullWidth: false
+tocVisible: true
+tableWrap: true
 ---
 
 # Core Concepts
