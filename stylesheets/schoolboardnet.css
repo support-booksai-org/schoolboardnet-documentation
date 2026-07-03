@@ -1,0 +1,20 @@
+:root {
+  --md-primary-fg-color: #1f5a2d;
+  --md-primary-fg-color--light: #4d935b;
+  --md-accent-fg-color: #4d935b;
+}
+
+.md-typeset h1 {
+  color: #1f5a2d;
+  font-weight: 600;
+}
+
+.md-typeset h2 {
+  color: #1f5a2d;
+  border-bottom: 2px solid #4d935b;
+  padding-bottom: 0.2rem;
+}
+
+.md-typeset h3 {
+  color: #4d935b;
+}

@@ -8,6 +8,8 @@ site_dir: site
 
 theme:
   name: material
+  logo: assets/branding/schoolboardnet-logo.png
+  favicon: assets/branding/schoolboardnet-logo.png
   language: en
   features:
     - navigation.sections
@@ -40,3 +42,7 @@ markdown_extensions:
       permalink: true
   - pymdownx.details
   - pymdownx.superfences
+
+extra_css:
+  - stylesheets/schoolboardnet.extra_css
+  

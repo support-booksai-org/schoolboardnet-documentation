@@ -43,7 +43,7 @@ This section is written for:
 
 This documentation is written in simple language.
 
-Our goal is that a typical 13-year-old reader can understand the instructions.
+Our goal is clear, simple, step-by-step documentation so a reader can understand the instructions.
 
 That means:
 
