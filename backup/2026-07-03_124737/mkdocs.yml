@@ -1,0 +1,48 @@
+site_name: schoolboard.net Documentation
+site_description: Official documentation for the schoolboard.net platform.
+site_author: schoolboardnet, LLC
+repo_name: schoolboardnet-docs
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  logo: assets/branding/schoolboardnet-logo.png
+  favicon: assets/branding/schoolboardnet-logo.png
+  language: en
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/index.md
+      - Welcome to schoolboard.net: getting-started/welcome-to-schoolboardnet.md
+      - What is schoolboard.net?: getting-started/what-is-schoolboardnet.md
+      - Accessibility First: getting-started/accessibility-first.md
+      - Core Concepts: getting-started/core-concepts.md
+      - Documentation Conventions: getting-started/documentation-conventions.md
+      - Getting Help: getting-started/getting-help.md
+  - Glossary:
+      - Glossary: glossary/index.md
+  - Project:
+      - Release Roadmap: project/release-roadmap.md
+      - Progress: project/progress.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/schoolboardnet.css
+  

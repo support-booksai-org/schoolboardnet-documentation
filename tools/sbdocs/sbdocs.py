@@ -31,7 +31,7 @@ except ImportError:
     print("PyYAML is not installed. Run: python3 -m pip install pyyaml")
     sys.exit(1)
 
-APP_VERSION = "2.1.1 LTS"
+APP_VERSION = "2.2 Production Workflow"
 CONFIG_FILE = Path(__file__).with_name("config.yaml")
 
 REQUIRED_SECTIONS = ["Quick Summary", "Related Topics", "Revision History"]
@@ -603,6 +603,136 @@ def open_existing_page(cfg: Dict[str, Any]) -> None:
         open_path(matches[int(choice)])
 
 
+
+def check_environment(cfg: Dict[str, Any]) -> bool:
+    """Check required Python packages and MkDocs availability."""
+    root = project_root(cfg)
+    print("\nEnvironment Check")
+    print("=================")
+    print(f"Python: {sys.executable}")
+    ok = True
+    packages = [("yaml", "PyYAML"), ("mkdocs", "mkdocs")]
+    for module, label in packages:
+        result = subprocess.run([sys.executable, "-c", f"import {module}"], text=True, capture_output=True)
+        if result.returncode == 0:
+            print(f"PASS: {label}")
+        else:
+            print(f"MISSING: {label}")
+            ok = False
+    result = subprocess.run([sys.executable, "-m", "mkdocs", "--version"], text=True, capture_output=True)
+    if result.returncode == 0:
+        print(result.stdout.strip())
+    else:
+        ok = False
+        print("MISSING: MkDocs module cannot run with this Python.")
+        print(f"Install with: {sys.executable} -m pip install --user mkdocs mkdocs-material pyyaml")
+    if not (root / "mkdocs.yml").exists():
+        print(f"MISSING: {root / 'mkdocs.yml'}")
+        ok = False
+    return ok
+
+
+def run_live(cmd: List[str], cwd: Path) -> int:
+    print("\nRunning:", " ".join(cmd))
+    return subprocess.run(cmd, cwd=str(cwd)).returncode
+
+
+def git_output(args: List[str], root: Path) -> Tuple[int, str, str]:
+    r = subprocess.run(["git"] + args, cwd=str(root), text=True, capture_output=True)
+    return r.returncode, r.stdout.strip(), r.stderr.strip()
+
+
+def build_validate_deploy(cfg: Dict[str, Any]) -> None:
+    """One guided production workflow: validate, build, optional git commit/push."""
+    root = project_root(cfg)
+    print("\nBuild / Validate / Deploy")
+    print("=========================")
+    if not check_environment(cfg):
+        print("\nEnvironment check failed. Fix the missing items above before deploying.")
+        return
+
+    if input("\nCreate backup first? [Y/n]: ").strip().lower() != "n":
+        backup_project(cfg)
+
+    print("\nStep 1: Repair and validate user-facing documentation pages")
+    validate_docs(cfg, repair=True)
+
+    print("\nStep 2: Clean local site folder")
+    site = root / "site"
+    if site.exists():
+        shutil.rmtree(site)
+        print("Removed site/")
+
+    print("\nStep 3: Build MkDocs site")
+    code = run_live([sys.executable, "-m", "mkdocs", "build"], root)
+    if code != 0:
+        print("\nBuild failed. Deployment stopped.")
+        return
+
+    print("\nStep 4: Git status")
+    code, out, err = git_output(["status", "--short"], root)
+    if code != 0:
+        print("Git status failed. This may not be a Git repository.")
+        if err:
+            print(err)
+        return
+    if not out:
+        print("No Git changes detected. Netlify may already be current.")
+        return
+    print(out)
+
+    if input("\nCommit and push these changes to GitHub for Netlify deploy? [y/N]: ").strip().lower() != "y":
+        print("Skipped Git commit/push. Netlify will not update until changes are pushed.")
+        return
+
+    msg = input('Commit message [Update documentation site]: ').strip() or "Update documentation site"
+    if run_live(["git", "add", "."], root) != 0:
+        print("git add failed.")
+        return
+    if run_live(["git", "commit", "-m", msg], root) != 0:
+        print("git commit failed. There may be nothing to commit or Git needs attention.")
+        return
+    if run_live(["git", "push"], root) != 0:
+        print("git push failed. Check GitHub credentials or network connection.")
+        return
+    print("\nPushed to GitHub. Netlify should start a deploy shortly.")
+
+
+def quick_build_command_file(cfg: Dict[str, Any]) -> None:
+    """Create/update a reliable .command file in the project root."""
+    root = project_root(cfg)
+    script = """#!/bin/bash
+clear
+cd \"{root}\" || exit 1
+
+echo \"===============================================\"
+echo \" schoolboard.net MkDocs Build + Serve\"
+echo \"===============================================\"
+echo
+
+echo \"Cleaning previous build...\"
+rm -rf site
+
+echo
+echo \"Building...\"
+{python} -m mkdocs build || {{
+  echo \"Build failed.\"
+  read -p \"Press Return to close...\"
+  exit 1
+}}
+
+echo
+echo \"Starting local server...\"
+{python} -m mkdocs serve
+
+read -p \"Press Return to close...\"
+""".format(root=root, python=sys.executable)
+    path = root / "build-mkdocs.command"
+    path.write_text(script, encoding="utf-8")
+    path.chmod(0o755)
+    print(f"Created/updated: {path}")
+
+
 def main() -> None:
     cfg = load_config()
     while True:
@@ -631,11 +761,17 @@ def main() -> None:
         9. Backup Project
         10. Project Health
 
+        Production
+        ----------
+        11. Build / Validate / Deploy
+        12. Create build-mkdocs.command
+
         Utilities
         ---------
-        11. Clean Build
-        12. Local Preview / Serve
-        13. Full Validation Including Assets
+        13. Clean Build
+        14. Local Preview / Serve
+        15. Full Validation Including Assets
+        16. Environment Check
         Q. Quit
         """))
         choice = input("Selection: ").strip().lower()
@@ -651,9 +787,12 @@ def main() -> None:
             elif choice == "8": window_profiles(cfg)
             elif choice == "9": backup_project(cfg)
             elif choice == "10": project_health(cfg)
-            elif choice == "11": build_docs(cfg, clean=True)
-            elif choice == "12": build_docs(cfg, serve=True)
-            elif choice == "13": validate_docs(cfg, repair=False, full=True)
+            elif choice == "11": build_validate_deploy(cfg)
+            elif choice == "12": quick_build_command_file(cfg)
+            elif choice == "13": build_docs(cfg, clean=True)
+            elif choice == "14": build_docs(cfg, serve=True)
+            elif choice == "15": validate_docs(cfg, repair=False, full=True)
+            elif choice == "16": check_environment(cfg)
             elif choice in ("q", "quit", "exit"): break
             else: print("Please choose a valid menu item.")
         except KeyboardInterrupt:
