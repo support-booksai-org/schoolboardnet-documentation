@@ -45,4 +45,9 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/schoolboardnet.css
+
+repo_url:
+edit_uri:
+copyright:
+
   
