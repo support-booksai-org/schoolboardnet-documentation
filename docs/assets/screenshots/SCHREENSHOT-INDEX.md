@@ -66,44 +66,57 @@ SB-GRP-008-user-permissions.png
 
 # Approved Screenshots
 
-| Screenshot ID | Filename                                            | Audience | Used In           | Status   | Notes                           |
-| ------------- | --------------------------------------------------- | -------- | ----------------- | -------- | ------------------------------- |
-| SB-PUB-001    | SB-PUB-001-home-page-clean.png                      | Public   | Public User Guide | Approved | Clean home page                 |
-| SB-PUB-001A   | SB-PUB-001-home-page-navigation-annotated.png       | Public   | Public User Guide | Approved | Navigation overview             |
-| SB-PUB-002    | SB-PUB-002-search-annotated.png                     | Public   | Public User Guide | Approved | Search feature                  |
-| SB-PUB-003    | SB-PUB-003-policy-manual-annotated.png              | Public   | Public User Guide | Approved | Policy Manual link              |
-| SB-PUB-004    | SB-PUB-004-notification-link-annotated.png          | Public   | Public User Guide | Approved | Notification sign-up link       |
-| SB-PUB-005    | SB-PUB-005-notifications-sign-up-form-clean.png     | Public   | Public User Guide | Approved | Notification form               |
-| SB-PUB-005A   | SB-PUB-005-notifications-sign-up-form-annotated.png | Public   | Public User Guide | Approved | Notification form with callouts |
+| Screenshot ID | Filename                                            | Audience     | Used In            | Status   | Notes                           |
+| ------------- | --------------------------------------------------- | ------------ | ------------------ | -------- | ------------------------------- |
+| SB-PUB-001    | SB-PUB-001-home-page-clean.png                      | Public       | Public User Guide  | Approved | Clean home page                 |
+| SB-PUB-002    | SB-PUB-002-home-page-navigation-annotated.png       | Public       | Public User Guide  | Approved | Navigation overview             |
+| SB-PUB-003    | SB-PUB-003-policy-manual-annotated.png              | Public       | Public User Guide  | Approved | Policy Manual link              |
+| SB-PUB-004    | SB-PUB-004-notification-link-annotated.png          | Public       | Public User Guide  | Approved | Notification sign-up link       |
+| SB-PUB-005    | SB-PUB-005-notifications-sign-up-form-clean.png     | Public       | Public User Guide  | Approved | Notification form               |
+| SB-PUB-006    | SB-PUB-006-search-annotated.png                     | Public       | Public User Guide  | Approved | Search feature                  |
+| SB-PUB-007    | SB-PUB-007-notifications-sign-up-form-annotated.png | Public       | Public User Guide  | Approved | Notification form with callouts |
+| SB-BRD-001    | SB-BRD-001-login-page-clean.png                     | Board Member | Board Member Guide | Approved | Login Page                      |
+| SB-BRD-001    | SB-BRD-001-login-page-annotated.png                 | Board Member | Board Member Guide | Approved | Login Page Annotated            |
+| SB-BRD-002    | SB-BRD-002-login-error-clean.png                    | Board Member | Board Member Guide | Approved | Login Error                     |
+| SB-BRD-003    | SB-BRD-003-password-reset-clean.png                 | Board Member | Board Member Guide | Approved | Password Reset                  |
+| SB-BRD-004    | SB-BRD-004-password-reset-confirmation.png          | Board Member | Board Member Guide | Approved | Password Reset Confirmation     |
+| SB-BRD-005    | SB-BRD-005-search-clean.png                         | Board Member | Board Member Guide | Approved | Search                          |
+| SB-BRD-006    | SB-BRD-006-search-annotated.png                     | Board Member | Board Member Guide | Approved | Search Annotated                |
+| SB-BRD-007    | SB-BRD-007-my-account-view-clean.png                | Board Member | Board Member Guide | Approved | My Account                      |
+| SB-BRD-008    | SB-BRD-008-edit-profile-clean.png                   | Board Member | Board Member Guide | Approved | Edit Member Profile             |
+| SB-BRD-009    | SB-BRD-009-newsletters-clean.png                    | Board Member | Board Member Guide | Approved | Edit Member Newsletters         |
+| SB-BRD-010    | SB-BRD-010-logout-clean.png                         | Board Member | Board Member Guide | Approved | Log Out                         |
+| SB-BRD-011    | SB-BRD-011-logout-annotated.png                     | Board Member | Board Member Guide | Approved | Log Out Annotated               |
 
 ---
 
 # Board Member Screenshots
 
-| Screenshot ID | Filename                    | Used In            | Status       | Notes |
-| ------------- | --------------------------- | ------------------ | ------------ | ----- |
-| SB-BRD-001    | Login page                  | Board Member Guide | Planned      |       |
-| SB-BRD-002    | Login error                 | Board Member Guide | Planned      |       |
-| SB-BRD-003    | Password reset              | Board Member Guide | Planned      |       |
-| SB-BRD-004    | Password reset confirmation | Board Member Guide | Planned      |       |
-| SB-BRD-005    | My Account                  | Board Member Guide | Planned      |       |
-| SB-BRD-005A    | My Account View            | Board Member Guide | Planned      |       |
-| SB-BRD-005B    | My Account Newsletter      | Board Member Guide | Planned      |       |
-| SB-BRD-005C    | My Account Edit            | Board Member Guide | Planned      |       |
-
-
-
----
+## Complete
 
 # Group Administrator Screenshots
 
-| Screenshot ID | Filename          | Used In                   | Status  | Notes |
-| ------------- | ----------------- | ------------------------- | ------- | ----- |
-| SB-GRP-001    | Dashboard         | Group Administrator Guide | Planned |       |
-| SB-GRP-002    | Users             | Group Administrator Guide | Planned |       |
-| SB-GRP-003    | Groups            | Group Administrator Guide | Planned |       |
-| SB-GRP-004    | Permissions       | Group Administrator Guide | Planned |       |
-| SB-GRP-005    | Agenda Management | Group Administrator Guide | Planned |       |
+## Users
+
+| Screenshot ID | Filename       | Used In                   | Status  | Notes |
+| ------------- | -------------- | ------------------------- | ------- | ----- |
+| SB-GRP-001    | users-list     | Group Administrator Guide | Planned |       |
+| SB-GRP-002    | add-user       | Group Administrator Guide | Planned |       |
+| SB-GRP-003    | edit-user      | Group Administrator Guide | Planned |       |
+| SB-GRP-004    | reset-password | Group Administrator Guide | Planned |       |
+| SB-GRP-005    | block-user     | Group Administrator Guide | Planned |       |
+| SB-GRP-006    | delete-user    | Group Administrator Guide | Planned |       |
+
+## Groups
+
+| Screenshot ID | Filename       | Used In                   | Status  | Notes |
+| ------------- | -------------- | ------------------------- | ------- | ----- |
+| SB-GRP-010    | group-list     | Group Administrator Guide | Planned |       |
+| SB-GRP-011    | add-group      | Group Administrator Guide | Planned |       |
+| SB-GRP-012    | edit-group     | Group Administrator Guide | Planned |       |
+| SB-GRP-013    | group-members  | Group Administrator Guide | Planned |       |
+| SB-GRP-014    | add-member     | Group Administrator Guide | Planned |       |
+| SB-GRP-015    | remove-member  | Group Administrator Guide | Planned |       |
 
 ---
 
