@@ -303,6 +303,12 @@ Examples
 - Move all demo agendas to private group after demos
 - User Protect seems broken - Group Administrator can see Administrator accounts in People
 
+---
+
+# Public Questions
+
+- I found my name in documents online doing a search and want it removed, what do I do?
+
 # Revision History
 
 | Version | Date | Author | Description |
