@@ -1,7 +1,6 @@
 [build]
-  command = "python -m pip install -r requirements.txt && rm -rf dist && mkdir -p dist/board-members && mkdocs build --clean --strict --site-dir dist/board-members && cp -R docs-home/. dist/"
+  command = "python -m pip install -r requirements.txt && rm -rf dist && mkdir -p dist/board-members dist/public && mkdocs build --clean --strict --config-file mkdocs.yml --site-dir dist/board-members && mkdocs build --clean --strict --config-file mkdocs-public.yml --site-dir dist/public && cp -R docs-home/. dist/"
   publish = "dist"
 
 [build.environment]
   PYTHON_VERSION = "3.12"
-
