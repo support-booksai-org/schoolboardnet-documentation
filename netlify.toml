@@ -1,40 +1,12 @@
-# ==============================================================================
-# schoolboard.net Documentation
-# Netlify Configuration
-# ==============================================================================
-
 [build]
-  # Default public build. For internal-docs Netlify project, set environment
-  # variable MKDOCS_CONFIG=mkdocs-internal.yml in Netlify.
-  command = "pip install -r requirements.txt && mkdocs build -f ${MKDOCS_CONFIG:-mkdocs.yml}"
-  publish = "site"
+  command = "python -m pip install -r requirements.txt && mkdocs build --clean --strict --site-dir dist/board-members"
+  publish = "dist"
 
 [build.environment]
   PYTHON_VERSION = "3.12"
-  PIP_DISABLE_PIP_VERSION_CHECK = "1"
-
-# ------------------------------------------------------------------------------
-# Security headers
-# ------------------------------------------------------------------------------
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "SAMEORIGIN"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-
-# ------------------------------------------------------------------------------
-# Basic redirects
-# ------------------------------------------------------------------------------
 
 [[redirects]]
-  from = "/home"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/index.html"
-  to = "/"
-  status = 301
+  from = "/"
+  to = "/board-members/"
+  status = 302
+  force = true
