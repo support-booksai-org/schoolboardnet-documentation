@@ -3,8 +3,8 @@ title: Board Member Quick Start
 description: Sign in, find a meeting, and review Board materials.
 audience: Board Members
 applies_to: schoolboard.net
-version: "1.0"
-status: Review Draft
+version: "1.1"
+status: Distribution
 author: schoolboard.net Documentation
 review_cycle: Annual
 last_reviewed: 2026-07-13
@@ -16,6 +16,8 @@ tableWrap: true
 # Board Member Quick Start
 
 Use this page to get from the district home page to the materials for your meeting.
+
+On a smaller screen, select **☰ Topics** to open the documentation menu.
 
 <div class="task-grid">
   <a class="task-card" href="sign-in/"><strong>1. Sign in</strong><span>Access authorized Board materials.</span></a>
@@ -47,6 +49,7 @@ Use this page to get from the district home page to the materials for your meeti
 ## What do you need to do?
 
 - [Sign in or reset a password](sign-in.md)
+- [Review or update My Account](my-account.md)
 - [Find the correct meeting](find-a-meeting.md)
 - [Review an Accordion Agenda](review-an-agenda.md)
 - [Open public and private materials](materials.md)
@@ -62,4 +65,5 @@ Use this page to get from the district home page to the materials for your meeti
 
 | Version | Date | Status | Summary |
 | --- | --- | --- | --- |
+| 1.1 | 2026-07-13 | Distribution | Added My Account procedures and responsive topic navigation. |
 | 1.0 | 2026-07-13 | Review Draft | Initial online-first Board Member help site using the approved SB-BRD screenshot set. |

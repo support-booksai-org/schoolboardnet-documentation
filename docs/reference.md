@@ -3,8 +3,8 @@ title: Reference and review notes
 description: Terminology, screenshot mapping, and reviewer guidance.
 audience: Board Members and reviewers
 applies_to: schoolboard.net
-version: "1.0"
-status: Review Draft
+version: "1.1"
+status: Distribution
 author: schoolboard.net Documentation
 review_cycle: Annual
 last_reviewed: 2026-07-13
@@ -22,6 +22,9 @@ A meeting page organized into headings that open and close.
 
 **Board Member**  
 An authorized user assigned to a Board group or equivalent access group.
+
+**My Account**  
+The signed-in account area used to review account information and edit the email address or password.
 
 **Expandable HTML**  
 Supporting material displayed as structured web content under a **Read ...** heading.
@@ -74,4 +77,5 @@ Focus review on:
 
 | Version | Date | Status | Summary |
 | --- | --- | --- | --- |
+| 1.1 | 2026-07-13 | Distribution | Added My Account terminology and procedures; improved tablet and phone navigation. |
 | 1.0 | 2026-07-13 | Review Draft | Initial online reference, reviewer guidance, and consolidated screenshot mapping. |

@@ -202,6 +202,65 @@ pre code { padding: 0; background: transparent; }
 
 .page-footer { max-width: 980px; margin: 1.2rem auto 0; color: var(--sb-muted); font-size: .86rem; text-align: center; }
 
+/* Keep topic navigation visible on landscape tablets. At this width the
+   primary topic list is more useful than the current-page table of contents. */
+@media screen and (min-width: 60em) and (max-width: 76.234375em) {
+  [dir="ltr"] .md-sidebar--primary,
+  [dir="rtl"] .md-sidebar--primary {
+    right: auto;
+    left: auto;
+  }
+
+  .md-sidebar--primary {
+    position: sticky;
+    z-index: 1;
+    top: 2.4rem;
+    display: block;
+    width: 12.1rem;
+    height: 0;
+    background: transparent;
+    transform: none;
+  }
+
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    touch-action: pan-y;
+  }
+
+  .md-sidebar--secondary {
+    display: none !important;
+  }
+
+  .md-header__button[for="__drawer"] {
+    display: none;
+  }
+
+  [dir="ltr"] .md-sidebar--primary:not([hidden]) ~ .md-content > .md-content__inner {
+    margin-left: 1.2rem;
+  }
+
+  [dir="rtl"] .md-sidebar--primary:not([hidden]) ~ .md-content > .md-content__inner {
+    margin-right: 1.2rem;
+  }
+}
+
+/* Give the collapsed navigation control a visible name on phones and
+   portrait tablets. Material already supplies the accessible control name. */
+@media screen and (max-width: 59.984375em) {
+  .md-header__button[for="__drawer"] {
+    display: inline-flex;
+    width: auto;
+    align-items: center;
+    gap: .25rem;
+  }
+
+  .md-header__button[for="__drawer"]::after {
+    content: "Topics";
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .01em;
+  }
+}
+
 @media (max-width: 820px) {
   .site-header { flex-wrap: wrap; }
   .brand { min-width: 0; flex: 1; }

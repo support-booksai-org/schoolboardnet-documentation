@@ -7,6 +7,8 @@ description: Find a meeting and open its public agenda and supporting materials.
 
 Use these pages to find Board and committee meetings, read public agendas and materials, search, print, and subscribe to updates. No account is required for public content.
 
+On a smaller screen, select **☰ Topics** to open the documentation menu.
+
 <div class="task-grid" markdown>
 
 <a class="task-card" href="meetings/">

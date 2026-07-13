@@ -3,8 +3,8 @@ title: Sign in and accounts
 description: Sign in securely and reset a forgotten password.
 audience: Board Members
 applies_to: schoolboard.net
-version: "1.0"
-status: Review Draft
+version: "1.1"
+status: Distribution
 author: schoolboard.net Documentation
 review_cycle: Annual
 last_reviewed: 2026-07-13
@@ -68,6 +68,7 @@ Check the username or email address, confirm that Caps Lock is off, and re-enter
 
 ## Related Topics
 
+- [Review or update My Account](my-account.md)
 - [Public and private materials](materials.md)
 - [Accessibility and help](accessibility-and-help.md)
 
@@ -75,4 +76,5 @@ Check the username or email address, confirm that Caps Lock is off, and re-enter
 
 | Version | Date | Status | Summary |
 | --- | --- | --- | --- |
+| 1.1 | 2026-07-13 | Distribution | Added a direct path to My Account procedures. |
 | 1.0 | 2026-07-13 | Review Draft | Online sign-in and password-reset procedures with approved screenshots. |

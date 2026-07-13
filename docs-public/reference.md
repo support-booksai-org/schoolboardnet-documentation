@@ -19,4 +19,5 @@ SB-PUB-007 documents functions SB-PUB-006 through SB-PUB-009 in one contextual v
 
 | Version | Date | Status | Summary |
 | --- | --- | --- | --- |
+| 1.0.1 | July 13, 2026 | Distribution | Improved tablet and phone topic navigation. |
 | 1.0 | July 13, 2026 | Distribution | Final public screenshots integrated and agenda functions consolidated into one contextual view. |

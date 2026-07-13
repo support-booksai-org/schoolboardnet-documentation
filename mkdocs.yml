@@ -25,6 +25,7 @@ theme:
 nav:
   - Quick Start: index.md
   - Sign in and accounts: sign-in.md
+  - My Account: my-account.md
   - Find a meeting: find-a-meeting.md
   - Review an agenda: review-an-agenda.md
   - Public and private materials: materials.md
@@ -51,4 +52,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net Board Member documentation — Version 1.0 review
+copyright: schoolboard.net Board Member documentation - Version 1.1
