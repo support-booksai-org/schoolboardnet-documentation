@@ -41,13 +41,15 @@ jobs:
       - name: Install documentation dependencies
         run: python -m pip install -r requirements.txt
 
-      - name: Build MkDocs
-        run: mkdocs build --clean --strict
-
-      - name: Stage site under /board-members/
+      - name: Build directly under /board-members/
         run: |
+          rm -rf _pages
           mkdir -p _pages/board-members
-          cp -R site/. _pages/board-members/
+          mkdocs build --clean --strict --site-dir _pages/board-members
+
+      - name: Create documentation landing page
+        run: |
+          touch _pages/.nojekyll
 
           cat > _pages/index.html <<'EOF'
           <!doctype html>
@@ -56,6 +58,11 @@ jobs:
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>schoolboard.net Documentation</title>
+            <style>
+              body { font: 18px/1.5 system-ui, sans-serif; margin: 0; color: #173b27; }
+              main { max-width: 760px; margin: 12vh auto; padding: 0 24px; }
+              a { color: #176b3a; }
+            </style>
           </head>
           <body>
             <main>
@@ -65,6 +72,12 @@ jobs:
           </body>
           </html>
           EOF
+
+      - name: Verify staged Board Member site
+        run: |
+          test -f _pages/board-members/index.html
+          test -n "$(find _pages/board-members/assets/stylesheets -name 'main*.css' -print -quit)"
+          test -n "$(find _pages/board-members/assets/javascripts -name 'bundle*.js' -print -quit)"
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
