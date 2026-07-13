@@ -1,40 +1,65 @@
 ---
-title: schoolboard.net Documentation
-version: 0.2.1
-status: Draft
-author: schoolboardnet, LLC
-description: Documentation page for schoolboard.net Documentation.
-audience:
-- District Administrator
-- Group Administrator
-- Board Clerk
-- Administrative Assistant
+title: Board Member Quick Start
+description: Sign in, find a meeting, and review Board materials.
+audience: Board Members
 applies_to: schoolboard.net
+version: "1.0"
+status: Review Draft
+author: schoolboard.net Documentation
 review_cycle: Annual
-last_reviewed: '2026-07-03'
+last_reviewed: 2026-07-13
 fullWidth: false
 tocVisible: true
 tableWrap: true
 ---
 
-# schoolboard.net Documentation
+# Board Member Quick Start
 
+Use this page to get from the district home page to the materials for your meeting.
 
-## Quick Summary
+<div class="task-grid">
+  <a class="task-card" href="sign-in/"><strong>1. Sign in</strong><span>Access authorized Board materials.</span></a>
+  <a class="task-card" href="find-a-meeting/"><strong>2. Find a meeting</strong><span>Confirm the correct date and group.</span></a>
+  <a class="task-card" href="review-an-agenda/"><strong>3. Review the agenda</strong><span>Open sections and supporting items.</span></a>
+  <a class="task-card" href="materials/"><strong>4. Open materials</strong><span>Recognize public and private content.</span></a>
+</div>
 
-Add a short plain-language summary here.
-Welcome to the official schoolboard.net documentation site.
+## Five-minute workflow
 
-This site explains how to use schoolboard.net, how to publish accessible board materials, and how to manage content in a consistent way.
+1. Open the district's schoolboard.net site.
+2. Select **Log in** in the upper-right corner.
+3. Enter your Board Member username or email address and password.
+4. Return to **Home** after signing in if needed.
+5. Select the meeting under **Upcoming Events** or **Past Events**.
+6. Confirm the title, date, time, and Board or committee name.
+7. Select an agenda heading to expand it.
+8. Select a linked file or **Read ...** heading to open supporting material.
+9. Confirm that authorized private materials are visible.
+10. Refresh the live agenda shortly before the meeting.
 
-Start with [Getting Started](getting-started/index.md).
+![District home page showing Log in, search, navigation, and Upcoming and Past Events lists.](assets/screenshots/SB-BRD-001-home-page-overview.png){ .doc-screenshot }
+
+*Figure SB-BRD-001. District home page and meeting lists.*
+
+!!! warning "Use only your account"
+    If another Board Member can see a private item that you cannot, contact the district administrator. Do not share accounts.
+
+## What do you need to do?
+
+- [Sign in or reset a password](sign-in.md)
+- [Find the correct meeting](find-a-meeting.md)
+- [Review an Accordion Agenda](review-an-agenda.md)
+- [Open public and private materials](materials.md)
+- [Search or print](search-and-print.md)
+- [Use keyboard navigation or get help](accessibility-and-help.md)
 
 ## Related Topics
 
-- Add related pages here.
+- [Meeting preparation checklist](meeting-checklist.md)
+- [Terminology and review notes](reference.md)
 
 ## Revision History
 
-| Date | Change | Author |
-| --- | --- | --- |
-| 2026-07-03 | Standardized page structure. | schoolboard.net, LLC |
+| Version | Date | Status | Summary |
+| --- | --- | --- | --- |
+| 1.0 | 2026-07-13 | Review Draft | Initial online-first Board Member help site using the approved SB-BRD screenshot set. |

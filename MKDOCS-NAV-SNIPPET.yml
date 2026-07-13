@@ -1,0 +1,15 @@
+# Add under nav: in mkdocs.yml
+
+- Board Member Guide:
+    - Overview: 02-board-member-guide/index.md
+    - Quick Start: 02-board-member-guide/quick-start.md
+    - Logging In: 02-board-member-guide/logging-in.md
+    - Resetting Your Password: 02-board-member-guide/reset-password.md
+    - Finding Your Meeting: 02-board-member-guide/finding-your-meeting.md
+    - Opening an Agenda: 02-board-member-guide/opening-an-agenda.md
+    - Reading Attachments: 02-board-member-guide/reading-attachments.md
+    - Printing or Saving as PDF: 02-board-member-guide/printing-save-pdf.md
+    - Searching: 02-board-member-guide/searching.md
+    - My Account: 02-board-member-guide/my-account.md
+    - FAQ: 02-board-member-guide/faq.md
+    - Reviewer Checklist: 02-board-member-guide/reviewer-checklist.md
