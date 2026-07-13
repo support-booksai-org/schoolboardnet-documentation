@@ -1,6 +1,7 @@
 site_name: schoolboard.net Board Member Help
 site_description: Task-focused online help for schoolboard.net Board Members
 site_author: schoolboard.net
+site_url: https://docs.schoolboard.net/board-members/
 docs_dir: docs
 site_dir: site
 use_directory_urls: true
