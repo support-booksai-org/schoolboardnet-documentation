@@ -1,7 +1,7 @@
-site_name: schoolboard.net District Administrator Help
-site_description: Task-focused online help for schoolboard.net District Administrators
+site_name: schoolboard.net Board Member Help
+site_description: Task-focused online help for schoolboard.net Board Members
 site_author: schoolboard.net
-site_url: https://docs.schoolboard.net/district-admin/
+site_url: https://docs.schoolboard.net/board-members/
 docs_dir: docs
 site_dir: site
 use_directory_urls: true
@@ -24,15 +24,15 @@ theme:
 
 nav:
   - Quick Start: index.md
-  - Administration access: administration.md
-  - People and users: people.md
-  - Add and edit users: user-accounts.md
-  - Roles and access: roles.md
-  - Groups: groups.md
-  - Group memberships: memberships.md
-  - Block and restore access: block-access.md
-  - Safety and troubleshooting: safety-help.md
-  - Review notes: reference.md
+  - Sign in and accounts: sign-in.md
+  - My Account: my-account.md
+  - Find a meeting: find-a-meeting.md
+  - Review an agenda: review-an-agenda.md
+  - Public and private materials: materials.md
+  - Search and print: search-and-print.md
+  - Accessibility and help: accessibility-and-help.md
+  - Meeting checklist: meeting-checklist.md
+  - Reference and review notes: reference.md
 
 plugins:
   - search:
@@ -52,5 +52,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net District Administrator documentation - Version 0.1 Review Draft
-
+copyright: schoolboard.net Board Member documentation - Version 1.1

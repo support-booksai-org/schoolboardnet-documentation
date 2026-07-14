@@ -3,8 +3,8 @@ title: Meeting checklist
 description: A concise checklist for Board Member meeting preparation.
 audience: Board Members
 applies_to: schoolboard.net
-version: "1.0"
-status: Review Draft
+version: "1.1"
+status: Distribution
 author: schoolboard.net Documentation
 review_cycle: Annual
 last_reviewed: 2026-07-13

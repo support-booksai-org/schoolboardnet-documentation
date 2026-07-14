@@ -1,54 +1,81 @@
 ---
-title: Review notes
-version: "0.1"
-status: Review Draft
+title: Reference and review notes
+description: Terminology, screenshot mapping, and reviewer guidance.
+audience: Board Members and reviewers
+applies_to: schoolboard.net
+version: "1.1"
+status: Distribution
+author: schoolboard.net Documentation
+review_cycle: Annual
+last_reviewed: 2026-07-13
+fullWidth: false
+tocVisible: true
+tableWrap: true
 ---
 
-# Review notes
+# Reference and review notes
 
 ## Glossary
 
-**Active**  
-An account status that permits sign-in when other access requirements are satisfied.
+**Accordion Agenda**  
+A meeting page organized into headings that open and close.
 
-**Blocked**  
-An account status that prevents sign-in while retaining the account record.
+**Board Member**  
+An authorized user assigned to a Board group or equivalent access group.
 
-**District Admin**  
-A site role for approved district-level administration. Exact permissions depend on site configuration.
+**My Account**  
+The signed-in account area used to review account information and edit the email address or password.
 
-**Group Admin**  
-An administrative role associated with group management. Confirm whether the intended workflow assigns it as a site role, membership role, or both.
+**Expandable HTML**  
+Supporting material displayed as structured web content under a **Read ...** heading.
 
-**Group membership**  
-The relationship that places an existing user in a specific Board, committee, district, or access-control group.
+**Private material**  
+Content shown only to signed-in users with the required permission.
 
-## Reviewer confirmation requested
+**Public material**  
+Content available without signing in.
 
-1. Is blocking the preferred reversible offboarding action before cancellation?
-2. Does removing a membership leave the user account and content intact?
-3. Do the District Admin and Group Admin descriptions match production permissions?
+**Print Full Packet**  
+A print action that includes the agenda and packet materials available to the user.
 
-SB-DST-009 and SB-DST-010 are unassigned. Add Group and Edit Group procedures are intentionally deferred because those forms are outside this review draft's screenshot scope.
+**Print Agenda Only**  
+A print action limited to the agenda page.
 
-## Screenshot coverage
+## Consolidated screenshot mapping
 
-| Submitted pair | Function |
+SB-BRD-011 is intentionally used for the functions originally specified as SB-BRD-010, SB-BRD-012, SB-BRD-013, and SB-BRD-014.
+
+| Function | SB-BRD-011 coverage |
 | --- | --- |
-| SB-DST-001/002 | Administration toolbar |
-| SB-DST-003/004 | People list |
-| SB-DST-005/006 | Add user |
-| SB-DST-007/008 | Edit user |
-| SB-DST-011/012 | Groups list |
-| SB-DST-013/014 | Group members |
-| SB-DST-015/016 | Add group member |
-| SB-DST-017 | Open membership Operations menu |
-| SB-DST-018 | Edit group member |
-| SB-DST-019/020 | Remove group member |
-| SB-DST-021/022 | Block user |
+| SB-BRD-010 | Expanded agenda content |
+| SB-BRD-012 | Structured agenda content |
+| SB-BRD-013 | Private file at callout 2 |
+| SB-BRD-014 | Private expandable HTML at callout 4 |
+
+## Reviewer guidance
+
+Reviewers should comment by page title and screenshot ID. Examples:
+
+- `Sign in and accounts — step 4`
+- `Search and print — SB-BRD-018`
+- `Meeting checklist — before the meeting`
+
+Focus review on:
+
+1. Procedural accuracy for a Board Member account.
+2. Clear task labels and short paths to completion.
+3. Correct public/private terminology.
+4. Screenshot accuracy and callout clarity.
+5. Keyboard and accessibility guidance.
+
+## Related Topics
+
+- [Quick Start](index.md)
+- [Accessibility and help](accessibility-and-help.md)
 
 ## Revision History
 
 | Version | Date | Status | Summary |
 | --- | --- | --- | --- |
-| 0.1 | 2026-07-13 | Review Draft | Initial District Administrator user and group-management documentation. |
+| 1.1 | 2026-07-13 | Distribution | Added My Account terminology and procedures; improved tablet and phone navigation. |
+| 1.0 | 2026-07-13 | Review Draft | Initial online reference, reviewer guidance, and consolidated screenshot mapping. |
