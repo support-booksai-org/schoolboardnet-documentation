@@ -1,5 +1,5 @@
 [build]
-  command = "python -m pip install -r requirements.txt && rm -rf dist && mkdir -p dist/board-members dist/public && mkdocs build --clean --strict --config-file mkdocs.yml --site-dir dist/board-members && mkdocs build --clean --strict --config-file mkdocs-public.yml --site-dir dist/public && cp -R docs-home/. dist/"
+  command = "python -m pip install -r requirements.txt && rm -rf dist && mkdir -p dist/board-members dist/public dist/district-admin && mkdocs build --clean --strict --config-file mkdocs.yml --site-dir dist/board-members && mkdocs build --clean --strict --config-file mkdocs-public.yml --site-dir dist/public && mkdocs build --clean --strict --config-file mkdocs-district-admin.yml --site-dir dist/district-admin && cp -R docs-home/. dist/"
   publish = "dist"
 
 [build.environment]

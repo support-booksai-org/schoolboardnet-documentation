@@ -1,0 +1,63 @@
+---
+title: District Administrator Quick Start
+version: "0.1"
+status: Review Draft
+---
+
+# District Administrator Quick Start
+
+Use this site to manage schoolboard.net user accounts and group memberships. Confirm district approval before granting administrator access.
+
+On a smaller screen, select **☰ Topics** to open the documentation menu.
+
+<div class="quick-grid" markdown>
+<div class="quick-card" markdown>
+## 1. Find the user
+Search People before creating or changing an account.
+</div>
+<div class="quick-card" markdown>
+## 2. Manage the account
+Add or edit only the approved account information.
+</div>
+<div class="quick-card" markdown>
+## 3. Assign the group
+Add the existing user to the correct Board or committee group.
+</div>
+<div class="quick-card" markdown>
+## 4. Verify access
+Confirm status, roles, memberships, and private-material access.
+</div>
+</div>
+
+## Common workflow
+
+1. Sign in with your individual District Administrator account.
+2. Select **Manage**, then **People**.
+3. Search for the username or email address before creating an account.
+4. Select **Add user** when no account exists.
+5. Enter a unique email address and username, set the initial password, select **Active**, and create the account.
+6. Open **Groups**, select the correct group, and open **Members**.
+7. Select **Add member**, choose the existing user, and assign **Group Admin** only when approved.
+8. Save and verify the account, role, and membership.
+9. When access must stop, block the account and confirm its status.
+
+!!! warning "Use least access"
+    Add only the roles and memberships the person needs. Never share an administrator account for testing.
+
+## What do you need to do?
+
+- [Open Administration](administration.md)
+- [Find and review people](people.md)
+- [Add or edit a user](user-accounts.md)
+- [Understand roles](roles.md)
+- [Review groups](groups.md)
+- [Manage group memberships](memberships.md)
+- [Block or restore access](block-access.md)
+- [Troubleshoot or review safety practices](safety-help.md)
+
+## Revision History
+
+| Version | Date | Status | Summary |
+| --- | --- | --- | --- |
+| 0.1 | 2026-07-13 | Review Draft | Initial District Administrator user and group-management documentation. |
+
