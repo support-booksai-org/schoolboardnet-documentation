@@ -15,7 +15,7 @@ An account status that permits sign-in when other access requirements are satisf
 An account status that prevents sign-in while retaining the account record.
 
 **District Admin**  
-A site role for approved district-level administration. Exact permissions depend on site configuration.
+A site role for approved district-level administration. Only schoolboard.net Support can add, remove, or modify the role, and every request must be submitted in writing by email. There is no system limit, but schoolboard.net recommends two or three District Administrators per district.
 
 **Group Admin**  
 An administrative role associated with group management. Confirm whether the intended workflow assigns it as a site role, membership role, or both.
@@ -27,7 +27,7 @@ The relationship that places an existing user in a specific Board, committee, di
 
 1. Is blocking the preferred reversible offboarding action before cancellation?
 2. Does removing a membership leave the user account and content intact?
-3. Do the District Admin and Group Admin descriptions match production permissions?
+3. Is the schoolboard.net Support-only District Administrator role procedure clear and consistent with district authorization practices?
 
 SB-DST-009 and SB-DST-010 are unassigned. Add Group and Edit Group procedures are intentionally deferred because those forms are outside this review draft's screenshot scope.
 

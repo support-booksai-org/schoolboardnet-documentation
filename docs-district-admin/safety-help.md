@@ -14,6 +14,8 @@ status: Review Draft
 - Never send passwords through ordinary email.
 - Block access promptly when authorization ends.
 - Record who approved District Admin and Group Admin access.
+- Send every District Administrator role request in writing by email to schoolboard.net Support.
+- Review District Administrator assignments periodically and keep the recommended total to two or three per district.
 - Review administrator assignments periodically.
 
 ## Keyboard and accessibility
@@ -42,4 +44,3 @@ When requesting help, include the site address, username, group, expected result
 - [Administration access](administration.md)
 - [Block and restore access](block-access.md)
 - [Review notes](reference.md)
-

@@ -6,7 +6,7 @@ status: Review Draft
 
 # District Administrator Quick Start
 
-Use this site to manage schoolboard.net user accounts and group memberships. Confirm district approval before granting administrator access.
+Use this site to manage schoolboard.net user accounts and group memberships. District Administrator role assignments are controlled by schoolboard.net Support.
 
 On a smaller screen, select **☰ Topics** to open the documentation menu.
 
@@ -44,6 +44,9 @@ Confirm status, roles, memberships, and private-material access.
 !!! warning "Use least access"
     Add only the roles and memberships the person needs. Never share an administrator account for testing.
 
+!!! danger "District Administrator role requests"
+    Only schoolboard.net Support can add, delete, or modify a **District Administrator** role assignment, including removing the role from an account. Submit every request in writing by email to schoolboard.net Support. There is no system limit, but schoolboard.net recommends only **two or three District Administrators per district**.
+
 ## What do you need to do?
 
 - [Open Administration](administration.md)
@@ -59,5 +62,4 @@ Confirm status, roles, memberships, and private-material access.
 
 | Version | Date | Status | Summary |
 | --- | --- | --- | --- |
-| 0.1 | 2026-07-13 | Review Draft | Initial District Administrator user and group-management documentation. |
-
+| 0.1 | 2026-07-13 | Review Draft | User and group management, including District Administrator role controls. |

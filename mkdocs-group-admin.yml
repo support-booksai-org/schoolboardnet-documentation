@@ -1,0 +1,53 @@
+site_name: schoolboard.net Group Administrator Help
+site_description: Task-focused online help for schoolboard.net Group Administrators
+site_author: schoolboard.net
+site_url: https://docs.schoolboard.net/group-admin/
+docs_dir: docs-group-admin
+site_dir: site-group-admin
+use_directory_urls: true
+strict: true
+
+theme:
+  name: material
+  locale: en
+  font: false
+  palette:
+    scheme: default
+    primary: green
+    accent: green
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+nav:
+  - Quick Start: index.md
+  - What Group Administrators can do: scope.md
+  - View group members: view-members.md
+  - Add a group member: add-members.md
+  - Remove a group member: remove-members.md
+  - Agendas and attachments: agendas.md
+  - Safety and troubleshooting: safety-help.md
+  - Reference and review notes: reference.md
+
+plugins:
+  - search:
+      lang: en
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+      toc_depth: 2-3
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/site.js
+
+copyright: schoolboard.net Group Administrator documentation - Version 0.1 Review Draft

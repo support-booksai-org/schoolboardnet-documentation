@@ -29,7 +29,7 @@ Use **Unblock the selected user(s)** only after approval. Review roles and group
 ## Offboarding sequence
 
 1. Block the account promptly.
-2. Remove unnecessary administrator roles.
+2. Remove unnecessary Group Administrator access and email schoolboard.net Support when the District Administrator role must be removed or modified.
 3. Remove group memberships when approved.
 4. Preserve or reassign content according to district policy.
 5. Cancel the account only when an approved procedure requires it.
@@ -39,4 +39,3 @@ Use **Unblock the selected user(s)** only after approval. Review roles and group
 - [People and users](people.md)
 - [Roles and access](roles.md)
 - [Safety and troubleshooting](safety-help.md)
-
