@@ -24,13 +24,17 @@ theme:
 
 nav:
   - Quick Start: index.md
+  - Group home page: group-home.md
   - What Group Administrators can do: scope.md
-  - View group members: view-members.md
-  - Add a group member: add-members.md
-  - Remove a group member: remove-members.md
-  - Agendas and attachments: agendas.md
-  - Safety and troubleshooting: safety-help.md
-  - Reference and review notes: reference.md
+  - Group Members:
+      - View group members: view-members.md
+      - Add a group member: add-members.md
+      - Remove a group member: remove-members.md
+  - Agendas and Attachments: agendas.md
+  - Best Practices: best-practices.md
+  - Frequently Asked Questions: faq.md
+  - Safety and Troubleshooting: safety-help.md
+  - Reference and Review Notes: reference.md
 
 plugins:
   - search:
@@ -50,4 +54,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net Group Administrator documentation - Version 0.1 Review Draft
+copyright: schoolboard.net Group Administrator documentation — Version 1.1 Development Review
