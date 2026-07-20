@@ -131,13 +131,14 @@ Open the three-dot actions menu beside an Accordion Section.
 
 *Figure SB-AAC-013. Section actions.*
 
-1. **Remove** — deletes the section from the current agenda.
-2. **Duplicate** — creates a copy of the section and its nested content.
+1. **Remove** — deletes the section, its nested content, and every attachment in that section.
+2. **Duplicate** — copies the entire section, including every attachment in that section.
 
-Duplicate a section when its existing structure provides a useful starting point. Rename and review the copy immediately so duplicate headings or obsolete content are not published.
+!!! warning "Remove attachments before removing a section"
+    Although **Remove** deletes the section and all of its attachments, the recommended procedure is to remove the attachments first and then remove the section. Confirm that every attachment and the section itself are the intended targets before saving.
 
-!!! warning "Remove carefully"
-    Removing a section may also remove its nested Agenda Items, files, and Expandable HTML. Confirm that you selected the intended section before saving.
+!!! warning "Do not duplicate attachments"
+    **Duplicate** copies all attachments in the section. Duplicating attachments is not recommended and may create obsolete or unintended copies. Do not duplicate a populated section merely to reuse its structure. Create a new section instead, or duplicate only an attachment-free section after confirming that none of its nested content contains files.
 
 ## Review the saved result
 
