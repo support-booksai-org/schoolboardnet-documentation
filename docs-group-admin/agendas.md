@@ -22,12 +22,12 @@ A Group Administrator may create and update agendas for an assigned group and ad
 3. Add agenda sections and items in the approved order.
 4. Add each attachment to the correct agenda item.
 5. Confirm the attachment title and access setting.
-6. Preview the agenda.
-7. Open each attachment from the preview to confirm that it works.
-8. Save or publish according to district procedure.
+6. Keep **Visibility** Private, **Notifications** unchecked, and **Published** unchecked while drafting.
+7. Save and review the saved draft.
+8. Publish and notify only after review is complete.
 
-!!! important "Complete how-to"
-    Use the [Accordion Agenda Guide](https://docs.schoolboard.net/accordion-agenda/) for screenshots and detailed instructions covering agenda creation, sections, expandable content, attachments, ordering, preview, revisions, notifications, and publishing.
+!!! tip "Recommended workflow"
+    Use [Draft Mode](best-practices.md#work-in-draft-mode) instead of relying on Preview. Preview is an administrator view and does not show the anonymous public experience.
 
 ## Before publishing
 
@@ -35,7 +35,8 @@ A Group Administrator may create and update agendas for an assigned group and ad
 - Confirm that agenda sections are in the intended order.
 - Confirm that each attachment is attached to the correct item.
 - Confirm that public and restricted materials have the correct access setting.
-- Preview the agenda and open every attachment.
+- Review the saved draft and open every attachment.
+- Sign out after publication and verify the public view.
 
 !!! warning "Protect restricted material"
     Do not publish an attachment until its access setting has been verified. If you are uncertain whether a file should be public, stop and confirm with the District Administrator or other designated district approver.

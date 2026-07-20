@@ -1,4 +1,4 @@
-site_name: schoolboard.net Group Administrator Help
+site_name: Group Administrator Guide
 site_description: Task-focused online help for schoolboard.net Group Administrators
 site_author: schoolboard.net
 site_url: https://docs.schoolboard.net/group-admin/
@@ -24,13 +24,17 @@ theme:
 
 nav:
   - Quick Start: index.md
+  - Conventions used in this guide: conventions.md
   - Group home page: group-home.md
   - What Group Administrators can do: scope.md
   - Group Members:
       - View group members: view-members.md
       - Add a group member: add-members.md
       - Remove a group member: remove-members.md
-  - Agendas and Attachments: agendas.md
+  - Agendas:
+      - Agendas and attachments: agendas.md
+      - Working with Drafts & Templates: drafts-templates.md
+      - Notifications and revisions: notifications-revisions.md
   - Best Practices: best-practices.md
   - Frequently Asked Questions: faq.md
   - Safety and Troubleshooting: safety-help.md
@@ -54,4 +58,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net Group Administrator documentation — Version 1.1 Development Review
+copyright: schoolboard.net Group Administrator Guide — Version 1.1.002 Review Edition

@@ -1,7 +1,7 @@
 # Group Administrator Guide
 
 <div class="review-banner" markdown>
-**Version 1.1 — Development Review**
+**Version 1.1.002 — Review Edition**
 
 This guide is under active review. Procedures may be refined as administrator training and reviewer feedback continue.
 </div>
@@ -18,10 +18,11 @@ Group Administrators manage the day-to-day work for the groups assigned to them.
 ## Recommended starting point
 
 1. Review the [Group home page](group-home.md).
-2. Confirm the correct group members.
-3. Use **Drafts & Templates** to clone an existing agenda whenever possible.
-4. Review the [Best practices](best-practices.md) before publishing or revising an agenda.
-5. Use the [FAQ](faq.md) when content or an agenda appears to be missing.
+2. Review the [conventions used in this guide](conventions.md), including mobile navigation.
+3. Confirm the correct group members.
+4. Use [Drafts & Templates](drafts-templates.md) to clone an existing agenda whenever possible.
+5. Review the [Best practices](best-practices.md) before publishing or revising an agenda.
+6. Use the [FAQ](faq.md) when content or an agenda appears to be missing.
 
 !!! tip "Questions are encouraged"
     Ask for help whenever you are unsure. There are no stupid questions, and a quick question is often safer than trying to undo an avoidable change.

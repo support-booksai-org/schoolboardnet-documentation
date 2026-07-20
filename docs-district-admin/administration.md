@@ -26,5 +26,5 @@ Use the administration toolbar to reach account and group management.
 
 - [People and users](people.md)
 - [Groups](groups.md)
+- [Find missing content or agendas](content.md)
 - [Safety and troubleshooting](safety-help.md)
-

@@ -36,6 +36,7 @@ status: Review Draft
 | Account already exists | Edit the existing account; do not create a duplicate |
 | Membership removed accidentally | Add the existing user back to the approved group |
 | Group type is unclear | Stop and ask the site owner or support team |
+| Agenda is missing from a group | Search Content, choose the newest revision, and verify the assigned Group |
 
 When requesting help, include the site address, username, group, expected result, actual result, and a screenshot with passwords and private information removed.
 

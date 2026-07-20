@@ -1,4 +1,4 @@
-site_name: schoolboard.net District Administrator Help
+site_name: District Administrator Guide
 site_description: Task-focused online help for schoolboard.net District Administrators
 site_author: schoolboard.net
 site_url: https://docs.schoolboard.net/district-admin/
@@ -24,13 +24,16 @@ theme:
 
 nav:
   - Quick Start: index.md
+  - Conventions used in this guide: conventions.md
   - Administration access: administration.md
+  - Find missing content or agendas: content.md
   - People and users: people.md
   - Add and edit users: user-accounts.md
   - Roles and access: roles.md
   - Groups: groups.md
   - Group memberships: memberships.md
   - Block and restore access: block-access.md
+  - Security policies: security-policies.md
   - Safety and troubleshooting: safety-help.md
   - Review notes: reference.md
 
@@ -52,4 +55,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net District Administrator documentation - Version 0.1 Review Draft
+copyright: schoolboard.net District Administrator Guide — Version 1.1.002 Review Edition

@@ -1,10 +1,12 @@
 ---
 title: District Administrator Quick Start
-version: "0.1"
-status: Review Draft
+version: "1.1.002"
+status: Review Edition
 ---
 
 # District Administrator Quick Start
+
+**Version 1.1.002 — Review Edition**
 
 Use this site to manage schoolboard.net user accounts and group memberships. District Administrator role assignments are controlled by schoolboard.net Support.
 
@@ -50,12 +52,14 @@ Confirm status, roles, memberships, and private-material access.
 ## What do you need to do?
 
 - [Open Administration](administration.md)
+- [Find missing content or agendas](content.md)
 - [Find and review people](people.md)
 - [Add or edit a user](user-accounts.md)
 - [Understand roles](roles.md)
 - [Review groups](groups.md)
 - [Manage group memberships](memberships.md)
 - [Block or restore access](block-access.md)
+- [Review security policies](security-policies.md)
 - [Troubleshoot or review safety practices](safety-help.md)
 
 ## Revision History

@@ -23,46 +23,35 @@ Use **Drafts & Templates** as the normal starting point. Build a new agenda from
 
 Templates help preserve recurring agenda sections, standard language, approved formatting, recurring attachments, and a consistent public experience.
 
+See [Working with Drafts & Templates](drafts-templates.md) for template organization and cloning instructions.
+
+## Work in Draft Mode
+
+schoolboard.net recommends saving and reviewing the agenda in **Draft Mode** instead of keeping unsaved work in Preview.
+
+A draft has:
+
+- **Visibility:** Private
+- **Notifications:** Unchecked
+- **Published:** Unchecked
+
+Save frequently and review the saved agenda. Authorized administrators can return to it later, and no public content or notification is released. When review is complete, follow [Publish and notify](notifications-revisions.md#publish-and-notify).
+
 ## Verify the assigned group
 
 Every agenda must be assigned to the correct group. An agenda that is unassigned or assigned to the wrong group may appear to be missing from the expected group page.
 
 Before publishing, verify the meeting title, assigned group, meeting date and time, visibility, publication status, and notification selections.
 
-## Notify the group about revisions without notifying the public
+## Review public and private content
 
-Use this procedure only after the agenda has already been published and the original group and public notifications have been sent.
+Preview is an administrator view, not an anonymous public preview. Keep confidential content beneath the correct private heading or label it clearly, such as **Private: Read...**. After publishing, sign out and verify the public page.
 
-1. Open the published agenda for editing.
-2. Make the required changes.
-3. Enter a clear description in the **Revision information** field.
-4. Change **Visibility** to **Private**.
-5. Select **Notifications**.
-6. Click **Save**. The notification is sent to members of the assigned group.
-7. Immediately reopen the agenda.
-8. Change **Visibility** back to **Public**.
-9. Clear **Notifications**.
-10. Click **Save** again.
+## Confirm public notification delivery
 
-The agenda is public again, and no additional public notification is sent.
+Subscribe to the group's public notifications using a monitored personal or independent email address. Receiving the notice confirms delivery and provides a direct way to test its links and public access.
 
-!!! warning "Do not leave the agenda private"
-    Complete the second save immediately. Until visibility is returned to **Public**, the public cannot view the agenda.
-
-### Write useful revision descriptions
-
-Use descriptions that tell board members exactly what changed, such as:
-
-- Added Finance Committee report
-- Replaced Attachment C
-- Corrected meeting start time
-- Added Executive Session item
-
-Minor spelling or formatting corrections may not require another notification. Follow district practice.
-
-## Preview before publishing
-
-Before publication, review the agenda as a board member or public visitor would see it. Confirm that headings and sections are in the expected order, attachments open correctly, links are descriptive, visibility is correct, and notification settings match the intended audience.
+See [Notifications and Revisions](notifications-revisions.md) for group-only revision notifications and Revision Text guidance.
 
 ## Ask before guessing
 

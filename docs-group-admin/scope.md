@@ -29,8 +29,8 @@ A Group Administrator manages membership and meeting agenda content in an assign
 !!! warning "Membership is not the user account"
     Removing someone from a group does not block or delete the person's schoolboard.net account. It removes only that group membership.
 
-!!! important "Use the shared agenda instructions"
-    Agenda creation is available to both Group Administrators and District Administrators. Follow the [Accordion Agenda Guide](https://docs.schoolboard.net/accordion-agenda/) for the full creation, section, attachment, preview, and publishing workflow.
+!!! important "Agenda instructions"
+    Agenda creation is available to both Group Administrators and District Administrators. Begin with [Create agendas and add attachments](agendas.md), [Working with Drafts & Templates](drafts-templates.md), and [Notifications and Revisions](notifications-revisions.md).
 
 ## Related Topics
 

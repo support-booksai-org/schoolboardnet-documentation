@@ -2,46 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.schoolboard.net/group-admin/</loc>
-         <lastmod>2026-07-16</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://docs.schoolboard.net/group-admin/add-members/</loc>
-         <lastmod>2026-07-16</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://docs.schoolboard.net/group-admin/agendas/</loc>
-         <lastmod>2026-07-16</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://docs.schoolboard.net/group-admin/best-practices/</loc>
-         <lastmod>2026-07-16</lastmod>
+         <lastmod>2026-07-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.schoolboard.net/group-admin/conventions/</loc>
+         <lastmod>2026-07-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.schoolboard.net/group-admin/drafts-templates/</loc>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://docs.schoolboard.net/group-admin/faq/</loc>
-         <lastmod>2026-07-16</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://docs.schoolboard.net/group-admin/group-home/</loc>
-         <lastmod>2026-07-16</lastmod>
+         <lastmod>2026-07-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.schoolboard.net/group-admin/notifications-revisions/</loc>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://docs.schoolboard.net/group-admin/reference/</loc>
-         <lastmod>2026-07-16</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://docs.schoolboard.net/group-admin/remove-members/</loc>
-         <lastmod>2026-07-16</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://docs.schoolboard.net/group-admin/safety-help/</loc>
-         <lastmod>2026-07-16</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://docs.schoolboard.net/group-admin/scope/</loc>
-         <lastmod>2026-07-16</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://docs.schoolboard.net/group-admin/view-members/</loc>
-         <lastmod>2026-07-16</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
 </urlset>

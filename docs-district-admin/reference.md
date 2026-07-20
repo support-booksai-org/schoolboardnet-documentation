@@ -29,7 +29,7 @@ The relationship that places an existing user in a specific Board, committee, di
 2. Does removing a membership leave the user account and content intact?
 3. Is the schoolboard.net Support-only District Administrator role procedure clear and consistent with district authorization practices?
 
-SB-DST-009 and SB-DST-010 are unassigned. Add Group and Edit Group procedures are intentionally deferred because those forms are outside this review draft's screenshot scope.
+The Add Group procedure is documented from the Groups page. Content-list screenshots previously labeled **SB-DIS-023** and **SB-DIS-024** must use the corrected **SB-DST-023** and **SB-DST-024** names when added to the repository.
 
 ## Screenshot coverage
 
