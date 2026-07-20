@@ -1,7 +1,6 @@
 ---
 title: Roles and access
 version: "0.1"
-status: Review Draft
 ---
 
 # Roles and access
@@ -30,4 +29,3 @@ Review site roles and group memberships separately. Use the least access require
 - [People and users](people.md)
 - [Groups](groups.md)
 - [Group memberships](memberships.md)
-

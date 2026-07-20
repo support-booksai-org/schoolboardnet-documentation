@@ -4,7 +4,6 @@ description: Recognize and open public and authorized private materials.
 audience: Board Members
 applies_to: schoolboard.net Accordion Agenda
 version: "1.1"
-status: Distribution
 author: schoolboard.net Documentation
 review_cycle: Annual
 last_reviewed: 2026-07-13

@@ -1,7 +1,6 @@
 ---
 title: Add and edit users
 version: "0.1"
-status: Review Draft
 ---
 
 # Add and edit users
@@ -49,4 +48,3 @@ Search before creating an account. Email addresses and usernames must be unique.
 - [Group memberships](memberships.md)
 - [Block and restore access](block-access.md)
 - [Safety and troubleshooting](safety-help.md)
-

@@ -1,7 +1,6 @@
 ---
 title: Block and restore access
 version: "0.1"
-status: Review Draft
 ---
 
 # Block and restore access
@@ -39,4 +38,3 @@ Use **Unblock the selected user(s)** only after approval. Review roles and group
 - [People and users](people.md)
 - [Roles and access](roles.md)
 - [Safety and troubleshooting](safety-help.md)
-

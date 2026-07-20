@@ -4,7 +4,6 @@ description: Terminology, screenshot mapping, and reviewer guidance.
 audience: Board Members and reviewers
 applies_to: schoolboard.net
 version: "1.1"
-status: Distribution
 author: schoolboard.net Documentation
 review_cycle: Annual
 last_reviewed: 2026-07-13

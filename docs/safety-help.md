@@ -1,7 +1,6 @@
 ---
 title: Safety and troubleshooting
 version: "0.1"
-status: Review Draft
 ---
 
 # Safety and troubleshooting
@@ -42,4 +41,3 @@ When requesting help, include the site address, username, group, expected result
 - [Administration access](administration.md)
 - [Block and restore access](block-access.md)
 - [Review notes](reference.md)
-

@@ -1,7 +1,6 @@
 ---
 title: Administration access
 version: "0.1"
-status: Review Draft
 ---
 
 # Administration access
@@ -27,4 +26,3 @@ Use the administration toolbar to reach account and group management.
 - [People and users](people.md)
 - [Groups](groups.md)
 - [Safety and troubleshooting](safety-help.md)
-

@@ -1,7 +1,6 @@
 ---
 title: People and users
 version: "0.1"
-status: Review Draft
 ---
 
 # People and users
@@ -32,4 +31,3 @@ The People page displays usernames, status, roles, account age, last access, and
 - [Add and edit users](user-accounts.md)
 - [Roles and access](roles.md)
 - [Block and restore access](block-access.md)
-
