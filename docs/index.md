@@ -16,6 +16,8 @@ tableWrap: true
 
 Use this page to get from the district home page to the materials for your meeting.
 
+Review the [conventions used in this guide](conventions.md) for information boxes, screenshots, mobile navigation, and public and private material terminology.
+
 On a smaller screen, select **☰ Topics** to open the documentation menu.
 
 <div class="task-grid">

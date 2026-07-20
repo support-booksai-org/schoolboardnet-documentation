@@ -1,4 +1,4 @@
-site_name: schoolboard.net Public Help
+site_name: Public User Guide
 site_description: Task-focused online help for public visitors to schoolboard.net district sites
 site_author: schoolboard.net
 site_url: https://docs.schoolboard.net/public/
@@ -24,6 +24,7 @@ theme:
 
 nav:
   - Quick Start: index.md
+  - Conventions used in this guide: conventions.md
   - Find a meeting: meetings.md
   - Navigation and search: navigation-search.md
   - Agendas and public materials: agendas-materials.md
@@ -50,4 +51,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net Public documentation - Version 1.1
+copyright: schoolboard.net Public User Guide — Version 1.1

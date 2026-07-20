@@ -4,8 +4,8 @@
 
 The core documentation suite is complete for reviewer evaluation:
 
-- Board Member Help
-- Public Help
+- Board Member Guide
+- Public User Guide
 - Group Administrator Guide
 - District Administrator Guide
 - Accordion Agenda Guide
