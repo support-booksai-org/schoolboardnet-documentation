@@ -31,6 +31,7 @@ nav:
   - Building and editing an agenda: building-editing.md
   - Public and private attachments: attachments.md
   - Publishing, notifications, and revisions: publishing-notifications.md
+  - Best Practices and Troubleshooting: best-practices-troubleshooting.md
 
 plugins:
   - search:

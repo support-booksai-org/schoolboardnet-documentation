@@ -44,4 +44,5 @@ This shared guide is for Group Administrators and District Administrators who pr
 - [Build and edit an Accordion Agenda](building-editing.md)
 - [Manage public and private attachments](attachments.md)
 - [Publish, notify, and manage revisions](publishing-notifications.md)
+- [Review best practices and troubleshoot problems](best-practices-troubleshooting.md)
 - [Conventions used in this guide](conventions.md)
