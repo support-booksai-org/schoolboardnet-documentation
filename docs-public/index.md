@@ -48,3 +48,8 @@ On a smaller screen, select **☰ Topics** to open the documentation menu.
 
 !!! note
     District names, navigation choices, and available meeting formats can vary. Confirm the meeting date before relying on an agenda or attachment.
+
+## More public help
+
+- [Subscribe to public notifications](notifications.md)
+- [Use accessibility features or report a barrier](accessibility.md)

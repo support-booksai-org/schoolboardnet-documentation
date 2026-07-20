@@ -28,7 +28,8 @@ nav:
   - Navigation and search: navigation-search.md
   - Agendas and public materials: agendas-materials.md
   - Print an agenda: printing.md
-  - Notifications and accessibility: notifications-accessibility.md
+  - Subscribe to notifications: notifications.md
+  - Accessibility and help: accessibility.md
   - Reference and revision notes: reference.md
 
 plugins:
@@ -49,4 +50,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net Public documentation - Version 1.0
+copyright: schoolboard.net Public documentation - Version 1.1

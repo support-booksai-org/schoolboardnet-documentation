@@ -51,6 +51,8 @@ Preview is an administrator view, not an anonymous public preview. Keep confiden
 
 Subscribe to the group's public notifications using a monitored personal or independent email address. Receiving the notice confirms delivery and provides a direct way to test its links and public access.
 
+Follow the Public Guide's [Subscribe to Public Notifications](https://docs.schoolboard.net/public/notifications/) procedure. It includes the subscription form, the required confirmation-email step, and help when the confirmation message does not arrive.
+
 See [Notifications and Revisions](notifications-revisions.md) for group-only revision notifications and Revision Text guidance.
 
 ## Ask before guessing

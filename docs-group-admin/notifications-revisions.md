@@ -51,5 +51,7 @@ Examples include **Added Finance Committee report**, **Replaced Attachment C**, 
 
 Group Administrators should subscribe to the group's public notifications using a personal email address or another monitored account outside the district notification list. This independently confirms that the notice was sent, its links work, and the agenda is publicly accessible.
 
+Use [Subscribe to Public Notifications](https://docs.schoolboard.net/public/notifications/) in the Public Guide for the complete sign-up procedure. Subscription is not active until the administrator selects the link in the confirmation email.
+
 !!! important
     If you do not receive the expected public notification, do not assume subscribers received it. Verify publication, notification settings, and email delivery.
