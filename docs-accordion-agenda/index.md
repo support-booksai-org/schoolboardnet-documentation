@@ -1,10 +1,12 @@
 # Accordion Agenda Guide
 
 <div class="review-banner" markdown>
-**Version 1.1.003 — Review Edition**
+**Version 1.1.004 — Review Edition**
 
 This shared guide is for Group Administrators and District Administrators who prepare, review, publish, and revise Accordion Agendas.
 </div>
+
+Reviewers can see the suite's [current status, review priorities, and next steps](https://docs.schoolboard.net/review-status.html).
 
 ## Before you begin
 

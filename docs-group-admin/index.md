@@ -1,10 +1,12 @@
 # Group Administrator Guide
 
 <div class="review-banner" markdown>
-**Version 1.1.003 — Review Edition**
+**Version 1.1.004 — Review Edition**
 
 This guide is under active review. Procedures may be refined as administrator training and reviewer feedback continue.
 </div>
+
+Reviewers can see the suite's [current status, review priorities, and next steps](https://docs.schoolboard.net/review-status.html).
 
 Group Administrators manage the day-to-day work for the groups assigned to them. Depending on district policy and permissions, this usually includes:
 
@@ -23,6 +25,7 @@ Group Administrators manage the day-to-day work for the groups assigned to them.
 4. Use [Drafts & Templates](drafts-templates.md) to clone an existing agenda whenever possible.
 5. Review the [Best practices](best-practices.md) before publishing or revising an agenda.
 6. Use the [FAQ](faq.md) when content or an agenda appears to be missing.
+7. Use the shared [Accordion Agenda Guide](https://docs.schoolboard.net/accordion-agenda/) for the complete agenda workflow and printable quick references.
 
 !!! tip "Questions are encouraged"
     Ask for help whenever you are unsure. There are no stupid questions, and a quick question is often safer than trying to undo an avoidable change.
