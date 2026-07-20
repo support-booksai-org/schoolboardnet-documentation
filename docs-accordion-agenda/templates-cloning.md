@@ -16,6 +16,27 @@ Most districts maintain a separate master template for each recurring meeting ty
 
 *Figure SB-AAC-002. A reusable master template may contain recurring sections, agenda items, and expandable HTML.*
 
+### Numbered template fields
+
+1. **Title** — identifies the master template or meeting agenda.
+2. **Date and time** — set these for the meeting created from the template.
+3. **Agenda Header** — contains the district heading, agenda label, date, and other approved introductory information.
+4. **Agenda** — contains the Accordion Sections that form the meeting structure.
+5. **Agenda Footer** — optional information displayed after the agenda content; leave it blank when the district does not use a footer.
+6. **Public Attachments** — meeting-level files available to everyone after publication.
+7. **Visibility** — keep **Private** while drafting; change to **Public** only when ready to publish.
+8. **Group assignment** — click the correct Board or committee Group even when it appears highlighted.
+9. **Category** — identifies the approved content category, such as Board Meeting.
+10. **Notification** — sends notices to the audience determined by visibility and Group assignment.
+11. **Published** — leave unchecked during Draft Mode; select only after review is complete.
+12. **Create new revision** — preserves a revision record when the agenda is changed.
+13. **Revision Log message** — briefly explains what changed and appears in revision notifications.
+14. **Authoring information** — records the content author and creation information.
+15. **Save, Preview, and Delete** — save preserves the current work; Preview is an administrator view; Delete removes content and should be used only under an approved procedure.
+
+!!! important "Template settings are a starting point"
+    Review every numbered field after cloning. Do not assume the clone inherited a valid Group assignment, meeting date, visibility, notification, or publication setting.
+
 ## Find the correct template
 
 Open **Drafts & Templates** from the group home page. The list sorts by meeting date in reverse order, newest first.

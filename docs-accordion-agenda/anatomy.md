@@ -43,8 +43,8 @@ Use a descriptive label such as **Read Superintendent's Report**. For confidenti
 Accordion Agenda
 └── Accordion Section
     └── Agenda Item
-        ├── Public Expandable HTML
         ├── Public File
-        ├── Private Expandable HTML
-        └── Private File
+        ├── Private File
+        ├── Public Expandable HTML
+        └── Private Expandable HTML
 ```
