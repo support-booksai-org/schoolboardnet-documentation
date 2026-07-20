@@ -41,4 +41,5 @@ This shared guide is for Group Administrators and District Administrators who pr
 - [Work safely in Draft Mode](draft-mode.md)
 - [Clone and organize templates](templates-cloning.md)
 - [Understand agenda anatomy](anatomy.md)
+- [Build and edit an Accordion Agenda](building-editing.md)
 - [Conventions used in this guide](conventions.md)

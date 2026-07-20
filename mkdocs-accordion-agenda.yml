@@ -28,6 +28,7 @@ nav:
   - Work safely in Draft Mode: draft-mode.md
   - Templates and cloning: templates-cloning.md
   - Anatomy of an Accordion Agenda: anatomy.md
+  - Building and editing an agenda: building-editing.md
 
 plugins:
   - search:
