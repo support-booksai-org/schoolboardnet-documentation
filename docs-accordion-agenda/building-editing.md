@@ -4,6 +4,25 @@ Build an agenda one **Accordion Section** at a time. Each section contains one o
 
 Keep the agenda in [Draft Mode](draft-mode.md) throughout this work so you can save and review changes safely.
 
+## Edit the agenda after cloning
+
+Cloning creates an independent draft with the template's existing structure. Review the entire clone before adding new sections.
+
+1. Replace the **Clone of...** title with the meeting title.
+2. Update the date, time, Agenda Header, and other meeting-specific information.
+3. Actively select the correct Group.
+4. Open each existing Accordion Section and replace template placeholders with the current meeting's content.
+5. Use the blank Agenda Items and Expandable HTML components already provided by the template.
+6. Add a new section only when the meeting needs a section that the template does not contain.
+7. Remove unused blank sections before publication.
+8. Save and review the agenda in Draft Mode.
+
+!!! tip "Blank sections make meeting preparation faster"
+    Master templates should contain blank sections for recurring agenda areas. Complete the sections needed for the meeting and remove those that are not needed. This is faster and more consistent than rebuilding the agenda structure for every meeting.
+
+!!! warning "Remove attachments before removing an unused section"
+    If an unused section contains attachments, remove those attachments first and then remove the section. Removing a section deletes all nested content and attachments.
+
 ## Add an Accordion Section
 
 1. Open the agenda for editing.

@@ -30,6 +30,7 @@ nav:
   - Anatomy of an Accordion Agenda: anatomy.md
   - Building and editing an agenda: building-editing.md
   - Public and private attachments: attachments.md
+  - Publishing, notifications, and revisions: publishing-notifications.md
 
 plugins:
   - search:

@@ -77,7 +77,11 @@ Open **Drafts & Templates** from the group home page. The list sorts by meeting 
 - Never convert the master template into a current meeting agenda.
 - Change a template only when the district intentionally changes its standard format.
 - Maintain distinct templates for meeting types with different structures.
-- Add reusable blank expandable HTML blocks when they reduce repetitive work.
+- Include blank Accordion Sections for recurring agenda areas so administrators can add the current meeting's items without rebuilding the structure.
+- Add reusable blank Expandable HTML blocks when they reduce repetitive work.
+
+!!! tip "Build useful blank sections into the template"
+    A well-designed template should contain the recurring section headings and enough blank Agenda Item or Expandable HTML components to make meeting preparation easy. After cloning, complete the sections needed for that meeting and remove unused blank sections before publication.
 
 !!! tip "Need a new template?"
     Send schoolboard.net Support an approved outline, Word document, or sample agenda. The “magical elves” can build a reusable template, often providing the quickest way to learn the system and establish a consistent starting point.
