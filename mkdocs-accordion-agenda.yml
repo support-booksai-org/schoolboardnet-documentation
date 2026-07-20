@@ -28,11 +28,28 @@ nav:
   - Work safely in Draft Mode: draft-mode.md
   - Templates and cloning: templates-cloning.md
   - Anatomy of an Accordion Agenda: anatomy.md
-  - Building and editing an agenda: building-editing.md
-  - Public and private attachments: attachments.md
-  - Publishing, notifications, and revisions: publishing-notifications.md
+  - Build and edit an agenda:
+      - Overview: building-editing.md
+      - Edit after cloning: edit-after-cloning.md
+      - Accordion Sections and Agenda Items: sections-agenda-items.md
+      - Expandable HTML and section controls: expandable-html-controls.md
+  - Attachments:
+      - Overview: attachments.md
+      - Add and organize attachments: attachments-add-organize.md
+      - Replace attachments or change access: attachments-replace-access.md
+  - Publish and revise:
+      - Overview: publishing-notifications.md
+      - Publish and verify: publish-verify.md
+      - Notifications and revisions: notifications-revisions-guide.md
   - Best Practices and Final Checklist: best-practices.md
-  - Troubleshooting and Getting Help: troubleshooting.md
+  - Troubleshooting:
+      - Overview and getting help: troubleshooting.md
+      - Find content and resolve access: troubleshooting-find-access.md
+      - Attachment problems: troubleshooting-attachments.md
+      - Notifications and revisions: troubleshooting-notifications.md
+  - Quick References:
+      - Accordion Agenda Quick Start: quick-reference.md
+      - Final Publication Checklist: publication-checklist.md
 
 plugins:
   - search:

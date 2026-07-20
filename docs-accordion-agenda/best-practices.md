@@ -93,5 +93,5 @@ Contact the District Administrator or schoolboard.net Support whenever Group ass
 
 - [Work safely in Draft Mode](draft-mode.md)
 - [Templates and cloning](templates-cloning.md)
-- [Building and editing an agenda](building-editing.md)
+- [Edit the agenda after cloning](edit-after-cloning.md)
 - [Troubleshooting and Getting Help](troubleshooting.md)
