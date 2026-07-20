@@ -1,7 +1,6 @@
 ---
 title: View group members
 version: "0.1"
-status: Review Draft
 ---
 
 # View group members

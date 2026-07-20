@@ -1,7 +1,6 @@
 ---
 title: Block and restore access
 version: "0.1"
-status: Review Draft
 ---
 
 # Block and restore access

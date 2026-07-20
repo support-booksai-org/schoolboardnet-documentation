@@ -1,7 +1,6 @@
 ---
 title: Add a group member
 version: "0.1"
-status: Review Draft
 ---
 
 # Add a group member

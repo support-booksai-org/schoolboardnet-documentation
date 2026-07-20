@@ -1,7 +1,6 @@
 ---
 title: People and users
 version: "0.1"
-status: Review Draft
 ---
 
 # People and users

@@ -1,7 +1,6 @@
 ---
 title: Review notes
 version: "0.1"
-status: Review Draft
 ---
 
 # Review notes

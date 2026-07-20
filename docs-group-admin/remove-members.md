@@ -1,7 +1,6 @@
 ---
 title: Remove a group member
 version: "0.1"
-status: Review Draft
 ---
 
 # Remove a group member

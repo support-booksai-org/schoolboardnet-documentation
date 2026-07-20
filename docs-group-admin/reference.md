@@ -1,7 +1,6 @@
 ---
 title: Reference and review notes
 version: "0.1"
-status: Review Draft
 ---
 
 # Reference and review notes
@@ -24,7 +23,7 @@ A user authorized to manage district-wide accounts, roles, groups, and access.
 
 This review draft documents viewing, adding, and removing group members. It also identifies the Group Administrator's authority to create agendas and add agenda attachments for an assigned group.
 
-The full Accordion Agenda chapter is being prepared as the next review release. The currently deployed workflow is covered by [Agendas and Attachments](agendas.md), [Working with Drafts & Templates](drafts-templates.md), and [Notifications and Revisions](notifications-revisions.md). This guide does not document account creation, group creation or editing, district roles, or account blocking.
+The shared [Accordion Agenda Guide](https://docs.schoolboard.net/accordion-agenda/) contains the detailed preparation and publishing workflow. This guide does not document account creation, group creation or editing, district roles, or account blocking.
 
 ## Screenshot reuse
 

@@ -1,7 +1,6 @@
 ---
 title: What Group Administrators can do
 version: "0.1"
-status: Review Draft
 ---
 
 # What Group Administrators can do
@@ -30,7 +29,7 @@ A Group Administrator manages membership and meeting agenda content in an assign
     Removing someone from a group does not block or delete the person's schoolboard.net account. It removes only that group membership.
 
 !!! important "Agenda instructions"
-    Agenda creation is available to both Group Administrators and District Administrators. Begin with [Create agendas and add attachments](agendas.md), [Working with Drafts & Templates](drafts-templates.md), and [Notifications and Revisions](notifications-revisions.md).
+    Agenda creation is available to both Group Administrators and District Administrators. Use the shared [Accordion Agenda Guide](https://docs.schoolboard.net/accordion-agenda/) for the complete workflow.
 
 ## Related Topics
 

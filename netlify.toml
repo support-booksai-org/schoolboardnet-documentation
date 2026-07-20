@@ -6,7 +6,8 @@ mkdir -p \
 dist/board-members \
 dist/public \
 dist/district-admin \
-dist/group-admin && \
+dist/group-admin \
+dist/accordion-agenda && \
 mkdocs build --clean --strict \
   --config-file mkdocs.yml \
   --site-dir dist/board-members && \
@@ -19,6 +20,9 @@ mkdocs build --clean --strict \
 mkdocs build --clean --strict \
   --config-file mkdocs-group-admin.yml \
   --site-dir dist/group-admin && \
+mkdocs build --clean --strict \
+  --config-file mkdocs-accordion-agenda.yml \
+  --site-dir dist/accordion-agenda && \
 cp -R docs-home/. dist/
 """
 

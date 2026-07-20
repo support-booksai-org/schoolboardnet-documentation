@@ -1,12 +1,13 @@
 ---
 title: Agendas and attachments
 version: "0.1"
-status: Review Draft
 ---
 
 # Create agendas and add attachments
 
 A Group Administrator may create and update agendas for an assigned group and add the approved files that support each agenda item. District Administrators can perform the same agenda actions.
+
+For the shared step-by-step workflow, open the [Accordion Agenda Guide](https://docs.schoolboard.net/accordion-agenda/).
 
 ![Expanded agenda section identifying the section heading, agenda item, public and private files, and public and private expandable HTML.](assets/images/accordion-agenda/SB-AAC-014-completed-agenda-item-expanded.png){ .doc-screenshot }
 

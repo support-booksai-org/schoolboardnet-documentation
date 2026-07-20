@@ -1,7 +1,6 @@
 ---
 title: Group memberships
 version: "0.1"
-status: Review Draft
 ---
 
 # Group memberships

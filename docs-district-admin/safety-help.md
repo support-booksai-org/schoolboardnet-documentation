@@ -1,7 +1,6 @@
 ---
 title: Safety and troubleshooting
 version: "0.1"
-status: Review Draft
 ---
 
 # Safety and troubleshooting

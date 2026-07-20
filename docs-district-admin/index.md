@@ -1,12 +1,11 @@
 ---
 title: District Administrator Quick Start
-version: "1.1.002"
-status: Review Edition
+version: "1.1.003"
 ---
 
 # District Administrator Quick Start
 
-**Version 1.1.002 — Review Edition**
+**Version 1.1.003 — Review Edition**
 
 Use this site to manage schoolboard.net user accounts and group memberships. District Administrator role assignments are controlled by schoolboard.net Support.
 

@@ -1,7 +1,7 @@
 # Group Administrator Guide
 
 <div class="review-banner" markdown>
-**Version 1.1.002 — Review Edition**
+**Version 1.1.003 — Review Edition**
 
 This guide is under active review. Procedures may be refined as administrator training and reviewer feedback continue.
 </div>

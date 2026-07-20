@@ -1,7 +1,6 @@
 ---
 title: Administration access
 version: "0.1"
-status: Review Draft
 ---
 
 # Administration access
