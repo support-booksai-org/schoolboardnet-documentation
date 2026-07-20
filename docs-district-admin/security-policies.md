@@ -23,3 +23,9 @@ Every site is provisioned with an **ATM (Administrative Team)** group using the 
 ## Group types are permanent
 
 A group's type cannot be changed after creation. If the wrong type is selected, create a new group using the correct type and move content according to an approved plan. Always confirm the intended type before saving a new group.
+
+## Public site-home-page access
+
+schoolboard.net Support administers the public site-home-page group by default so administrators do not inadvertently publish content to the district's primary landing page.
+
+District Administrators may request temporary Group Administrator access by email. After completing and verifying the approved edit, email Support to request removal. Temporary access is recommended as the safer operating practice.

@@ -15,6 +15,10 @@ When the reviewed draft is ready:
 7. Save.
 8. Sign out and open the agenda as a public visitor to verify the public result.
 
+![Example public agenda notification email.](assets/images/accordion-agenda/SB-AAC-006-notification-public.png){ .doc-screenshot }
+
+*Figure SB-AAC-006. Public notification linking recipients to the agenda.*
+
 !!! important "Preview is not a public preview"
     Preview shows the agenda as a signed-in Group Administrator. It does not simulate the anonymous public view. schoolboard.net recommends reviewing a saved draft and then signing out to verify the published public view.
 
@@ -31,6 +35,10 @@ Use this procedure only after the agenda has already been published and its orig
 7. Change **Visibility** back to **Public**.
 8. Clear **Notifications**.
 9. Save again.
+
+![Example group-member revision notification showing Revision Text.](assets/images/accordion-agenda/SB-AAC-007-notification-group-members.png){ .doc-screenshot }
+
+*Figure SB-AAC-007. Revision Text tells group members what changed.*
 
 !!! warning "Restore public visibility immediately"
     The public cannot view the agenda while it is Private. Complete the second save immediately and verify the public page.

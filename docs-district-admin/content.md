@@ -5,10 +5,19 @@ District Administrators can use **Content** to search the complete site-wide con
 ## Search the Content list
 
 1. Select **Manage**, then **Content**.
+
+![Administration toolbar with Content identified.](assets/screenshots/SB-DST-023-find-content.png){ .doc-screenshot }
+
+*Figure SB-DST-023. Open the site-wide Content list.*
+
 2. Search by title or part of the title.
 3. Filter by content type or publication status when useful.
 4. Sort by **Updated**, or scroll through the list.
 5. Review the assigned **Group**, author, status, and updated date before opening the item.
+
+![Site-wide Content list showing search, filters, Group, status, author, and Updated information.](assets/screenshots/SB-DST-024-content-list.png){ .doc-screenshot }
+
+*Figure SB-DST-024. Search all site content and compare revisions.*
 
 Before recreating an agenda, always check the Content list to determine whether it already exists.
 
