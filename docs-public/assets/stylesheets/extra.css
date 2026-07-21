@@ -21,6 +21,27 @@
 
 .md-grid { max-width: 1440px; }
 .md-content__inner { max-width: 980px; margin-inline: auto; }
+.md-nav--secondary > .md-nav__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .2rem;
+  line-height: 1.25;
+}
+.md-nav--secondary > .md-nav__title .toc-page-title {
+  display: block;
+  color: var(--sb-green-dark);
+  font-size: .78rem;
+  font-weight: 800;
+}
+.md-nav--secondary > .md-nav__title .toc-label {
+  display: block;
+  color: var(--sb-muted);
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
 .md-typeset h1 { color: var(--sb-green-dark); font-weight: 750; }
 .md-typeset h2 { color: var(--sb-green-dark); font-weight: 700; }
 
