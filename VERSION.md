@@ -1,7 +1,7 @@
 # Documentation Version
 
 Product: schoolboard.net  
-Documentation Suite: 1.0.0-draft  
+Documentation Suite: 1.1.004  
 Publisher: schoolboardnet, LLC  
-Status: Draft  
+Status: Review Edition  
 WCAG target: 2.1 AA

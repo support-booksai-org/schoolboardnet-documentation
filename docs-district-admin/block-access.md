@@ -1,11 +1,11 @@
 ---
 title: Block and restore access
-version: "0.1"
+version: "1.1.004"
 ---
 
 # Block and restore access
 
-Blocking is the preferred review-draft procedure when access must be suspended but the account and history should be retained.
+Blocking is the recommended procedure when access must be suspended but the account and history should be retained.
 
 ## Block accounts
 

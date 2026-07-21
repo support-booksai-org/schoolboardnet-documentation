@@ -1,6 +1,6 @@
 ---
 title: View group members
-version: "0.1"
+version: "1.1.004"
 ---
 
 # View group members

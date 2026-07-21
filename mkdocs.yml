@@ -7,6 +7,20 @@ site_dir: site
 use_directory_urls: true
 strict: true
 
+# These District Administrator source pages and capture notes are retained in
+# the repository for historical reference but do not belong in the Board
+# Member site or its search index.
+exclude_docs: |
+  administration.md
+  block-access.md
+  groups.md
+  memberships.md
+  people.md
+  roles.md
+  safety-help.md
+  user-accounts.md
+  capture-sessions/
+
 theme:
   name: material
   locale: en
@@ -53,4 +67,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net Board Member Guide — Version 1.1
+copyright: schoolboard.net Board Member Guide — Version 1.1.004 Review Edition

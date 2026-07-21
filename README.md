@@ -1,50 +1,23 @@
-# schoolboard.net Board Member Online Review Site
+# schoolboard.net Documentation Suite
 
-This package is the online-first Board Member documentation deliverable. It contains MkDocs source and a prebuilt static site.
+This repository contains the Version 1.1.004 Review Edition of the schoolboard.net documentation suite.
 
-## Review immediately
+## Included guides
 
-The package includes a prebuilt site. For complete navigation and search, serve it with Python's built-in web server:
+- Board Member Guide
+- Public User Guide
+- Group Administrator Guide
+- District Administrator Guide
+- Accordion Agenda Guide
 
-```bash
-python -m http.server 8000 --directory site
-```
+The documentation center and reviewer-status page provide a common entry point for the complete suite.
 
-Open `http://127.0.0.1:8000/`. This does not require MkDocs or internet access. Opening `site/index.html` directly also supports basic page and screenshot review, but browser security rules may limit search.
+## Build and deployment
 
-For a shared review URL, upload the contents of `site/` to any static web host. Do not upload the enclosing folder unless the host expects one project folder.
+The repository uses a coordinated multi-guide build. Follow [INSTALL.md](INSTALL.md) for local setup and [DEPLOYMENT.md](DEPLOYMENT.md) for the production workflow. Netlify publishes the generated `dist` directory.
 
-## Run with MkDocs
+## Review status
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-mkdocs serve
-```
+The core content is complete for reviewer evaluation. Reviewers should report inaccurate steps, terminology differences, unclear screenshots, missing safeguards, broken links or images, mobile-navigation problems, and accessibility concerns.
 
-Open the local address printed by MkDocs, normally `http://127.0.0.1:8000/`.
-
-## Build the production site
-
-```bash
-mkdocs build --clean --strict
-```
-
-The generated site is written to `site/`.
-
-## Dependency-free fallback build
-
-The package also includes a small fallback builder used to create the included static site:
-
-```bash
-python tools/build_static.py
-```
-
-## Content model
-
-The online guide is organized around common Board Member tasks rather than the chapter order of the long-form guide. The Quick Start is the landing page. Screenshots are placed directly beside the relevant action.
-
-## Review feedback
-
-Return feedback by page title and screenshot ID. Example: `Search and print — SB-BRD-018`.
+When possible, identify the guide, page title, heading, screenshot ID, device, expected result, and recommended correction. See [REVIEWER-NOTES-1.1.004.md](REVIEWER-NOTES-1.1.004.md) for the current priorities and planned path to Version 1.1 Final.

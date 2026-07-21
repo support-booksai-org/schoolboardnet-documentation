@@ -203,23 +203,23 @@ def page_template(title: str, description: str, body: str, current: str) -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{html.escape(description, quote=True)}">
-  <title>{html.escape(title)} | schoolboard.net Board Member Help</title>
+  <title>{html.escape(title)} | schoolboard.net Board Member Guide</title>
   <link rel="stylesheet" href="{root}assets/stylesheets/extra.css">
 </head>
 <body data-root="{root}">
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>
-    <a class="brand" href="{root}index.html"><strong>schoolboard.net</strong><span>Board Member Help</span></a>
+    <a class="brand" href="{root}index.html"><strong>schoolboard.net</strong><span>Board Member Guide</span></a>
     <div class="site-search">
-      <label for="doc-search">Search Board Member help</label>
-      <input id="doc-search" type="search" placeholder="Search Board Member help" autocomplete="off">
+      <label for="doc-search">Search the Board Member Guide</label>
+      <input id="doc-search" type="search" placeholder="Search the Board Member Guide" autocomplete="off">
       <div id="search-results" class="search-results" role="listbox"></div>
     </div>
   </header>
   <div class="site-shell">
     <nav id="site-navigation" class="site-nav" aria-label="Documentation">
-      <h2>Board Member Help</h2>
+      <h2>Board Member Guide</h2>
       <ul>{nav_html}</ul>
     </nav>
     <div class="content-wrap">
@@ -242,7 +242,7 @@ def main() -> int:
     for label, filename in NAV:
         meta, markdown = strip_front_matter((DOCS / filename).read_text(encoding="utf-8"))
         title = meta.get("title", label)
-        description = meta.get("description", "schoolboard.net Board Member help")
+        description = meta.get("description", "schoolboard.net Board Member Guide")
         body = render_markdown(markdown, filename)
         destination = SITE / output_url(filename)
         destination.parent.mkdir(parents=True, exist_ok=True)

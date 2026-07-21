@@ -1,6 +1,6 @@
 ---
 title: Remove a group member
-version: "0.1"
+version: "1.1.004"
 ---
 
 # Remove a group member

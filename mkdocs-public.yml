@@ -7,6 +7,11 @@ site_dir: site-public
 use_directory_urls: true
 strict: true
 
+# Preserve the former combined-topic URL for saved links without placing it
+# in the current task-focused navigation.
+not_in_nav: |
+  notifications-accessibility.md
+
 theme:
   name: material
   locale: en
@@ -51,4 +56,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net Public User Guide — Version 1.1
+copyright: schoolboard.net Public User Guide — Version 1.1.004 Review Edition

@@ -10,6 +10,8 @@ The core documentation suite is complete for reviewer evaluation:
 - District Administrator Guide
 - Accordion Agenda Guide
 
+The District Administrator Guide now begins with a responsibilities overview covering first-line district support, user and Group access, content oversight, security-controlled requests, and the distinction between District and Group Administrator authority.
+
 The Accordion Agenda Guide includes task-focused procedures, troubleshooting, an Accordion Agenda Quick Start, and a Final Publication Checklist. Long pages were divided while their former URLs were retained as overview pages.
 
 ## Reviewer priorities

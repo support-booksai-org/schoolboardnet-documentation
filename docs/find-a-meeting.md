@@ -3,7 +3,7 @@ title: Find a meeting
 description: Locate the correct meeting and verify its details.
 audience: Board Members
 applies_to: schoolboard.net
-version: "1.1"
+version: "1.1.004"
 author: schoolboard.net Documentation
 review_cycle: Annual
 last_reviewed: 2026-07-13

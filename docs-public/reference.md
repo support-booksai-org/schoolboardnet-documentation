@@ -1,6 +1,6 @@
 ---
 title: Reference and revision notes
-description: Scope and revision history for Public Help.
+description: Scope and revision history for Public User Guide.
 ---
 
 # Reference and revision notes
@@ -9,7 +9,7 @@ description: Scope and revision history for Public Help.
 
 This documentation covers anonymous access to public meetings, agendas, supporting materials, search, printing, notifications, and accessibility features.
 
-Board Member sign-in and private-material procedures are outside the scope of Public Help.
+Board Member sign-in and private-material procedures are outside the scope of Public User Guide.
 
 ## Screenshot consolidation
 

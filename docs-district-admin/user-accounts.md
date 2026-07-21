@@ -1,6 +1,6 @@
 ---
 title: Add and edit users
-version: "0.1"
+version: "1.1.004"
 ---
 
 # Add and edit users
@@ -41,7 +41,7 @@ Search before creating an account. Email addresses and usernames must be unique.
 *Figure SB-DST-008. Edit user account.*
 
 !!! warning "Account cancellation"
-    **Cancel account** is separate from blocking and may be destructive depending on site configuration. This review draft recommends blocking when reversible suspension is sufficient.
+    **Cancel account** is separate from blocking and may be destructive depending on site configuration. This guide recommends blocking when reversible suspension is sufficient.
 
 ## Related Topics
 

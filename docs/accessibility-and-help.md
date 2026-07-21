@@ -3,7 +3,7 @@ title: Accessibility and help
 description: Keyboard controls, browser zoom, accessibility support, and troubleshooting.
 audience: Board Members
 applies_to: schoolboard.net
-version: "1.1"
+version: "1.1.004"
 author: schoolboard.net Documentation
 review_cycle: Annual
 last_reviewed: 2026-07-13

@@ -1,6 +1,6 @@
 ---
 title: Add a group member
-version: "0.1"
+version: "1.1.004"
 ---
 
 # Add a group member

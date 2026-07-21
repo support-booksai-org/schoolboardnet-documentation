@@ -1,6 +1,6 @@
 ---
 title: Groups
-version: "0.1"
+version: "1.1.004"
 ---
 
 # Groups
@@ -20,8 +20,8 @@ The Groups list shows group ID, name, type, publication status, owner, and avail
 
 The screenshot includes examples of **Public**, **Board Groups**, **District Groups**, and **No Private File Access**. Do not change a group's type merely to solve one person's access problem.
 
-!!! note "Deferred scope"
-    The Add Group and Edit Group forms are not included in this review draft. Group creation and type-selection procedures will be documented separately when that scope is approved.
+!!! note "District Administrator procedure"
+    Group creation, permanent Group types, and the Add Group form are documented in the [District Administrator Guide](https://docs.schoolboard.net/district-admin/groups/).
 
 ## Related Topics
 
