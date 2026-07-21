@@ -11,6 +11,8 @@ Use this site to manage schoolboard.net user accounts and group memberships. Dis
 
 Reviewers can see the suite's [current status, review priorities, and next steps](https://docs.schoolboard.net/review-status.html).
 
+Start by reviewing [District Administrator responsibilities](responsibilities.md), including first-line support, user and Group access, content oversight, and the limits of District Administrator authority.
+
 On a smaller screen, select **☰ Topics** to open the documentation menu.
 
 <div class="quick-grid" markdown>
@@ -52,6 +54,7 @@ Confirm status, roles, memberships, and private-material access.
 
 ## What do you need to do?
 
+- [Understand District Administrator responsibilities](responsibilities.md)
 - [Open Administration](administration.md)
 - [Find missing content or agendas](content.md)
 - [Find and review people](people.md)

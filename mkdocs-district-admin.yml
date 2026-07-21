@@ -25,6 +25,7 @@ theme:
 nav:
   - Quick Start: index.md
   - Conventions used in this guide: conventions.md
+  - District Administrator responsibilities: responsibilities.md
   - Administration access: administration.md
   - Find missing content or agendas: content.md
   - People and users: people.md
