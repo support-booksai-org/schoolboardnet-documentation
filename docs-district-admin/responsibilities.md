@@ -122,3 +122,4 @@ Document local responsibilities, identify the primary contact, and promptly noti
 - [Groups](groups.md)
 - [Group memberships](memberships.md)
 - [Security policies](security-policies.md)
+- [Accessible Content Authoring Guide](https://docs.schoolboard.net/authoring/)

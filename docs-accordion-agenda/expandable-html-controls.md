@@ -79,3 +79,5 @@ Confirm titles, content, order, privacy, and removal of obsolete or duplicated m
 - [Accordion Sections and Agenda Items](sections-agenda-items.md)
 - [Public and private attachments](attachments-add-organize.md)
 - [Draft Mode](draft-mode.md)
+- [Accessible Content Authoring Guide](https://docs.schoolboard.net/authoring/)
+- [Remove Word and Google Docs formatting junk](https://docs.schoolboard.net/authoring/formatting-cleanup/)

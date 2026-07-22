@@ -58,3 +58,9 @@ See [Notifications and Revisions](notifications-revisions.md) for group-only rev
 ## Ask before guessing
 
 When a step or setting is unclear, pause and ask. There are no stupid questions. A quick support question is preferable to recreating content or sending an unintended notification.
+
+## Related shared guidance
+
+- [Accessible Content Authoring Guide](https://docs.schoolboard.net/authoring/)
+- [Convert content to Expandable HTML](https://docs.schoolboard.net/authoring/convert-html/)
+- [Final Authoring Checklist](https://docs.schoolboard.net/authoring/authoring-checklist/)

@@ -7,7 +7,8 @@ dist/board-members \
 dist/public \
 dist/district-admin \
 dist/group-admin \
-dist/accordion-agenda && \
+dist/accordion-agenda \
+dist/authoring && \
 mkdocs build --clean --strict \
   --config-file mkdocs.yml \
   --site-dir dist/board-members && \
@@ -23,6 +24,9 @@ mkdocs build --clean --strict \
 mkdocs build --clean --strict \
   --config-file mkdocs-accordion-agenda.yml \
   --site-dir dist/accordion-agenda && \
+mkdocs build --clean --strict \
+  --config-file mkdocs-authoring.yml \
+  --site-dir dist/authoring && \
 cp -R docs-home/. dist/
 """
 
