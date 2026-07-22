@@ -112,6 +112,29 @@ Return:
 !!! important "Scanned PDFs need extra review"
     OCR can silently change names, dates, dollar amounts, page order, punctuation, and legal language. Compare every converted section with the approved PDF and do not guess when the source is unclear.
 
+## Move the converted HTML into schoolboard.net
+
+After Gemini or Claude creates the HTML, review it in a browser before placing it in the agenda.
+
+1. Save or open the generated HTML in a web browser.
+2. Review the displayed page for missing content, unexpected formatting, and obvious conversion errors.
+3. Right-click the page and select **View Page Source** or **View Source**.
+4. In the source view, copy the content beginning with the opening `<div>` and ending with its closing `</div>`.
+5. Open the appropriate public or private **Expandable HTML** component in the agenda.
+6. Select **Source** in the content editor toolbar.
+    - On a wide screen, **Source** may appear as the far-right toolbar icon.
+    - On a smaller window, open the **…** overflow menu to find it.
+7. Paste the copied HTML into the Source editor.
+8. Return to the normal editing view and confirm that the content appears correctly.
+9. Save the agenda in Draft Mode.
+10. Open the saved agenda, expand the content, and compare it with the approved source.
+
+!!! note "The editor cleans pasted HTML"
+    When HTML is pasted or saved, the editor may remove markup it considers unsupported or incompatible. This cleanup can remove unnecessary code, but it can also change the result. Always review the normal editing view and the saved agenda after pasting. If important content or structure disappears, correct the HTML using markup supported by the editor.
+
+!!! warning "Copy only the intended content"
+    Copy the intended content container from its opening `<div>` through the matching closing `</div>`. Do not copy the browser page's `<html>`, `<head>`, scripts, stylesheets, prompts, review notes, or other surrounding code.
+
 ## Required human review
 
 Before publication, confirm that:
@@ -126,6 +149,7 @@ Before publication, confirm that:
 - informative images have human-reviewed alternative text;
 - reading order makes sense without the original visual layout;
 - no comments, prompts, AI notes, placeholders, or invented content remain;
+- the editor did not remove or alter necessary content when the HTML was pasted or saved;
 - public and private placement is correct; and
 - the saved page works on desktop and mobile and can be used with a keyboard.
 

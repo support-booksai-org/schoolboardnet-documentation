@@ -21,6 +21,8 @@ Expandable HTML makes essential meeting information available directly within th
 8. Save in Draft Mode.
 9. Open the saved agenda and review the expanded content.
 
+When transferring generated HTML, use the editor's **Source** control and follow [Move the converted HTML into schoolboard.net](ai-assisted-conversion.md#move-the-converted-html-into-schoolboardnet). The control may be the far-right toolbar icon or may appear under **…** on a smaller window.
+
 ## Review the result
 
 Confirm that:
