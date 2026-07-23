@@ -39,17 +39,18 @@ Refresh or reopen the agenda after the other administrator releases the lock.
 
 ## If the lock becomes stuck
 
-If the named editor has saved or unlocked the agenda but the lock remains, contact a District Administrator. District Administrators have permission to release a stuck edit lock.
+If the named editor has saved or unlocked the agenda but the lock remains, contact a District Administrator. **Only a District Administrator may break another user's stuck content lock.**
 
-Before releasing it, the District Administrator should:
+Breaking a lock is a last-resort recovery procedure. Before breaking it, the District Administrator must:
 
 1. identify the user shown in the lock warning;
-2. confirm that the user is no longer editing the agenda;
-3. confirm that no unsaved work needs to be preserved; and
-4. unlock the agenda only after those checks are complete.
+2. contact the user when possible;
+3. confirm that the user—and anyone else with access—is not editing the content;
+4. confirm that no unsaved work needs to be preserved; and
+5. break the lock only after those checks are complete.
 
-!!! warning "District Administrator override"
-    District Administrator unlock permission is a recovery measure for a stuck lock. It should not be used to bypass an active editor or the normal Save and Unlock workflow.
+!!! warning "Last resort: District Administrator only"
+    Breaking a stuck content lock may interfere with unsaved work. Only a District Administrator can perform this action, and only after confirming that nobody is editing the content. Never use it to bypass an active editor or the normal Save and Unlock workflow.
 
 ## Use Unlock only when no changes were made
 
@@ -77,7 +78,7 @@ After seeing this message, another authorized administrator may reopen the agend
 - Save before leaving the Edit form when changes must be retained.
 - Use Unlock only when no changes were made.
 - If a lock warning appears, contact the named editor rather than starting competing work.
-- Escalate a stuck lock to a District Administrator.
+- Escalate a stuck lock to a District Administrator; only that role can break it as a last resort.
 
 ## Related topics
 

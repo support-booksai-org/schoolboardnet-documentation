@@ -36,12 +36,12 @@ Refresh or reopen the agenda after the other administrator releases the lock.
 
 ## If the lock becomes stuck
 
-If the named editor has saved or unlocked the agenda but the lock remains, contact a District Administrator. District Administrators have permission to release a stuck edit lock.
+If the named editor has saved or unlocked the agenda but the lock remains, contact a District Administrator. **Only a District Administrator may break another user's stuck content lock.**
 
-Before requesting the override, confirm that the named editor is no longer working in the agenda and does not have changes that still need to be saved.
+Breaking a lock is a last resort. Before requesting it, confirm that the named editor—and anyone else with access—is not editing the content and that no unsaved work needs to be preserved.
 
-!!! warning "Do not request an override for an active editor"
-    District Administrator unlock permission is a recovery measure for a stuck lock. It should not be used to bypass an administrator who is still editing.
+!!! warning "Last resort: District Administrator only"
+    A Group Administrator cannot break another user's stuck content lock. Ask a District Administrator for help only after confirming that nobody is editing the content. Never request an override for an active editor.
 
 ## Use Unlock only when no changes were made
 
@@ -69,7 +69,7 @@ After seeing this message, another authorized administrator may reopen the agend
 - Save before leaving the Edit form when changes must be retained.
 - Use Unlock only when no changes were made.
 - If a lock warning appears, contact the named editor rather than starting competing work.
-- Escalate a stuck lock to a District Administrator.
+- Escalate a stuck lock to a District Administrator; only that role can break it as a last resort.
 
 ## Related topics
 

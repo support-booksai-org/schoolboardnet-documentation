@@ -36,20 +36,20 @@ Refresh or reopen the agenda after the other administrator releases the lock.
 !!! warning "Do not work around an active lock"
     The lock indicates that another administrator may have unsaved work. Coordinate with the named editor before proceeding so content is not lost or overwritten.
 
-## Release a stuck lock
+## Break a stuck lock only as a last resort
 
-District Administrators have permission to release an edit lock when it becomes stuck.
+Only a District Administrator may break another user's content lock when it becomes stuck. This is a last-resort recovery procedure, not a normal editing shortcut.
 
-Before releasing the lock:
+Before breaking the lock:
 
 1. identify the user shown in the lock warning;
 2. contact that user when possible;
-3. confirm that the user is no longer editing the agenda;
+3. confirm that the user—and anyone else with access—is not editing the content;
 4. confirm that no unsaved work needs to be preserved; and
-5. use the District Administrator unlock permission only after those checks are complete.
+5. break the lock only after those checks are complete.
 
-!!! warning "Recovery permission—not a routine override"
-    Releasing another user's lock may discard that user's opportunity to save current work. Use this permission only for a confirmed stuck lock, never to bypass an active editor.
+!!! warning "Last resort"
+    Breaking another user's lock may interfere with unsaved work. Confirm that nobody is editing the content before breaking the lock. Never use this permission to bypass an active editor.
 
 ## Use Unlock only when no changes were made
 
@@ -77,7 +77,7 @@ After seeing this message, another authorized administrator may reopen the agend
 - Save before leaving the Edit form when changes must be retained.
 - Use Unlock only when no changes were made.
 - If a lock warning appears, contact the named editor rather than starting competing work.
-- Use District Administrator unlock permission only for a confirmed stuck lock.
+- Break a confirmed stuck lock only as a last resort after verifying that nobody is editing.
 
 ## Related topics
 
