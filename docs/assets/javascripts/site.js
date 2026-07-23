@@ -36,6 +36,11 @@
     const heading = content && content.querySelector('h1');
     if (!content || !heading || content.querySelector('.print-page-control')) return;
 
+    const titleRow = document.createElement('div');
+    titleRow.className = 'page-title-row';
+    heading.parentNode.insertBefore(titleRow, heading);
+    titleRow.appendChild(heading);
+
     const control = document.createElement('div');
     control.className = 'print-page-control';
 
@@ -47,7 +52,7 @@
     button.addEventListener('click', () => window.print());
 
     control.appendChild(button);
-    heading.insertAdjacentElement('afterend', control);
+    titleRow.appendChild(control);
   }
 
   function enhancePage() {

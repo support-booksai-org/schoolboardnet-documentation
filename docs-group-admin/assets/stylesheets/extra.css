@@ -223,10 +223,23 @@ pre code { padding: 0; background: transparent; }
 
 .page-footer { max-width: 980px; margin: 1.2rem auto 0; color: var(--sb-muted); font-size: .86rem; text-align: center; }
 
+.page-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.page-title-row > h1 {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 .print-page-control {
   display: flex;
+  flex: 0 0 auto;
   justify-content: flex-end;
-  margin: -.25rem 0 1rem;
+  margin: .15rem 0 .75rem;
 }
 
 .print-page-button {
@@ -385,6 +398,17 @@ pre code { padding: 0; background: transparent; }
   .content-wrap { padding: 1rem .7rem 3rem; }
   .doc-content { border-radius: 10px; }
   .task-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .page-title-row {
+    display: block;
+  }
+
+  .print-page-control {
+    justify-content: flex-start;
+    margin: -.5rem 0 1rem;
+  }
 }
 
 @media print {
