@@ -45,7 +45,9 @@ Subscribe to public notifications using a monitored personal or independent emai
 
 ## Can several administrators edit one agenda?
 
-They may have permission to do so, but one person should own the agenda preparation process. Avoid simultaneous editing and coordinate attachment updates.
+They may have permission to edit it, but one person should own the agenda preparation process. schoolboard.net locks an agenda while one administrator is editing it. If a warning identifies another editor, contact that person and wait for the agenda to be saved or unlocked. See [Edit locks and safe agenda editing](edit-locks.md).
+
+If the lock remains after the named editor has stopped editing, contact a District Administrator. District Administrators can release a confirmed stuck lock after verifying that no unsaved work needs to be preserved.
 
 ## What should I do when I am unsure?
 

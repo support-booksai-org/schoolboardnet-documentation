@@ -55,6 +55,7 @@ Confirm status, roles, memberships, and private-material access.
 ## What do you need to do?
 
 - [Understand District Administrator responsibilities](responsibilities.md)
+- [Understand edit locks and safe agenda editing](edit-locks.md)
 - [Open Administration](administration.md)
 - [Find missing content or agendas](content.md)
 - [Find and review people](people.md)

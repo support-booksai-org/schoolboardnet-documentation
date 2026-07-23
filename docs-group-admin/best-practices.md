@@ -14,8 +14,8 @@ During implementation, designate one person as the primary owner of each meeting
 
 Other Group Administrators may add or update attachments as they are trained, but changes to the overall agenda structure should initially remain with the primary administrator.
 
-!!! tip
-    Avoid having multiple administrators edit the same agenda at the same time.
+!!! tip "Use the edit lock safely"
+    schoolboard.net locks an agenda while it is being edited. Save to preserve changes and release the lock. Use **Unlock** only when no changes were made. See [Edit locks and safe agenda editing](edit-locks.md).
 
 ## Clone templates whenever possible
 

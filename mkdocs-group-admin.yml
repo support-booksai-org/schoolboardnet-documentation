@@ -32,6 +32,7 @@ nav:
       - Add a group member: add-members.md
       - Remove a group member: remove-members.md
   - Agendas:
+      - Edit locks and safe editing: edit-locks.md
       - Agendas and attachments: agendas.md
       - Working with Drafts & Templates: drafts-templates.md
       - Notifications and revisions: notifications-revisions.md

@@ -34,6 +34,7 @@ nav:
   - Templates and cloning: templates-cloning.md
   - Anatomy of an Accordion Agenda: anatomy.md
   - Build and edit an agenda:
+      - Edit locks and safe editing: edit-locks.md
       - Overview: building-editing.md
       - Edit after cloning: edit-after-cloning.md
       - Accordion Sections and Agenda Items: sections-agenda-items.md

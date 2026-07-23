@@ -61,6 +61,8 @@ District-wide administrative access and Group-specific administration are separa
 !!! important "Confirm both levels of access"
     When a District Administrator needs to prepare an agenda or manage Group content, confirm that the person is also assigned to the correct Group as a Group Administrator.
 
+When editing an agenda, follow [Edit locks and safe agenda editing](edit-locks.md). Saving preserves the work and releases the lock; use **Unlock** only when no changes were made.
+
 ## Oversee Groups and district content
 
 District Administrators can:

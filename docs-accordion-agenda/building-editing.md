@@ -4,6 +4,7 @@ This topic is divided into shorter task-focused pages.
 
 ## Choose a task
 
+- [Edit locks and safe agenda editing](edit-locks.md) — understand how schoolboard.net prevents simultaneous editing and how to release a lock safely.
 - [Edit the agenda after cloning](edit-after-cloning.md) — update meeting information, complete blank template sections, and remove unused sections.
 - [Accordion Sections and Agenda Items](sections-agenda-items.md) — create sections and add or edit Agenda Item content.
 - [Expandable HTML and Section Controls](expandable-html-controls.md) — add accessible HTML, reorder sections, and safely duplicate or remove content.

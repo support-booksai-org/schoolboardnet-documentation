@@ -8,6 +8,8 @@ Designate one administrator to maintain the agenda structure and coordinate the 
 
 This provides a clear source of truth and reduces conflicting or accidental changes.
 
+schoolboard.net now places an edit lock on an agenda while it is being edited. Follow [Edit locks and safe agenda editing](edit-locks.md), save to preserve changes and release the lock, and use **Unlock** only when no changes were made.
+
 ## Clone an approved template
 
 - Clone the template for the correct meeting type.
@@ -91,6 +93,7 @@ Contact the District Administrator or schoolboard.net Support whenever Group ass
 
 ## Related topics
 
+- [Edit locks and safe agenda editing](edit-locks.md)
 - [Work safely in Draft Mode](draft-mode.md)
 - [Templates and cloning](templates-cloning.md)
 - [Edit the agenda after cloning](edit-after-cloning.md)

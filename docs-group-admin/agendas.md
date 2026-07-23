@@ -9,6 +9,8 @@ A Group Administrator may create and update agendas for an assigned group and ad
 
 For the shared step-by-step workflow, open the [Accordion Agenda Guide](https://docs.schoolboard.net/accordion-agenda/).
 
+Before opening an agenda for editing, review [Edit locks and safe agenda editing](edit-locks.md). Saving is the recommended way to preserve changes and release the edit lock.
+
 ![Expanded agenda section identifying the section heading, agenda item, public and private files, and public and private expandable HTML.](assets/images/accordion-agenda/SB-AAC-014-completed-agenda-item-expanded.png){ .doc-screenshot }
 
 *Figure SB-AAC-014. Anatomy of a completed Accordion Agenda section.*

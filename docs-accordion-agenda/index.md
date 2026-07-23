@@ -40,6 +40,7 @@ Reviewers can see the suite's [current status, review priorities, and next steps
 
 ## Start here
 
+- [Understand edit locks and safe agenda editing](edit-locks.md)
 - [Work safely in Draft Mode](draft-mode.md)
 - [Clone and organize templates](templates-cloning.md)
 - [Understand agenda anatomy](anatomy.md)
