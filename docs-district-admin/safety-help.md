@@ -36,11 +36,27 @@ version: "1.1.004"
 | Membership removed accidentally | Add the existing user back to the approved group |
 | Group type is unclear | Stop and ask the site owner or support team |
 | Agenda is missing from a group | Search Content, choose the newest revision, and verify the assigned Group |
+| Agenda is locked by another administrator | Contact the named editor and ask that person to Save or Unlock |
+| Edit lock remains after the editor finished | Confirm nobody is editing, then follow the stuck-lock procedure |
+
+## Resolve an agenda edit lock
+
+When a lock warning appears:
+
+1. identify the user and the lock duration shown in the warning;
+2. contact the named editor;
+3. ask the editor to **Save** or select **Unlock** if no changes were made; and
+4. reopen the agenda after the editor releases the lock.
+
+If the lock remains stuck, only a District Administrator can break it. Breaking another user's content lock is a last resort. Confirm that nobody is editing and no unsaved work needs to be preserved before breaking the lock.
+
+See [Edit Locks and Safe Agenda Editing](edit-locks.md) for the complete procedure and screenshots.
 
 When requesting help, include the site address, username, group, expected result, actual result, and a screenshot with passwords and private information removed.
 
 ## Related Topics
 
 - [Administration access](administration.md)
+- [Edit locks and safe agenda editing](edit-locks.md)
 - [Block and restore access](block-access.md)
 - [Review notes](reference.md)
