@@ -1,5 +1,20 @@
 # Troubleshooting Authoring Problems
 
+## The content is locked for editing
+
+schoolboard.net locks content while an administrator is editing it so another administrator cannot overwrite the work.
+
+If a lock warning appears:
+
+1. note the name of the editor and how long the lock has been active;
+2. contact the named editor;
+3. ask the editor to **Save** the work or select **Unlock** if no changes were made; and
+4. reopen the content after the lock is released.
+
+If the lock remains stuck, contact a District Administrator. **Only a District Administrator may break another user's stuck content lock.** Breaking the lock is a last resort, and the District Administrator must first confirm that nobody is editing the content and that no unsaved work needs to be preserved.
+
+For the complete procedure and screenshots, see [Edit Locks and Safe Agenda Editing](https://docs.schoolboard.net/accordion-agenda/edit-locks/).
+
 ## Pasted text has the wrong font, size, or spacing
 
 Remove formatting or paste the affected section as plain text. Reapply only the headings, lists, links, tables, and emphasis that carry meaning.
@@ -35,4 +50,3 @@ Stop publication. Compare names, dates, figures, links, headings, quotations, an
 ## You are unsure what to remove
 
 Preserve meaning and ask before guessing. Contact the District Administrator or schoolboard.net Support with the source file, affected page, expected result, and a screenshot when appropriate.
-
