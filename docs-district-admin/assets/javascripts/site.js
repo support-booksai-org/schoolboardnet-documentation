@@ -2,10 +2,12 @@
   function addPageTitleToToc() {
     const heading = document.querySelector('.md-content h1');
     if (!heading) return;
+
     const headingCopy = heading.cloneNode(true);
     headingCopy.querySelectorAll('a').forEach(link => link.remove());
     const pageTitle = headingCopy.textContent.trim().replace(/¶$/, '').trim();
     if (!pageTitle) return;
+
     document.querySelectorAll('.md-nav--secondary > .md-nav__title').forEach(label => {
       let title = label.querySelector('.toc-page-title');
       if (!title) {
@@ -14,11 +16,13 @@
         label.appendChild(title);
       }
       title.textContent = pageTitle;
+
       let tocLabel = label.querySelector('.toc-label');
       if (!tocLabel) {
-        Array.from(label.childNodes).filter(node =>
+        const textNodes = Array.from(label.childNodes).filter(node =>
           node.nodeType === Node.TEXT_NODE && node.textContent.trim()
-        ).forEach(node => node.remove());
+        );
+        textNodes.forEach(node => node.remove());
         tocLabel = document.createElement('span');
         tocLabel.className = 'toc-label';
         tocLabel.textContent = 'Table of contents';
@@ -26,9 +30,34 @@
       }
     });
   }
-  addPageTitleToToc();
+
+  function addPrintControl() {
+    const content = document.querySelector('.md-content__inner');
+    const heading = content && content.querySelector('h1');
+    if (!content || !heading || content.querySelector('.print-page-control')) return;
+
+    const control = document.createElement('div');
+    control.className = 'print-page-control';
+
+    const button = document.createElement('button');
+    button.className = 'print-page-button';
+    button.type = 'button';
+    button.textContent = 'Print this page';
+    button.setAttribute('aria-label', 'Print this documentation page');
+    button.addEventListener('click', () => window.print());
+
+    control.appendChild(button);
+    heading.insertAdjacentElement('afterend', control);
+  }
+
+  function enhancePage() {
+    addPageTitleToToc();
+    addPrintControl();
+  }
+
+  enhancePage();
   if (window.document$ && typeof window.document$.subscribe === 'function') {
-    window.document$.subscribe(addPageTitleToToc);
+    window.document$.subscribe(enhancePage);
   }
 
   const menu = document.querySelector('.menu-button');

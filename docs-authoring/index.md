@@ -2,6 +2,9 @@
 
 Use this shared guide to prepare Word and Google Docs content for publication in schoolboard.net. The goal is clean, structured, readable content that works well on phones, tablets, desktop browsers, and assistive technology.
 
+!!! note "Printable references"
+    The online guide is the current and authoritative version. For a focused handout, open the [Final Authoring Checklist](authoring-checklist.md) and select **Print this page**. The print dialog can also save a PDF. We are considering a prepared accessible PDF for this checklist rather than a duplicate PDF of the complete guide. Reviewer feedback about that approach is welcome.
+
 ## Recommended workflow
 
 1. Start with an approved district source document.

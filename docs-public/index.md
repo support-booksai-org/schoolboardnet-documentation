@@ -7,6 +7,9 @@ description: Find a meeting and open its public agenda and supporting materials.
 
 Use these pages to find Board and committee meetings, read public agendas and materials, search, print, and subscribe to updates. No account is required for public content.
 
+!!! note "Printable references"
+    The online guide is the current and authoritative version. Select **Print this page** when a paper copy or locally saved PDF of this Quick Start is helpful. We are considering prepared accessible PDFs for short Quick Starts and checklists—not duplicate copies of every complete guide. Reviewer feedback about that approach is welcome.
+
 Review the [conventions used in this guide](conventions.md) for information boxes, screenshots, mobile navigation, and live-information guidance.
 
 On a smaller screen, select **☰ Topics** to open the documentation menu.

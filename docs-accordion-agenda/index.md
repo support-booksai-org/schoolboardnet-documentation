@@ -8,6 +8,9 @@ This shared guide is for Group Administrators and District Administrators who pr
 
 Reviewers can see the suite's [current status, review priorities, and next steps](https://docs.schoolboard.net/review-status.html).
 
+!!! note "Printable references"
+    The online guide is the current and authoritative version. For a focused handout, open the [Accordion Agenda Quick Start](quick-reference.md) or [Final Publication Checklist](publication-checklist.md) and select **Print this page**. The print dialog can also save a PDF. We are considering prepared accessible PDFs for these short references rather than a duplicate PDF of the complete guide. Reviewer feedback about that approach is welcome.
+
 ## Before you begin
 
 **Who should use this guide:** An authorized Group or District Administrator responsible for meeting agendas.

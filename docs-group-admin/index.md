@@ -8,6 +8,9 @@ This guide is under active review. Procedures may be refined as administrator tr
 
 Reviewers can see the suite's [current status, review priorities, and next steps](https://docs.schoolboard.net/review-status.html).
 
+!!! note "Printable references"
+    The online guide is the current and authoritative version. For a focused handout, open the shared [Accordion Agenda Quick Start](https://docs.schoolboard.net/accordion-agenda/quick-reference/) or [Final Publication Checklist](https://docs.schoolboard.net/accordion-agenda/publication-checklist/) and select **Print this page**. The print dialog can also save a PDF. We are considering prepared accessible PDFs for short references—not duplicate copies of every complete guide. Reviewer feedback about that approach is welcome.
+
 Group Administrators manage the day-to-day work for the groups assigned to them. Depending on district policy and permissions, this usually includes:
 
 - maintaining the group home page;

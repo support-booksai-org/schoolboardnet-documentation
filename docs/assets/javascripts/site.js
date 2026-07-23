@@ -31,9 +31,33 @@
     });
   }
 
-  addPageTitleToToc();
+  function addPrintControl() {
+    const content = document.querySelector('.md-content__inner');
+    const heading = content && content.querySelector('h1');
+    if (!content || !heading || content.querySelector('.print-page-control')) return;
+
+    const control = document.createElement('div');
+    control.className = 'print-page-control';
+
+    const button = document.createElement('button');
+    button.className = 'print-page-button';
+    button.type = 'button';
+    button.textContent = 'Print this page';
+    button.setAttribute('aria-label', 'Print this documentation page');
+    button.addEventListener('click', () => window.print());
+
+    control.appendChild(button);
+    heading.insertAdjacentElement('afterend', control);
+  }
+
+  function enhancePage() {
+    addPageTitleToToc();
+    addPrintControl();
+  }
+
+  enhancePage();
   if (window.document$ && typeof window.document$.subscribe === 'function') {
-    window.document$.subscribe(addPageTitleToToc);
+    window.document$.subscribe(enhancePage);
   }
 
   const menu = document.querySelector('.menu-button');

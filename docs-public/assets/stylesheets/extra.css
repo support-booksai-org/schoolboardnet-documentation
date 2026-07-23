@@ -223,6 +223,29 @@ pre code { padding: 0; background: transparent; }
 
 .page-footer { max-width: 980px; margin: 1.2rem auto 0; color: var(--sb-muted); font-size: .86rem; text-align: center; }
 
+.print-page-control {
+  display: flex;
+  justify-content: flex-end;
+  margin: -.25rem 0 1rem;
+}
+
+.print-page-button {
+  padding: .48rem .78rem;
+  border: 1px solid var(--sb-green);
+  border-radius: 6px;
+  color: var(--sb-green-dark);
+  background: var(--sb-white);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.print-page-button:hover,
+.print-page-button:focus-visible {
+  color: var(--sb-white);
+  background: var(--sb-green);
+}
+
 /* Use the full three-column documentation layout on landscape tablets:
    Topics, page content, and the current-page table of contents. */
 @media screen and (min-width: 60em) and (max-width: 76.234375em) and (orientation: landscape) {
@@ -365,7 +388,7 @@ pre code { padding: 0; background: transparent; }
 }
 
 @media print {
-  .site-header, .site-nav, .page-footer { display: none; }
+  .site-header, .site-nav, .page-footer, .print-page-control { display: none; }
   .site-shell { display: block; }
   .content-wrap, .doc-content { max-width: none; padding: 0; border: 0; box-shadow: none; }
   a { color: inherit; }
