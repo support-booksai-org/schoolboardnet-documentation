@@ -51,23 +51,18 @@
     const button = document.createElement('button');
     button.className = 'print-page-button';
     button.type = 'button';
-    button.textContent = isAppleMobile ? 'Share / Print' : 'Print this page';
+    button.textContent = isAppleMobile ? 'How to print' : 'Print this page';
     button.setAttribute(
       'aria-label',
       isAppleMobile
-        ? 'Share this documentation page or open printing options'
+        ? 'Show printing instructions for Safari on iPad or iPhone'
         : 'Print this documentation page'
     );
-    button.addEventListener('click', async () => {
-      if (isAppleMobile && typeof navigator.share === 'function') {
-        try {
-          await navigator.share({
-            title: document.title,
-            url: window.location.href
-          });
-        } catch (error) {
-          if (error.name !== 'AbortError') window.print();
-        }
+    button.addEventListener('click', () => {
+      if (isAppleMobile) {
+        window.alert(
+          'To print this page, select Safari’s Share button in the browser toolbar, then select Print.'
+        );
         return;
       }
       window.print();
