@@ -14,6 +14,8 @@ Reviewers can see the suite's [current status, review priorities, and next steps
 !!! note "Printable references"
     The online guide is the current and authoritative version. Select **Print this page** for this Quick Start, or open the shared [Accordion Agenda Quick Start](https://docs.schoolboard.net/accordion-agenda/quick-reference/) when training agenda administrators. The print dialog can also save a PDF. We are considering prepared accessible PDFs for short references—not duplicate copies of every complete guide. Reviewer feedback about that approach is welcome.
 
+    On an iPad or iPhone, select **Share / Print**, then select **Print** from the Share sheet.
+
 Start by reviewing [District Administrator responsibilities](responsibilities.md), including first-line support, user and Group access, content oversight, and the limits of District Administrator authority.
 
 On a smaller screen, select **☰ Topics** to open the documentation menu.

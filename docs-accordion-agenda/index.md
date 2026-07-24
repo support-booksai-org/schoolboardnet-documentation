@@ -11,6 +11,8 @@ Reviewers can see the suite's [current status, review priorities, and next steps
 !!! note "Printable references"
     The online guide is the current and authoritative version. For a focused handout, open the [Accordion Agenda Quick Start](quick-reference.md) or [Final Publication Checklist](publication-checklist.md) and select **Print this page**. The print dialog can also save a PDF. We are considering prepared accessible PDFs for these short references rather than a duplicate PDF of the complete guide. Reviewer feedback about that approach is welcome.
 
+    On an iPad or iPhone, select **Share / Print**, then select **Print** from the Share sheet.
+
 ## Before you begin
 
 **Who should use this guide:** An authorized Group or District Administrator responsible for meeting agendas.

@@ -36,6 +36,10 @@
     const heading = content && content.querySelector('h1');
     if (!content || !heading || content.querySelector('.print-page-control')) return;
 
+    const isAppleMobile =
+      /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+      (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
     const titleRow = document.createElement('div');
     titleRow.className = 'page-title-row';
     heading.parentNode.insertBefore(titleRow, heading);
@@ -47,9 +51,27 @@
     const button = document.createElement('button');
     button.className = 'print-page-button';
     button.type = 'button';
-    button.textContent = 'Print this page';
-    button.setAttribute('aria-label', 'Print this documentation page');
-    button.addEventListener('click', () => window.print());
+    button.textContent = isAppleMobile ? 'Share / Print' : 'Print this page';
+    button.setAttribute(
+      'aria-label',
+      isAppleMobile
+        ? 'Share this documentation page or open printing options'
+        : 'Print this documentation page'
+    );
+    button.addEventListener('click', async () => {
+      if (isAppleMobile && typeof navigator.share === 'function') {
+        try {
+          await navigator.share({
+            title: document.title,
+            url: window.location.href
+          });
+        } catch (error) {
+          if (error.name !== 'AbortError') window.print();
+        }
+        return;
+      }
+      window.print();
+    });
 
     control.appendChild(button);
     titleRow.appendChild(control);
