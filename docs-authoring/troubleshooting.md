@@ -15,6 +15,22 @@ If the lock remains stuck, contact a District Administrator. **Only a District A
 
 For the complete procedure and screenshots, see [Edit Locks and Safe Agenda Editing](https://docs.schoolboard.net/accordion-agenda/edit-locks/).
 
+## A 403 — Access Denied message appears
+
+A 403 message means the content exists, but the current account does not have permission to view or edit it.
+
+![403 Access Denied message explaining that the item is in closed session.](assets/screenshots/SB-PUB-016-403-error.png){ .doc-screenshot }
+
+Confirm that the correct account is signed in, that the author is assigned to the correct Group, and that the content belongs to that Group. Contact a District Administrator rather than attempting to work around the access restriction.
+
+## A 404 — Page Not Found message appears
+
+A 404 message means the address does not currently lead to an available page. The content may have moved, been archived, become unpublished, or use an outdated link.
+
+![404 Page Not Found message explaining that the page may have moved or been archived.](assets/screenshots/SB-PUB-017-404-error.png){ .doc-screenshot }
+
+Return to the Group or administrative Content list and locate the item again. Ask a District Administrator to verify the newest revision, Group assignment, visibility, and publication status. Do not recreate the content until the original has been located or confirmed missing.
+
 ## Pasted text has the wrong font, size, or spacing
 
 Remove formatting or paste the affected section as plain text. Reapply only the headings, lists, links, tables, and emphasis that carry meaning.

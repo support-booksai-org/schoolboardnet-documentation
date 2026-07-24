@@ -37,6 +37,28 @@ Return to **Add member** and restore the correct existing user. Notify the Distr
 
 Do not try to work around missing permissions. Confirm that you are in the assigned group and contact a District Administrator.
 
+## 403 — Access Denied
+
+A 403 message means the content exists, but the current account does not have permission to view it.
+
+![403 Access Denied message explaining that the item is in closed session.](assets/screenshots/SB-PUB-016-403-error.png){ .doc-screenshot }
+
+1. Confirm that you are signed in with the correct account.
+2. Confirm that you are a Group Administrator or member of the affected Group.
+3. Confirm that the agenda and item are assigned to the expected Group.
+4. Contact a District Administrator if your access should be changed.
+
+## 404 — Page Not Found
+
+A 404 message means the address does not currently lead to an available page. The content may have moved, been archived, become unpublished, or have an incorrect Group assignment.
+
+![404 Page Not Found message explaining that the page may have moved or been archived.](assets/screenshots/SB-PUB-017-404-error.png){ .doc-screenshot }
+
+1. Return to the Group home page and locate the agenda again.
+2. Check **Drafts & Templates** and select **Show More**.
+3. Ask a District Administrator to search **Content**, verify the newest revision, and confirm Group assignment and publication status.
+4. Do not recreate the agenda until the original has been located or confirmed missing.
+
 ## Safety checklist
 
 - Use only the access assigned to you.

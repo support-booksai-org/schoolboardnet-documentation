@@ -39,6 +39,22 @@ Confirm Public visibility, Published, the correct public Group, and a successful
 
 Confirm the correct Group assignment, current membership, private placement, and that the user signed in with the correct account.
 
+## A 403 — Access Denied message appears
+
+A 403 message means the content exists, but the current account does not have permission to view it.
+
+![403 Access Denied message explaining that the item is in closed session.](assets/screenshots/SB-PUB-016-403-error.png){ .doc-screenshot }
+
+Confirm the signed-in account, Group membership, content Group assignment, and whether the item is Public or Private. A District Administrator should review access when an authorized user still receives the message.
+
+## A 404 — Page Not Found message appears
+
+A 404 message means the address does not currently lead to an available page. The agenda may have moved, been archived, become unpublished, use an outdated link, or have an incorrect Group assignment.
+
+![404 Page Not Found message explaining that the page may have moved or been archived.](assets/screenshots/SB-PUB-017-404-error.png){ .doc-screenshot }
+
+Return to the Group page, locate the agenda again, and verify the current link. If it is still missing, ask a District Administrator to search **Content**, choose the newest revision, and verify Group assignment, visibility, and publication status. Do not recreate the agenda until the original has been located or confirmed missing.
+
 ## Related topics
 
 - [Troubleshooting overview](troubleshooting.md)

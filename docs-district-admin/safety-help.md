@@ -52,6 +52,29 @@ If the lock remains stuck, only a District Administrator can break it. Breaking 
 
 See [Edit Locks and Safe Agenda Editing](edit-locks.md) for the complete procedure and screenshots.
 
+## 403 — Access Denied
+
+A 403 message means the content exists, but the current account does not have permission to view it.
+
+![403 Access Denied message explaining that the item is in closed session.](assets/screenshots/SB-PUB-016-403-error.png){ .doc-screenshot }
+
+1. Confirm the user's identity and that the correct account is signed in.
+2. Review site roles, Group membership, and Group Administrator assignment.
+3. Confirm that the content belongs to the intended Group.
+4. Apply only the access approved for the user's responsibilities.
+
+## 404 — Page Not Found
+
+A 404 message means the address does not currently lead to an available page. The content may have moved, been archived, become unpublished, use an outdated link, or have an incorrect Group assignment.
+
+![404 Page Not Found message explaining that the page may have moved or been archived.](assets/screenshots/SB-PUB-017-404-error.png){ .doc-screenshot }
+
+1. Search the administrative **Content** list.
+2. When revisions share a title, select the newest revision.
+3. Verify Group assignment, visibility, and publication status.
+4. Open the content from its current Group page rather than relying on an old saved link.
+5. Do not recreate content until the original has been located or confirmed missing.
+
 When requesting help, include the site address, username, group, expected result, actual result, and a screenshot with passwords and private information removed.
 
 ## Related Topics

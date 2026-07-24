@@ -39,6 +39,27 @@ Include:
 
 Specific information helps the district investigate and respond more quickly.
 
+## Understand 403 and 404 messages
+
+### 403 — Access Denied
+
+A 403 message means the page exists, but you do not currently have permission to view it. The item may be limited to authorized Board or Group members.
+
+![403 Access Denied message explaining that the item is in closed session.](assets/screenshots/SB-PUB-016-403-error.png){ .doc-screenshot }
+
+- Sign in with an authorized account if you are a Board or Group member.
+- If you expected the information to be public, return to the district home page and contact the district.
+
+### 404 — Page Not Found
+
+A 404 message means the address does not currently lead to an available page. The page may have moved, been archived, become unpublished, or require you to sign in.
+
+![404 Page Not Found message explaining that the page may have moved or been archived.](assets/screenshots/SB-PUB-017-404-error.png){ .doc-screenshot }
+
+- Check the address or open the meeting again from the district or Group home page.
+- Sign in if the content may require an account.
+- If a district link led to the error, report that link to the district.
+
 ## Related topics
 
 - [Navigation and search](navigation-search.md)
