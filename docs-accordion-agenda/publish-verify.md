@@ -38,6 +38,9 @@ Confirm the title, date, time, Agenda Header, Group, section order, Agenda Items
 5. Confirm no private item is visible.
 6. Test printing when required by district procedure.
 
+!!! tip "Testing on an iPad or iPhone"
+    Select **Print Agenda Only** or **Print Full Packet**. After the printable agenda opens in a new browser window, select the browser's **Share** button, then select **Print**.
+
 !!! important "Preview is not the public view"
     Only a signed-out check verifies what an anonymous visitor can access.
 

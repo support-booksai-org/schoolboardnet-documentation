@@ -19,7 +19,7 @@ Use this page to get from the district home page to the materials for your meeti
 !!! note "Printable references"
     The online guide is the current and authoritative version. Select **Print this page** for this Quick Start or the [Meeting Checklist](meeting-checklist.md); the print dialog can also save a PDF. We are considering prepared accessible PDFs for short Quick Starts and checklists—not duplicate copies of every complete guide. Reviewer feedback about that approach is welcome.
 
-    On an iPad or iPhone, use Safari's **Share** button in the browser toolbar, then select **Print**. The **How to print** button displays this reminder.
+    On an iPad or iPhone, use the browser's **Share** button in the toolbar, then select **Print**. The **How to print** button displays this reminder.
 
 Review the [conventions used in this guide](conventions.md) for information boxes, screenshots, mobile navigation, and public and private material terminology.
 

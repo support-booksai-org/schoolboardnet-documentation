@@ -32,7 +32,7 @@ Use this one-page checklist immediately before and after publication.
 - [ ] Open every changed public file and Expandable HTML item.
 - [ ] Confirm no private content is visible.
 - [ ] Confirm the independent public-notification account received the notice.
-- [ ] Test printing when required.
+- [ ] Test printing when required. On an iPad or iPhone, use the browser's **Share** button in the new printable window, then select **Print**.
 
 ## Group-only revision reminder
 

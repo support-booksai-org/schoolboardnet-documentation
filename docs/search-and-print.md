@@ -48,9 +48,13 @@ Use site search for content across meetings. Use agenda search to move through m
 
 1. Open the correct meeting.
 2. Select **Print Full Packet** to include available packet materials, or **Print Agenda Only** for the agenda page.
-3. Review the browser print preview.
-4. Confirm the meeting title, date, sections, and page sequence.
-5. Print or use the browser's save-as-PDF option when district policy permits.
+3. The printable agenda opens in a new browser window.
+4. On a computer, review the browser print preview. On an iPad or iPhone, select the browser's **Share** button in the new window, then select **Print**.
+5. Confirm the meeting title, date, sections, and page sequence.
+6. Print or use the browser's save-as-PDF option when district policy permits.
+
+!!! tip "Printing on an iPad or iPhone"
+    **Print Full Packet** and **Print Agenda Only** prepare the agenda in a new window. They do not open the device's print controls. In that new window, select the browser's **Share** button, then select **Print**.
 
 ![Print Full Packet and Print Agenda Only controls displayed beneath the Accordion Agenda.](assets/screenshots/SB-BRD-019-printer-friendly-control.png){ .doc-screenshot }
 

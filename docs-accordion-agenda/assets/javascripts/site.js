@@ -61,7 +61,7 @@
     button.addEventListener('click', () => {
       if (isAppleMobile) {
         window.alert(
-          'To print this page, select Safari’s Share button in the browser toolbar, then select Print.'
+          'To print this page, select the browser’s Share button in the toolbar, then select Print.'
         );
         return;
       }
