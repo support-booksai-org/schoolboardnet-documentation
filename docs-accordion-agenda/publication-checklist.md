@@ -26,6 +26,7 @@ Use this one-page checklist immediately before and after publication.
 
 ## After saving
 
+- [ ] Reopen the agenda, clear **Notifications**, and save again.
 - [ ] Sign out of the administrator account.
 - [ ] Open the agenda from the public Group page.
 - [ ] Expand each changed section.
@@ -33,6 +34,9 @@ Use this one-page checklist immediately before and after publication.
 - [ ] Confirm no private content is visible.
 - [ ] Confirm the independent public-notification account received the notice.
 - [ ] Test printing when required. On an iPad or iPhone, use the browser's **Share** button in the new printable window, then select **Print**.
+
+!!! warning "Do not leave Notifications selected"
+    Clear Notifications immediately after the intended notice is sent. A later edit or save may otherwise send another notice.
 
 ## Group-only revision reminder
 

@@ -13,11 +13,15 @@ When the reviewed draft is ready:
 5. Select **Notifications** when notices should be sent.
 6. Enter useful **Revision Text**.
 7. Save.
-8. Sign out and open the agenda as a public visitor to verify the public result.
+8. Immediately reopen the agenda, clear **Notifications**, and save again.
+9. Sign out and open the agenda as a public visitor to verify the public result.
 
 ![Example public agenda notification email.](assets/images/accordion-agenda/SB-AAC-006-notification-public.png){ .doc-screenshot }
 
 *Figure SB-AAC-006. Public notification linking recipients to the agenda.*
+
+!!! warning "Clear Notifications after every send"
+    Treat each notification as a conscious decision. After publishing and sending a notice, immediately edit the agenda, clear **Notifications**, and save. Leaving Notifications selected can cause another notice to be sent during a later edit or save.
 
 !!! important "Preview is not a public preview"
     Preview shows the agenda as a signed-in Group Administrator. It does not simulate the anonymous public view. schoolboard.net recommends reviewing a saved draft and then signing out to verify the published public view.

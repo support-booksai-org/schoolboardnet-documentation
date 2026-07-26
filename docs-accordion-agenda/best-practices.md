@@ -52,6 +52,11 @@ Describe exactly what changed. Revision Text may appear in Group-member notifica
 
 Subscribe to the Group's public notifications using a personal or otherwise independent email address. Receiving the notice and opening its link provides an independent confirmation of delivery and public access.
 
+Immediately after the intended notice is sent, reopen the agenda, clear **Notifications**, and save again. This returns the agenda to a safe state for later edits.
+
+!!! warning "Every notification should be intentional"
+    Do not leave Notifications selected. A later edit or save may send another notice. Select it only for the specific save that should notify recipients.
+
 ## Ask before guessing
 
 Contact the District Administrator or schoolboard.net Support whenever Group assignment, privacy, publication, notifications, revisions, or attachment access is uncertain. There are no stupid questions.
@@ -87,6 +92,7 @@ Contact the District Administrator or schoolboard.net Support whenever Group ass
 - [ ] **Visibility** is Public when the agenda should be publicly available.
 - [ ] **Published** is selected.
 - [ ] Notifications were selected only for the intended audience and save.
+- [ ] Notifications were cleared and saved immediately after the intended notice was sent.
 - [ ] Revision Text clearly explains a published update.
 - [ ] The independent public-notification account received the expected notice.
 - [ ] The signed-out public view and its links were verified.

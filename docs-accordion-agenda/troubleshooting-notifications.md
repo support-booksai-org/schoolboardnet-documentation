@@ -6,6 +6,16 @@ Confirm Notifications was selected for the intended save, Visibility and Group m
 
 Use an independent public-notification account as the first delivery check. If uncertainty remains, contact schoolboard.net Support with the agenda title, Group, save time, audience, and affected address.
 
+## Multiple notifications were sent
+
+Notifications may have remained selected after an earlier save. After every intended notification:
+
+1. immediately reopen the agenda;
+2. clear **Notifications**; and
+3. save again.
+
+Select Notifications again only when another notice is consciously intended.
+
 ## The update message was unclear
 
 Use meaningful Revision Text on future revisions, such as **Section 11: Administrative Reports added** rather than **updated**.

@@ -41,6 +41,7 @@ Use this one-page workflow for normal meeting preparation.
 - Select Notifications when the public notice should be sent.
 - Select Published.
 - Confirm Group and save.
+- Immediately reopen the agenda, clear Notifications, and save again.
 
 ## 7. Verify
 
@@ -52,6 +53,9 @@ Use this one-page workflow for normal meeting preparation.
 
 !!! warning "Stop and ask"
     Ask before saving whenever Group, privacy, publication, notifications, or confidential material is unclear.
+
+!!! warning "Make every notification intentional"
+    Do not leave Notifications selected after a notice is sent. Clear it immediately so later agenda changes do not send another notice accidentally.
 
 ## Related topics
 

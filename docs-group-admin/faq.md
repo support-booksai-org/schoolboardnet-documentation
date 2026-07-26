@@ -43,6 +43,10 @@ Preview shows the signed-in Group Administrator view. It is not a public preview
 
 Subscribe to public notifications using a monitored personal or independent email address. If the expected notice does not arrive, verify publication, notification settings, and email delivery.
 
+## How do I avoid sending duplicate notifications?
+
+Select **Notifications** only for the specific save that should send a notice. Immediately after the notice is sent, reopen the agenda, clear **Notifications**, and save again. This prevents a later agenda edit or save from sending another notice accidentally.
+
 ## Can several administrators edit one agenda?
 
 They may have permission to edit it, but only one administrator can edit it at a time. One person should own the agenda preparation process. schoolboard.net locks the agenda while that person is editing.

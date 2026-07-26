@@ -10,7 +10,8 @@ Use revisions to preserve a change record and explain updates after publication.
 4. Enter meaningful **Revision Text**.
 5. Confirm visibility, notification audience, publication, and Group.
 6. Save.
-7. Reopen and verify the newest revision.
+7. If Notifications was selected, immediately reopen the agenda, clear **Notifications**, and save again.
+8. Reopen and verify the newest revision.
 
 Good Revision Text is brief and specific:
 
@@ -28,6 +29,9 @@ The numbered callout identifies the Revision Text included in the Group-member n
 
 !!! tip "Use the newest revision"
     When several entries share a title, use the Updated date and time to select the most recent revision. Do not delete older entries until the current published version is confirmed.
+
+!!! warning "Notifications require a deliberate send"
+    Select Notifications only for the save that should send a notice. After sending, immediately clear Notifications and save so a later edit does not accidentally send another notice.
 
 ## Notify Group members without notifying the public
 
@@ -48,6 +52,7 @@ The numbered callout identifies the Revision Text included in the Group-member n
 - [ ] The newest revision was edited and reviewed.
 - [ ] Revision Text explains the change.
 - [ ] Notifications were selected only for the intended audience and save.
+- [ ] Notifications were cleared and saved immediately after the intended notice was sent.
 - [ ] Final Visibility is Public when the agenda should be public.
 - [ ] Published remains selected.
 - [ ] The signed-out agenda works correctly.

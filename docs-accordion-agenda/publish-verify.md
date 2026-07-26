@@ -17,6 +17,7 @@ Confirm the title, date, time, Agenda Header, Group, section order, Agenda Items
 4. Select **Published**.
 5. Confirm the correct Group.
 6. Save.
+7. Immediately reopen the agenda, clear **Notifications**, and save again.
 
 ![Example public agenda notification.](assets/images/SB-AAC-006-notification-public.png){ .doc-screenshot }
 
@@ -24,6 +25,9 @@ Confirm the title, date, time, Agenda Header, Group, section order, Agenda Items
 
 !!! important "Notifications are sent when saved"
     Confirm the audience and timing before saving with Notifications selected.
+
+!!! warning "Clear Notifications after every send"
+    Treat each notification as a conscious decision. After the intended notice is sent, immediately edit the agenda, clear **Notifications**, and save. Leaving Notifications selected can cause another notice during a later edit or save.
 
 ## Verify the signed-out public view
 
