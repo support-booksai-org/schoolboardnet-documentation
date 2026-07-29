@@ -26,6 +26,7 @@ nav:
   - Quick Start: index.md
   - Conventions used in this guide: conventions.md
   - District Administrator responsibilities: responsibilities.md
+  - ADA Title II digital accessibility reference: title-ii-accessibility.md
   - Edit locks and safe agenda editing: edit-locks.md
   - Administration access: administration.md
   - Find missing content or agendas: content.md
@@ -57,4 +58,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net District Administrator Guide — Version 1.1.004 Review Edition
+copyright: schoolboard.net District Administrator Guide — Version 1.1.007 Review Edition
