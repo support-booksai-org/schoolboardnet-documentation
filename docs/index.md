@@ -61,6 +61,7 @@ On a smaller screen, select **☰ Topics** to open the documentation menu.
 - [Open public and private materials](materials.md)
 - [Search or print](search-and-print.md)
 - [Use keyboard navigation or get help](accessibility-and-help.md)
+- [Review accessibility responsibilities and oversight](accessibility-oversight.md)
 
 ## Related Topics
 

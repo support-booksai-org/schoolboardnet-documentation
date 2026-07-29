@@ -46,6 +46,7 @@ nav:
   - Public and private materials: materials.md
   - Search and print: search-and-print.md
   - Accessibility and help: accessibility-and-help.md
+  - Accessibility responsibilities and oversight: accessibility-oversight.md
   - Meeting checklist: meeting-checklist.md
   - Reference and review notes: reference.md
 
@@ -67,4 +68,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net Board Member Guide — Version 1.1.004 Review Edition
+copyright: schoolboard.net Board Member Guide — Version 1.1.008 Review Edition

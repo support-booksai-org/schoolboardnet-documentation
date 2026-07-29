@@ -24,7 +24,21 @@ When an agenda provides a **Read...** control, select it to open accessible HTML
 
 ## Find accessibility information
 
-Use the district site's **Accessibility Statement** for accessibility commitments and the appropriate district contact for accommodations or alternative formats.
+Use the district site's **Accessibility Statement** for the district's accessibility commitments, contact method, and instructions for requesting assistance or an alternative format.
+
+The Public User Guide explains how to use and obtain help with the site. Detailed legal, policy, and technical compliance determinations belong to the district and are not repeated in this public task guide.
+
+## Request an accessible alternative or assistance
+
+If content is difficult or impossible to use:
+
+1. Use the contact identified in the district's **Accessibility Statement** or **Support** page.
+2. Identify the meeting, page, agenda section, document, link, or control.
+3. Describe the format or assistance that would let you obtain the information.
+4. State when the information is needed, especially when it relates to an upcoming meeting, deadline, or district service.
+5. Provide a preferred contact method.
+
+You do not need to diagnose the technical cause before asking for assistance.
 
 ## Report an accessibility barrier
 
@@ -38,6 +52,8 @@ Include:
 - what happened and what you expected.
 
 Specific information helps the district investigate and respond more quickly.
+
+Do not send passwords, private Board materials, student records, or other confidential information when reporting a public accessibility barrier.
 
 ## Understand 403 and 404 messages
 

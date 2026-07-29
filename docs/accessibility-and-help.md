@@ -84,6 +84,7 @@ Start with the district's Board administrator or clerk. Include:
 
 ## Related Topics
 
+- [Accessibility responsibilities and oversight](accessibility-oversight.md)
 - [Sign in and accounts](sign-in.md)
 - [Meeting checklist](meeting-checklist.md)
 
