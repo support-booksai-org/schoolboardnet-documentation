@@ -28,7 +28,7 @@ Use this shared guide to prepare Word and Google Docs content for publication in
 - [Work with Microsoft Word](microsoft-word.md)
 - [Work with Google Docs](google-docs.md)
 - [Remove formatting junk](formatting-cleanup.md)
-- [Use Gemini or Claude for an HTML draft](ai-assisted-conversion.md)
+- [Use Gemini or Claude for a Google Docs, DOCX, or PDF HTML draft](ai-assisted-conversion.md)
 - [Create accessible structure](accessible-structure.md)
 - [Convert content to Expandable HTML](convert-html.md)
 - [Use PDFs and file attachments](files-pdfs.md)

@@ -37,6 +37,7 @@
 - [ ] Names, dates, numbers, quotations, legal language, and OCR results are exact.
 - [ ] Invented content, prompts, review notes, and unnecessary markup were removed.
 - [ ] Images, tables, reading order, and alternative text received human review.
+- [ ] Word text boxes, charts, SmartArt, equations, and other visual objects were checked for content omitted during DOCX extraction.
 - [ ] Only the intended `<div>` content was copied into the Expandable HTML Source editor.
 - [ ] The normal editor and saved agenda were checked for content removed or changed during HTML cleanup.
 

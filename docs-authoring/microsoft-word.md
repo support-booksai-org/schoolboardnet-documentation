@@ -40,3 +40,10 @@ Use link text that describes the destination or action. Prefer **2026 Budget Rep
 !!! warning "Do not paste and publish immediately"
     A page can look acceptable while containing hidden Word-specific styles and markup. Transfer the content, inspect its structure, clean it, and review the saved result before publication.
 
+## Convert an approved DOCX file to HTML
+
+For documents that should become Expandable HTML, use the approved Word file as the source record and create a separate conversion copy. schoolboard.net currently recommends Claude as the first file-based DOCX conversion workflow; Gemini is an acceptable alternative when it is the district-approved or available tool.
+
+AI conversion does not establish WCAG conformance. Compare the complete HTML with the approved Word file, review embedded visuals and complex layout separately, and test the saved agenda.
+
+See [Microsoft Word DOCX conversion with Claude](ai-assisted-conversion.md#microsoft-word-docx-conversion-with-claude) for preparation steps, the recommended prompt, privacy cautions, and the required browser and Source-editor workflow.
