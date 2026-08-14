@@ -41,4 +41,4 @@ Confirm that:
 
 ## AI-assisted conversion
 
-An approved AI tool may help reorganize source content into cleaner HTML, but it must not be treated as the final authority. See [AI-assisted HTML conversion](ai-assisted-conversion.md) for the recommended Gemini workflow for Google Docs, the current Claude workflow for DOCX and PDF files, reusable prompts, privacy cautions, and the required human review.
+An approved AI tool may help reorganize source content into cleaner HTML, but it must not be treated as the final authority. For the standardized v1 PDF-first process, follow [Appendix: Google Docs and PDF to Expandable HTML](google-docs-pdf-expandable-html.md). See [AI-assisted HTML conversion](ai-assisted-conversion.md) for the broader guidance and optional direct Google Docs, DOCX, Gemini, and Claude workflows.

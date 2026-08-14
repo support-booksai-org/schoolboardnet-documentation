@@ -32,6 +32,12 @@ Files remain useful for signed records, forms, detailed exhibits, spreadsheets, 
 !!! warning "Exporting does not guarantee accessibility"
     A PDF created from Word or Google Docs may still contain reading-order, tagging, table, link, contrast, or image-description problems. Review the final PDF, not only the source document.
 
+## Convert a PDF to Expandable HTML
+
+When essential PDF content should appear directly in an agenda, an approved AI service may create a semantic HTML draft. The v1 workflow uses Gemini as the initial documented provider and requires page-by-page human comparison with the approved PDF.
+
+Follow [Appendix: Google Docs and PDF to Expandable HTML](google-docs-pdf-expandable-html.md) for the complete procedure, prompt, privacy warning, review checklist, and Source-editor steps.
+
 ## Public and private placement
 
 Verify the intended audience before saving:
@@ -39,4 +45,3 @@ Verify the intended audience before saving:
 - public files are available to everyone;
 - private files are limited to authorized Group members; and
 - moving a file between public and private changes who may access it.
-

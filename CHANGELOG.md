@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.010 — Accessible Content Authoring Guide
+
+- Added a PDF-first v1 workflow for converting approved Google Docs and PDFs to Expandable HTML with Gemini.
+- Added a reusable detailed conversion prompt, privacy controls, page-by-page review checks, and Source-editor instructions.
+- Clarified that Gemini is the initial documented v1 provider, Claude remains an approved alternative when permitted, and provider choice does not replace human review or establish WCAG conformance.
+- Cross-linked the new appendix from the Google Docs, PDF, AI-assisted conversion, Expandable HTML, and Authoring Quick Start pages.
+
 ## 1.1.004 — Review Edition
 
 - Completed the Board Member, Public User, Group Administrator, District Administrator, and Accordion Agenda guides for reviewer evaluation.

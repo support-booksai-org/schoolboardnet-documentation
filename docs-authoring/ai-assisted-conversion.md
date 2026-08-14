@@ -1,13 +1,27 @@
 # AI-Assisted HTML Conversion
 
-Approved AI tools can speed up the preparation of clean HTML, especially when source content comes from Google Docs, a Microsoft Word DOCX file, or a PDF. They create a **working draft**, not a finished or automatically conforming document.
+Approved AI tools can speed up the preparation of clean HTML. They create a **working draft**, not a finished or automatically conforming document.
 
-schoolboard.net currently recommends:
+## V1 PDF conversion workflow
 
-- **Gemini** as the starting workflow for cleaning content that already lives in Google Docs; and
-- **Claude** as the current starting workflow for file-based DOCX and PDF conversion.
+For the schoolboard.net v1 conversion workflow, use an approved PDF as the standard input and **Gemini** as the initial documented conversion service:
 
-Both services currently accept DOCX uploads, subject to account features and district configuration. The recommendation above keeps the workflow simple; it does not establish that one service will produce better results for every document. These recommendations may change as the tools change. Neither tool guarantees WCAG 2.1 conformance. The district remains responsible for selecting an approved service, reviewing the complete content, and evaluating the published result.
+1. Finalize the source in Google Docs, Microsoft Word, or another approved application.
+2. Download or export the approved source as a PDF.
+3. Upload the PDF to a district-approved Gemini account.
+4. Request semantic HTML and a separate list of items requiring human review.
+5. Compare the result with the PDF page by page.
+6. Place the reviewed HTML in the correct public or private Expandable HTML field.
+7. Save in Draft Mode and review the saved agenda.
+
+Standardizing on PDF gives the conversion service a consistent input and preserves visual information that may be lost when a DOCX file is treated mainly as extracted text. It also avoids requiring Google Drive access or a separate server-side DOCX conversion process for v1.
+
+See [Appendix: Google Docs and PDF to Expandable HTML](google-docs-pdf-expandable-html.md) for the complete administrator procedure and reusable Gemini prompt.
+
+!!! important "Gemini is the v1 starting provider"
+    Gemini is the initial provider documented for the v1 PDF workflow. It is not a permanent or exclusive technical requirement. A district-approved alternative such as Claude may be used with the same prompt, privacy controls, source comparison, and human review. Provider recommendations may change after testing representative district documents.
+
+The direct Google Docs, DOCX, and Claude procedures below remain available as optional manual workflows. Neither Gemini nor Claude guarantees WCAG 2.1 conformance. The district remains responsible for approving the service, reviewing the complete content, and evaluating the published result.
 
 ## Recommended quick command
 

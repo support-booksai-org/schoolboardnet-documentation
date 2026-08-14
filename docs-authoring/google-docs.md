@@ -30,3 +30,8 @@ Google Docs can produce a good source document when headings, lists, links, tabl
 !!! note "Google Docs does not replace publication review"
     Good structure in Google Docs improves the source, but copied content must still be inspected after it is placed in schoolboard.net.
 
+## Convert a Google Doc to Expandable HTML
+
+For the standardized v1 AI-assisted workflow, finalize the Google Doc, download it as a PDF, and use the approved PDF as the input to Gemini. This preserves one approved comparison source and avoids granting the conversion process access to Google Drive.
+
+Follow [Appendix: Google Docs and PDF to Expandable HTML](google-docs-pdf-expandable-html.md) for preparation, download, prompting, human review, and placement in the Source editor.
