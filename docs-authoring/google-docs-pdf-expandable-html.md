@@ -1,3 +1,4 @@
+<!-- fullWidth: false tocVisible: false tableWrap: true -->
 # Appendix: Google Docs and PDF to Expandable HTML
 
 Use this appendix when a district has an approved Google Doc or PDF that should become Expandable HTML in a schoolboard.net agenda.
@@ -12,8 +13,8 @@ For a Google Doc, download the approved document as a PDF before conversion. Exi
 
 This PDF-first approach provides one consistent input format, preserves visual layout information for review, and does not require Google Drive access or a separate DOCX conversion service.
 
-!!! note "A PDF is an input, not proof of accessibility"
-    Exporting a document as PDF does not make the PDF accessible, and AI-generated HTML is not automatically conforming. The PDF remains the approved comparison source while a person reviews and corrects the HTML draft.
+!!! note "A PDF is an input, not proof of accessibility"\
+Exporting a document as PDF does not make the PDF accessible, and AI-generated HTML is not automatically conforming. The PDF remains the approved comparison source while a person reviews and corrects the HTML draft.
 
 ## Prepare a Google Doc
 
@@ -46,8 +47,8 @@ Before conversion:
 - confirm that text can be selected or note that OCR will be required; and
 - confirm that the PDF contains no confidential or restricted information prohibited from the approved AI service.
 
-!!! warning "Protect district information"
-    Use only an AI account or service approved by the district. Do not upload confidential, private, attorney-client, student, personnel, executive-session, or otherwise restricted material unless the district has specifically approved that use.
+!!! warning "Protect district information"\
+Use only an AI account or service approved by the district. Do not upload confidential, private, attorney-client, student, personnel, executive-session, or otherwise restricted material unless the district has specifically approved that use.
 
 ## Convert the PDF with Gemini
 
@@ -86,13 +87,19 @@ tables, diagrams, signatures, or other non-text visual content. Identify each
 such item in Review Items and describe what a human must decide, add, or
 verify.
 
+For a simple financial data table, preserve it as a semantic table. Apply
+class="sbn-currency" only to financial amount header and data cells. Format
+amounts exactly as supplied; do not calculate, normalize, or add currency
+symbols, commas, or decimal places. Do not apply the class to dates, IDs,
+counts, or ordinary numbers.
+
 Return:
 1. exactly one HTML code block containing only the converted content; and
 2. a separate Review Items list outside the HTML block.
 ```
 
-!!! important "The source controls"
-    If the AI changes a name, date, number, quotation, policy statement, or other approved wording, correct the HTML to match the PDF. Do not accept a rewrite merely because it sounds clearer.
+!!! important "The source controls"\
+If the AI changes a name, date, number, quotation, policy statement, or other approved wording, correct the HTML to match the PDF. Do not accept a rewrite merely because it sounds clearer.
 
 ## Review the conversion
 
@@ -122,11 +129,11 @@ Compare the HTML with the PDF from beginning to end. Confirm that:
 9. Save the agenda in Draft Mode.
 10. Open the saved agenda, expand the content, and compare it with the approved PDF.
 
-!!! note "The editor cleans pasted HTML"
-    The editor may remove markup it considers unsupported or incompatible. This can remove unnecessary code, but it can also change the result. Always review both the normal editing view and the saved agenda.
+!!! note "The editor cleans pasted HTML"\
+The editor may remove markup it considers unsupported or incompatible. This can remove unnecessary code, but it can also change the result. Always review both the normal editing view and the saved agenda.
 
-!!! warning "Copy only the intended content"
-    Do not copy the browser page's `<html>`, `<head>`, scripts, stylesheets, prompt, or Review Items. Copy only the intended content container.
+!!! warning "Copy only the intended content"\
+Do not copy the browser page's `<html>`, `<head>`, scripts, stylesheets, prompt, or Review Items. Copy only the intended content container.
 
 ## If Claude is the approved service
 

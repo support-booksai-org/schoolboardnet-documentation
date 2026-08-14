@@ -1,3 +1,4 @@
+<!-- fullWidth: false tocVisible: false tableWrap: true -->
 # AI-Assisted HTML Conversion
 
 Approved AI tools can speed up the preparation of clean HTML. They create a **working draft**, not a finished or automatically conforming document.
@@ -18,8 +19,8 @@ Standardizing on PDF gives the conversion service a consistent input and preserv
 
 See [Appendix: Google Docs and PDF to Expandable HTML](google-docs-pdf-expandable-html.md) for the complete administrator procedure and reusable Gemini prompt.
 
-!!! important "Gemini is the v1 starting provider"
-    Gemini is the initial provider documented for the v1 PDF workflow. It is not a permanent or exclusive technical requirement. A district-approved alternative such as Claude may be used with the same prompt, privacy controls, source comparison, and human review. Provider recommendations may change after testing representative district documents.
+!!! important "Gemini is the v1 starting provider"\
+Gemini is the initial provider documented for the v1 PDF workflow. It is not a permanent or exclusive technical requirement. A district-approved alternative such as Claude may be used with the same prompt, privacy controls, source comparison, and human review. Provider recommendations may change after testing representative district documents.
 
 The direct Google Docs, DOCX, and Claude procedures below remain available as optional manual workflows. Neither Gemini nor Claude guarantees WCAG 2.1 conformance. The district remains responsible for approving the service, reviewing the complete content, and evaluating the published result.
 
@@ -33,11 +34,11 @@ Convert to WCAG 2.1 Level A and Level AA compatible HTML for input to a Drupal 1
 
 This concise command has worked well as a starting point with both Gemini and Claude. Use the detailed prompts below when the source contains headings, lists, tables, images, scanned text, or information that must be reproduced exactly.
 
-!!! note "Compatibility still requires review"
-    This command requests HTML designed around WCAG 2.1 Level A and Level AA practices; it does not certify the result. Review the generated HTML, compare it with the approved source, and test the saved Drupal content before publication.
+!!! note "Compatibility still requires review"\
+This command requests HTML designed around WCAG 2.1 Level A and Level AA practices; it does not certify the result. Review the generated HTML, compare it with the approved source, and test the saved Drupal content before publication.
 
-!!! warning "Protect district information"
-    Follow district policy and use only an approved AI account or service. Never upload confidential, private, attorney-client, student, personnel, executive-session, or otherwise restricted material unless the district has specifically approved that use.
+!!! warning "Protect district information"\
+Follow district policy and use only an approved AI account or service. Never upload confidential, private, attorney-client, student, personnel, executive-session, or otherwise restricted material unless the district has specifically approved that use.
 
 ## Google Docs cleanup with Gemini
 
@@ -80,13 +81,19 @@ Do not invent alternative text. Do not include images, charts, or other
 non-text visual content in the HTML. Instead, identify each item in Review
 Items and describe what a human must decide or add.
 
+For a simple financial data table, preserve it as a semantic table. Apply
+class="sbn-currency" only to financial amount header and data cells. Format
+amounts exactly as supplied; do not calculate, normalize, or add currency
+symbols, commas, or decimal places. Do not apply the class to dates, IDs,
+counts, or ordinary numbers.
+
 Return:
 1. exactly one HTML code block containing only the converted content; and
 2. a separate Review Items list outside the HTML block.
 ```
 
-!!! tip "Use the source as the authority"
-    If Gemini changes a name, date, number, quotation, policy statement, or other approved wording, correct the HTML to match the source. A cleaner sentence is not necessarily the authorized sentence.
+!!! tip "Use the source as the authority"\
+If Gemini changes a name, date, number, quotation, policy statement, or other approved wording, correct the HTML to match the source. A cleaner sentence is not necessarily the authorized sentence.
 
 ## Microsoft Word DOCX conversion with Claude
 
@@ -94,8 +101,8 @@ For an approved Microsoft Word file, schoolboard.net currently recommends Claude
 
 Claude and Gemini both currently accept DOCX uploads. If Claude is not approved or available, Gemini may be used with the same requirements and human review. For a recurring document type, districts may compare a representative, nonconfidential sample in their approved tools and adopt the workflow that preserves the source most accurately with the least corrective work.
 
-!!! important "DOCX images require separate review"
-    Claude currently extracts text from non-PDF documents and does not interpret embedded DOCX images. Inspect every image, chart, diagram, text box, SmartArt item, equation, and visually arranged element in Word. Supply human-written alternative text or an accessible text equivalent where needed. Do not assume that an omitted visual was decorative.
+!!! important "DOCX images require separate review"\
+Claude currently extracts text from non-PDF documents and does not interpret embedded DOCX images. Inspect every image, chart, diagram, text box, SmartArt item, equation, and visually arranged element in Word. Supply human-written alternative text or an accessible text equivalent where needed. Do not assume that an omitted visual was decorative.
 
 ### Prepare the Word file
 
@@ -146,13 +153,19 @@ identify each item in Review Items and describe what a human must decide, add,
 or verify. If an item cannot be extracted from the DOCX file, flag its
 approximate location instead of silently omitting it.
 
+For a simple financial data table, preserve it as a semantic table. Apply
+class="sbn-currency" only to financial amount header and data cells. Format
+amounts exactly as supplied; do not calculate, normalize, or add currency
+symbols, commas, or decimal places. Do not apply the class to dates, IDs,
+counts, or ordinary numbers.
+
 Return:
 1. exactly one HTML code block containing only the converted content; and
 2. a separate Review Items list outside the HTML block.
 ```
 
-!!! tip "When Gemini is the approved DOCX tool"
-    Upload the approved DOCX file to Gemini and use the same DOCX prompt. File-upload availability and limits can vary by account. Apply the same source comparison, privacy controls, visual-content review, browser review, and saved-agenda testing.
+!!! tip "When Gemini is the approved DOCX tool"\
+Upload the approved DOCX file to Gemini and use the same DOCX prompt. File-upload availability and limits can vary by account. Apply the same source comparison, privacy controls, visual-content review, browser review, and saved-agenda testing.
 
 ## PDF conversion with Claude
 
@@ -194,13 +207,19 @@ or explanatory text inside the HTML.
 Do not invent alternative text. Mark images, charts, complex tables, unclear
 reading order, and other items that require a human accessibility decision.
 
+For a simple financial data table, preserve it as a semantic table. Apply
+class="sbn-currency" only to financial amount header and data cells. Format
+amounts exactly as supplied; do not calculate, normalize, or add currency
+symbols, commas, or decimal places. Do not apply the class to dates, IDs,
+counts, or ordinary numbers.
+
 Return:
 1. exactly one HTML code block containing only the converted content; and
 2. a separate Review Items list outside the HTML block.
 ```
 
-!!! important "Scanned PDFs need extra review"
-    OCR can silently change names, dates, dollar amounts, page order, punctuation, and legal language. Compare every converted section with the approved PDF and do not guess when the source is unclear.
+!!! important "Scanned PDFs need extra review"\
+OCR can silently change names, dates, dollar amounts, page order, punctuation, and legal language. Compare every converted section with the approved PDF and do not guess when the source is unclear.
 
 ## Move the converted HTML into schoolboard.net
 
@@ -212,18 +231,18 @@ After Gemini or Claude creates the HTML, review it in a browser before placing i
 4. In the source view, copy the content beginning with the opening `<div>` and ending with its closing `</div>`.
 5. Open the appropriate public or private **Expandable HTML** component in the agenda.
 6. Select **Source** in the content editor toolbar.
-    - On a wide screen, **Source** may appear as the far-right toolbar icon.
-    - On a smaller window, open the **…** overflow menu to find it.
+   - On a wide screen, **Source** may appear as the far-right toolbar icon.
+   - On a smaller window, open the **…** overflow menu to find it.
 7. Paste the copied HTML into the Source editor.
 8. Return to the normal editing view and confirm that the content appears correctly.
 9. Save the agenda in Draft Mode.
 10. Open the saved agenda, expand the content, and compare it with the approved source.
 
-!!! note "The editor cleans pasted HTML"
-    When HTML is pasted or saved, the editor may remove markup it considers unsupported or incompatible. This cleanup can remove unnecessary code, but it can also change the result. Always review the normal editing view and the saved agenda after pasting. If important content or structure disappears, correct the HTML using markup supported by the editor.
+!!! note "The editor cleans pasted HTML"\
+When HTML is pasted or saved, the editor may remove markup it considers unsupported or incompatible. This cleanup can remove unnecessary code, but it can also change the result. Always review the normal editing view and the saved agenda after pasting. If important content or structure disappears, correct the HTML using markup supported by the editor.
 
-!!! warning "Copy only the intended content"
-    Copy the intended content container from its opening `<div>` through the matching closing `</div>`. Do not copy the browser page's `<html>`, `<head>`, scripts, stylesheets, prompts, review notes, or other surrounding code.
+!!! warning "Copy only the intended content"\
+Copy the intended content container from its opening `<div>` through the matching closing `</div>`. Do not copy the browser page's `<html>`, `<head>`, scripts, stylesheets, prompts, review notes, or other surrounding code.
 
 ## Required human review
 
