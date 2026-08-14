@@ -48,20 +48,26 @@ For simple material, use the [recommended quick command](#recommended-quick-comm
 Convert this approved Google Docs content into clean semantic HTML for a
 schoolboard.net Expandable HTML field.
 
-Preserve the wording, meaning, names, dates, numbers, quotations, and order.
-Do not summarize, rewrite, or invent content.
+Preserve the exact wording, meaning, names, dates, numbers, quotations, and
+reading order. Do not summarize, rewrite, correct, omit, or invent content.
+Clearly flag text that is uncertain because of OCR, layout, image quality, or
+unclear source formatting.
 
-Remove Google Docs formatting and unnecessary inline styles. Use only the
-HTML needed for logical headings, paragraphs, ordered and unordered lists,
-descriptive links, and simple data tables with proper header cells. Do not
-use scripts, layout tables, font tags, page headers, page footers, page
-numbers, empty paragraphs for spacing, or styling that carries no meaning.
+Remove Google Docs formatting and unnecessary inline styles. Return only the
+semantic HTML needed for logical headings, paragraphs, ordered and unordered
+lists, descriptive links, and simple data tables.
 
-Do not invent alternative text. Mark any image, complex table, unclear
-reading order, or other item that requires a human accessibility decision.
+For data tables, use table, thead, tbody, th, and appropriate scope attributes.
+Do not use scripts, forms, iframes, layout tables, font tags, page headers,
+page footers, page numbers, empty paragraphs for spacing, Markdown, or styling
+that carries no meaning.
+
+Do not invent alternative text. Do not include images, charts, or other
+non-text visual content in the HTML. Instead, identify each item in Review
+Items and describe what a human must decide or add.
 
 Return:
-1. one HTML code block containing the converted content; and
+1. exactly one HTML code block containing only the converted content; and
 2. a separate Review Items list outside the HTML block.
 ```
 
@@ -107,21 +113,27 @@ Convert the attached approved Microsoft Word DOCX file into clean semantic
 HTML for a schoolboard.net Expandable HTML field.
 
 Preserve the exact wording, meaning, names, dates, numbers, quotations, list
-order, and logical reading order. Do not summarize, rewrite, or invent content.
+order, and logical reading order. Do not summarize, rewrite, correct, omit, or
+invent content. Clearly flag text that is uncertain because of document
+structure, conversion limitations, or unreadable source content.
 
 Remove Microsoft Word formatting, classes, metadata, and unnecessary inline
-styles. Use only the HTML needed for logical headings, paragraphs, ordered and
-unordered lists, descriptive links, and simple data tables with proper header
-cells. Do not use scripts, layout tables, font tags, page headers, page footers,
-page numbers, empty paragraphs for spacing, or styling that carries no meaning.
+styles. Return only the semantic HTML needed for logical headings, paragraphs,
+ordered and unordered lists, descriptive links, and simple data tables.
 
-Do not invent alternative text. Identify any image, chart, diagram, text box,
-SmartArt object, complex table, unclear reading order, or other item that
-requires a human accessibility decision. If an item cannot be extracted from
-the DOCX file, flag its location instead of silently omitting it.
+For data tables, use table, thead, tbody, th, and appropriate scope attributes.
+Do not use scripts, forms, iframes, layout tables, font tags, page headers,
+page footers, page numbers, empty paragraphs for spacing, Markdown, or styling
+that carries no meaning.
+
+Do not invent alternative text. Do not include images, charts, diagrams, text
+boxes, SmartArt objects, or other non-text visual content in the HTML. Instead,
+identify each item in Review Items and describe what a human must decide, add,
+or verify. If an item cannot be extracted from the DOCX file, flag its
+approximate location instead of silently omitting it.
 
 Return:
-1. one HTML code block containing the converted content; and
+1. exactly one HTML code block containing only the converted content; and
 2. a separate Review Items list outside the HTML block.
 ```
 
@@ -153,19 +165,23 @@ Convert the attached approved PDF into clean semantic HTML for a
 schoolboard.net Expandable HTML field.
 
 Preserve the exact wording, meaning, names, dates, numbers, quotations, and
-reading order. Do not summarize, rewrite, or invent missing content. Clearly
-flag text that is uncertain because of scanning, OCR, layout, or image quality.
+reading order. Do not summarize, rewrite, correct, or invent missing content.
+Clearly flag text that is uncertain because of scanning, OCR, layout, or image
+quality.
 
 Use logical headings, paragraphs, ordered and unordered lists, descriptive
-links, and simple data tables with proper header cells. Do not use scripts,
-layout tables, font tags, page headers, page footers, page numbers, empty
-paragraphs for spacing, or unnecessary inline styling.
+links, and simple data tables with proper header cells. For data tables, use
+table, thead, tbody, th, and appropriate scope attributes.
+
+Do not use scripts, layout tables, font tags, page headers, page footers, page
+numbers, empty paragraphs for spacing, unnecessary inline styling, Markdown,
+or explanatory text inside the HTML.
 
 Do not invent alternative text. Mark images, charts, complex tables, unclear
 reading order, and other items that require a human accessibility decision.
 
 Return:
-1. one HTML code block containing the converted content; and
+1. exactly one HTML code block containing only the converted content; and
 2. a separate Review Items list outside the HTML block.
 ```
 
