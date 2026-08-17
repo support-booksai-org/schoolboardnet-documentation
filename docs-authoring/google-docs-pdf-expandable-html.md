@@ -93,6 +93,34 @@ amounts exactly as supplied; do not calculate, normalize, or add currency
 symbols, commas, or decimal places. Do not apply the class to dates, IDs,
 counts, or ordinary numbers.
 
+MANDATORY NUMERIC-COLUMN MARKUP RULE:
+
+For every semantic data table, identify columns whose header, unit, table title,
+or surrounding context clearly indicates monetary amounts, financial amounts,
+or percentages.
+
+A column is monetary when it represents money or financial value, for example:
+amount, balance, budget, actual, revenue, expense, expenditure, cost, price,
+payment, receipt, disbursement, debit, credit, fund balance, total, variance,
+or a currency symbol/code.
+
+A column is percentage-based when its header or values indicate percent,
+percentage, %, rate, ratio, share, increase, decrease, change, or variance %.
+
+You MUST apply:
+- class="sbn-currency" to the th and every td in a monetary column.
+- class="sbn-percent" to the th and every td in a percentage column.
+
+Apply the class to total/subtotal cells in those columns as well.
+
+Do not apply either class to identifiers, account codes, dates, years, page
+numbers, ZIP codes, telephone numbers, addresses, grades, names, or ordinary
+counts unless the column is clearly a monetary amount or percentage.
+
+Before returning the HTML, verify that every recognized monetary or percentage
+column has the required class on its header and every data cell. Correct any
+missing class before returning the HTML.
+
 Return:
 1. exactly one HTML code block containing only the converted content; and
 2. a separate Review Items list outside the HTML block.
