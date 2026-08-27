@@ -1,80 +1,38 @@
----
-title: District Administrator Quick Start
-version: "1.1.004"
----
+# Accessible Content Authoring Quick Start
 
-# District Administrator Quick Start
-
-**Version 1.1.004 — Review Edition**
-
-Use this site to manage schoolboard.net user accounts and group memberships. District Administrator role assignments are controlled by schoolboard.net Support.
-
-Reviewers can see the suite's [current status, review priorities, and next steps](https://docs.schoolboard.net/review-status.html).
+Use this shared guide to prepare Word and Google Docs content for publication in schoolboard.net. The goal is clean, structured, readable content that works well on phones, tablets, desktop browsers, and assistive technology.
 
 !!! note "Printable references"
-    The online guide is the current and authoritative version. Select **Print this page** for this Quick Start, or open the shared [Accordion Agenda Quick Start](https://docs.schoolboard.net/accordion-agenda/quick-reference/) when training agenda administrators. The print dialog can also save a PDF. We are considering prepared accessible PDFs for short references—not duplicate copies of every complete guide. Reviewer feedback about that approach is welcome.
+    The online guide is the current and authoritative version. For a focused handout, open the [Final Authoring Checklist](authoring-checklist.md) and select **Print this page**. The print dialog can also save a PDF. We are considering a prepared accessible PDF for this checklist rather than a duplicate PDF of the complete guide. Reviewer feedback about that approach is welcome.
 
     On an iPad or iPhone, use the browser's **Share** button in the toolbar, then select **Print**. The **How to print** button displays this reminder.
 
-Start by reviewing [District Administrator responsibilities](responsibilities.md), including first-line support, user and Group access, content oversight, and the limits of District Administrator authority.
+## Recommended workflow
 
-On a smaller screen, select **☰ Topics** to open the documentation menu.
+1. Start with an approved district source document.
+2. Use real heading styles, lists, links, and simple data tables.
+3. Resolve comments, suggestions, tracked changes, and placeholders.
+4. Run the source application's accessibility checker when available.
+5. Move the content into schoolboard.net without carrying unnecessary visual formatting.
+6. Rebuild the content as structured Expandable HTML.
+7. Add meaningful public or private attachments only when needed.
+8. Review the saved content on desktop and mobile.
+9. Verify links, headings, tables, images, and public/private access.
 
-<div class="quick-grid" markdown>
-<div class="quick-card" markdown>
-## 1. Find the user
-Search People before creating or changing an account.
-</div>
-<div class="quick-card" markdown>
-## 2. Manage the account
-Add or edit only the approved account information.
-</div>
-<div class="quick-card" markdown>
-## 3. Assign the group
-Add the existing user to the correct Board or committee group.
-</div>
-<div class="quick-card" markdown>
-## 4. Verify access
-Confirm status, roles, memberships, and private-material access.
-</div>
-</div>
+!!! tip "HTML first"
+    Whenever practical, publish the essential information as Expandable HTML. A Word file or PDF may remain available as a supplemental attachment, but it should not be the only way to obtain important public information.
 
-## Common workflow
+## Choose a topic
 
-1. Sign in with your individual District Administrator account.
-2. Select **Manage**, then **People**.
-3. Search for the username or email address before creating an account.
-4. Select **Add user** when no account exists.
-5. Enter a unique email address and username, set the initial password, select **Active**, and create the account.
-6. Open **Groups**, select the correct group, and open **Members**.
-7. Select **Add member**, choose the existing user, and assign **Group Admin** only when approved.
-8. Save and verify the account, role, and membership.
-9. When access must stop, block the account and confirm its status.
-
-!!! warning "Use least access"
-    Add only the roles and memberships the person needs. Never share an administrator account for testing.
-
-!!! danger "District Administrator role requests"
-    Only schoolboard.net Support can add, delete, or modify a **District Administrator** role assignment, including removing the role from an account. Submit every request in writing by email to schoolboard.net Support. There is no system limit, but schoolboard.net recommends only **two or three District Administrators per district**.
-
-## What do you need to do?
-
-- [Understand District Administrator responsibilities](responsibilities.md)
-- [Understand edit locks and safe agenda editing](edit-locks.md)
-- [Open Administration](administration.md)
-- [Find missing content or agendas](content.md)
-- [Find and review people](people.md)
-- [Add or edit a user](user-accounts.md)
-- [Understand roles](roles.md)
-- [Review groups](groups.md)
-- [Manage group memberships](memberships.md)
-- [Block or restore access](block-access.md)
-- [Review security policies](security-policies.md)
-- [Troubleshoot or review safety practices](safety-help.md)
-- [Prepare and publish Accordion Agendas](https://docs.schoolboard.net/accordion-agenda/)
-
-## Revision History
-
-| Version | Date | Status | Summary |
-| --- | --- | --- | --- |
-| 0.1 | 2026-07-13 | Review Draft | User and group management, including District Administrator role controls. |
+- [Prepare the source document](prepare-source.md)
+- [Work with Microsoft Word](microsoft-word.md)
+- [Work with Google Docs](google-docs.md)
+- [Remove formatting junk](formatting-cleanup.md)
+- [Use AI to create a reviewed HTML draft](ai-assisted-conversion.md)
+- [Convert a Google Doc or PDF through the standardized v1 PDF workflow](google-docs-pdf-expandable-html.md)
+- [Create accessible structure](accessible-structure.md)
+- [Convert content to Expandable HTML](convert-html.md)
+- [Use PDFs and file attachments](files-pdfs.md)
+- [Activate and use browser spell check](browser-spell-check.md)
+- [Complete the final authoring checklist](authoring-checklist.md)
+- [Troubleshoot authoring problems](troubleshooting.md)

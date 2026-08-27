@@ -10,3 +10,5 @@ This topic is divided into shorter task-focused pages.
 - [Expandable HTML and Section Controls](expandable-html-controls.md) — add accessible HTML, reorder sections, and safely duplicate or remove content.
 
 Start with the post-clone workflow when preparing a new meeting from a template.
+
+Before editing, activate the browser's spell checker and confirm the correct language. Follow [Browser Spell Check and Proofreading](https://docs.schoolboard.net/authoring/browser-spell-check/) for Chrome, Edge, Safari, iPad and iPhone instructions.

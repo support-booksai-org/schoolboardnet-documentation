@@ -43,6 +43,8 @@
 
 ## Publication
 
+- [ ] Browser spell check was active and all suggestions were reviewed.
+- [ ] The complete saved content was proofread for names, dates, times, amounts, meeting terminology, missing words, and correctly spelled but incorrect words.
 - [ ] Essential information is available as Expandable HTML whenever practical.
 - [ ] Supplemental attachments are accessible and meaningfully named.
 - [ ] Public and private placement is correct.

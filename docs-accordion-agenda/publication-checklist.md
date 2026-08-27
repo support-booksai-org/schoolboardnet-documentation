@@ -14,6 +14,7 @@ Use this one-page checklist immediately before and after publication.
 - [ ] Confidential files are under Private Files.
 - [ ] Descriptions, Display settings, and attachment order are correct.
 - [ ] Replacement files use new filenames and open correctly.
+- [ ] Browser spell check was active, every suggestion was reviewed, and the complete saved agenda was proofread.
 - [ ] The saved draft—not Preview—was reviewed.
 
 ## Publication settings

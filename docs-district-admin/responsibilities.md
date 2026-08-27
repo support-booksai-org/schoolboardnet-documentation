@@ -14,6 +14,8 @@ District Administrators are normally the first point of contact for:
 
 Resolve routine district-level questions when possible. Contact schoolboard.net Support when the issue involves platform behavior, security-controlled access, or a correction that cannot be made safely with District Administrator tools.
 
+For questions about spelling assistance in Drupal content blocks, use [Browser Spell Check and Proofreading](https://docs.schoolboard.net/authoring/browser-spell-check/). District technical support may need to change a managed-browser or device policy when the user cannot activate spell checking.
+
 ## Serve as the primary schoolboard.net contact
 
 The District Administrator coordinates with schoolboard.net Support on behalf of the district. This includes:

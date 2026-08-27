@@ -1,6 +1,6 @@
 ---
 title: Agendas and attachments
-version: "1.1.004"
+version: "1.1.005"
 ---
 
 # Create agendas and add attachments
@@ -19,6 +19,7 @@ Before opening an agenda for editing, review [Edit locks and safe agenda editing
 
 - Confirm that you are working in the correct group.
 - Confirm the meeting title, date, time, and publication status.
+- Activate the browser's spell checker and confirm the correct language.
 - Use only approved public or restricted attachments.
 - Confirm the intended access level before publishing an attachment.
 
@@ -35,6 +36,8 @@ Before opening an agenda for editing, review [Edit locks and safe agenda editing
 
 !!! tip "Recommended workflow"
     Use [Draft Mode](best-practices.md#work-in-draft-mode) instead of relying on Preview. Preview is an administrator view and does not show the anonymous public experience.
+
+For Chrome, Edge, Safari, iPad and iPhone instructions, see [Browser Spell Check and Proofreading](https://docs.schoolboard.net/authoring/browser-spell-check/).
 
 ## Before publishing
 

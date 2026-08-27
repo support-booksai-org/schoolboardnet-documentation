@@ -47,6 +47,12 @@ Before publishing, verify the meeting title, assigned group, meeting date and ti
 
 Preview is an administrator view, not an anonymous public preview. Keep confidential content beneath the correct private heading or label it clearly, such as **Private: Read...**. After publishing, sign out and verify the public page.
 
+## Use spell check and proofread
+
+Activate the browser's spell checker before editing. Review every suggestion, then proofread the complete saved agenda for names, dates, times, amounts, meeting terminology, missing words, and correctly spelled but incorrect words.
+
+See [Browser Spell Check and Proofreading](https://docs.schoolboard.net/authoring/browser-spell-check/) for activation, privacy, mobile-device, and troubleshooting instructions.
+
 ## Confirm public notification delivery
 
 Subscribe to the group's public notifications using a monitored personal or independent email address. Receiving the notice confirms delivery and provides a direct way to test its links and public access.

@@ -1,5 +1,11 @@
 # Troubleshooting Authoring Problems
 
+## Spelling suggestions do not appear
+
+schoolboard.net relies on the browser and operating system for spell checking. Confirm that spell checking and the intended language are enabled, work in the normal visual editor rather than **Source** view, and refresh or reopen the form after changing browser settings.
+
+Follow [Browser Spell Check and Proofreading](browser-spell-check.md) for Chrome, Edge, Safari, iPad and iPhone instructions, privacy considerations, and the complete troubleshooting sequence.
+
 ## The content is locked for editing
 
 schoolboard.net locks content while an administrator is editing it so another administrator cannot overwrite the work.

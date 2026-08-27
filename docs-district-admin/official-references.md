@@ -28,5 +28,12 @@ Use these sources for additional detail and current product instructions.
 - [W3C Understanding Conformance](https://www.w3.org/WAI/WCAG22/Understanding/conformance.html)
 - [W3C Accessibility Conformance Testing overview](https://www.w3.org/WAI/standards-guidelines/act/)
 
+## Browser spell check
+
+- [Turn Chrome spell check on or off](https://support.google.com/chrome/answer/12027911)
+- [Microsoft Editor and writing assistance in Edge](https://support.microsoft.com/en-US/Word/microsoft-editor-checks-grammar-and-more-in-documents-mail-and-the-web)
+- [Get typing suggestions and correct mistakes on Mac](https://support.apple.com/guide/mac-help/typing-suggestions-correct-mistakes-mac-mchlp2299/mac)
+- [Use Auto-Correction and predictive text on iPhone and iPad](https://support.apple.com/104995)
+
 !!! note "Product interfaces change"
     Microsoft and Google may change menu names or availability by platform and account. Follow the current official instructions for the version available to your district.

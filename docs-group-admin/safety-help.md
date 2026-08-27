@@ -1,6 +1,6 @@
 ---
 title: Safety and troubleshooting
-version: "1.1.004"
+version: "1.1.005"
 ---
 
 # Safety and troubleshooting
@@ -15,6 +15,12 @@ version: "1.1.004"
 | The content lock is stuck | Only a District Administrator can break another user's lock. This is a last resort after confirming that nobody is editing and no unsaved work needs to be preserved. |
 
 See [Edit Locks and Safe Agenda Editing](edit-locks.md) for the complete procedure and screenshots.
+
+## Browser spell check is not working
+
+Confirm that spell checking and the intended language are enabled in the browser or device. Work in the normal visual editor rather than **Source** view, then refresh or reopen the form after changing a browser setting.
+
+Follow [Browser Spell Check and Proofreading](https://docs.schoolboard.net/authoring/browser-spell-check/) for Chrome, Edge, Safari, iPad and iPhone instructions and a complete troubleshooting sequence. If a district-managed browser prevents changes, contact district technical support.
 
 ## The user does not appear in autocomplete
 

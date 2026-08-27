@@ -72,6 +72,8 @@ Contact the District Administrator or schoolboard.net Support whenever Group ass
 
 ### Agenda structure and content
 
+- [ ] Browser spell check was active and every suggestion was reviewed.
+- [ ] The complete saved agenda was proofread for names, dates, times, amounts, meeting terminology, missing words, and correctly spelled but incorrect words.
 - [ ] Sections appear in the approved order.
 - [ ] Agenda Items belong beneath the correct sections.
 - [ ] Public and private files belong beneath the intended Agenda Items.

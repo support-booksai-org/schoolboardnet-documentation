@@ -34,6 +34,7 @@ nav:
   - Accessible content structure: accessible-structure.md
   - Convert to Expandable HTML: convert-html.md
   - PDFs and file attachments: files-pdfs.md
+  - Browser spell check and proofreading: browser-spell-check.md
   - Final authoring checklist: authoring-checklist.md
   - Troubleshooting: troubleshooting.md
   - Official references: official-references.md
@@ -56,4 +57,4 @@ extra_css:
 extra_javascript:
   - assets/javascripts/site.js
 
-copyright: schoolboard.net Accessible Content Authoring Guide — Version 1.1.010 Review Edition
+copyright: schoolboard.net Accessible Content Authoring Guide — Version 1.1.011 Review Edition

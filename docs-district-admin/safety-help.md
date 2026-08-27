@@ -1,6 +1,6 @@
 ---
 title: Safety and troubleshooting
-version: "1.1.004"
+version: "1.1.008"
 ---
 
 # Safety and troubleshooting
@@ -38,6 +38,7 @@ version: "1.1.004"
 | Agenda is missing from a group | Search Content, choose the newest revision, and verify the assigned Group |
 | Agenda is locked by another administrator | Contact the named editor and ask that person to Save or Unlock |
 | Edit lock remains after the editor finished | Confirm nobody is editing, then follow the stuck-lock procedure |
+| Browser spell check does not appear | Confirm the browser or device setting, intended language, and normal visual editing mode; consult the shared browser spell-check instructions |
 
 ## Resolve an agenda edit lock
 
@@ -51,6 +52,12 @@ When a lock warning appears:
 If the lock remains stuck, only a District Administrator can break it. Breaking another user's content lock is a last resort. Confirm that nobody is editing and no unsaved work needs to be preserved before breaking the lock.
 
 See [Edit Locks and Safe Agenda Editing](edit-locks.md) for the complete procedure and screenshots.
+
+## Resolve browser spell-check problems
+
+schoolboard.net relies on the browser and operating system for spelling assistance. Follow [Browser Spell Check and Proofreading](https://docs.schoolboard.net/authoring/browser-spell-check/) for Chrome, Edge, Safari, iPad and iPhone activation and troubleshooting.
+
+If a browser setting is unavailable or cannot be changed, confirm whether the district manages it through browser or device policy. Use only district-approved writing services, especially when the content is private or confidential.
 
 ## 403 — Access Denied
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.011 — Browser Spell Check and Proofreading
+
+- Added shared Chrome, Edge, Safari, Mac, iPad, and iPhone spell-check instructions to the Accessible Content Authoring Guide.
+- Added privacy guidance distinguishing local or Basic checking from cloud-based enhanced writing services.
+- Added browser-policy, language, visual-editor, extension, and Drupal-field troubleshooting.
+- Added editing reminders and cross-references in the Group Administrator, District Administrator, and Accordion Agenda guides.
+- Added spell check and human proofreading to the authoring and agenda publication checklists.
+
 ## 1.1.010 — Accessible Content Authoring Guide
 
 - Added a PDF-first v1 workflow for converting approved Google Docs and PDFs to Expandable HTML with Gemini.
